@@ -1,0 +1,91 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{% extends config.PAGES_BASE_TEMPLATE %}
+
+{% set title = page.title %}
+
+{% import "datasafe_rdm/macros/faq_macros.html" as faq_macros %}
+{% import "datasafe_rdm/macros/terms_macros.html" as terms_macros %}
+
+{% block page_body %}
+
+  <div id="static-page" class="ui container">
+
+    {% if page.url == "/faq" %}
+      <div id="faq">
+        <div class="ui relaxed grid centered">
+          <div class="two column row top-padded">
+            {# Sidebar #}
+            <div id="faq-sidebar" class="four wide computer only column sidebar"
+                 aria-label="{{ _('Table of Contents') }}">
+              <div id="faq-toc-wrapper">
+                <div class="toc-heading">{{ page.title }}</div>
+                <div class="ui raised card" id="faq-toc">
+                  {{ faq_macros.render_faq_toc(page.content) }}
+                </div>
+              </div>
+            </div>
+            {# Main content #}
+            <!-- hier kann "ui raised card" auf der hauptebene stehen -->
+            <div id="faq-main-content" class="ui sixteen wide tablet twelve wide computer column">
+              <div class="ui fluid raised card" id="faq-content">
+                <h1>{{ page.title }}</h1>
+                <p class="faq-info"><span>{{ _("A compilation of questions that might help you. Can't find what you're looking for?
+                  Please contact us:") }} </span><a href="mailto:support@example.org">support@example.org </a>
+                </p>
+
+                {{ faq_macros.render_faq_sections(page.content) }}
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {% elif page.url == "/terms" %}
+      {% set html_content_with_ids =  terms_macros.add_ids_to_headings(page.content) | safe %}
+      {% set terms_toc =  terms_macros.create_terms_toc(html_content_with_ids) | safe %}
+      {% set content_with_toc =  terms_macros.insert_toc_before_second_heading(html_content_with_ids, terms_toc) | safe %}
+      <div id="terms" class="default-content">
+        <h1>{{ page.title }}</h1>
+        {{ content_with_toc | safe }}
+        <div id="terms-license">
+          <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
+            <img
+              src="{{ url_for("static",filename="images/cc-zero.png", _external=True) }}"
+              alt="cc-0">
+          </a>
+          <p>{{ _("This work is licensed unde the Creative Commons license type ‘CC0 1.0 Universal’: <a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>https://creativecommons.org/publicdomain/zero/1.0/</a>.</br>The University of Münster logo and the datasafe logo are not subject to this license and are explicitly excluded.") }}</p>
+        </div>
+      </div>
+
+    {% elif page.url == "/credits" %}
+      <div id=" credits" class="default-content">
+        <h1>{{ page.title }}</h1>
+        {{ page.content | safe }}
+      </div>
+
+    {% else %}
+      <div class="default-content">
+        <h1>{{ page.title }}</h1>
+        {{ page.content|safe }}
+      </div>
+      </div>
+    {% endif %}
+
+{% endblock %}
+
+{% block javascript %}
+  {{ super() }}
+  {% if page.url == "/faq" %}
+    <script src="{{ url_for('static', filename='js/faq.js') }}"></script>
+  {% endif %}
+  {% if page.url == "/terms" %}
+    <script src="{{ url_for('static', filename='js/terms.js') }}"></script>
+  {% endif %}
+{% endblock %}

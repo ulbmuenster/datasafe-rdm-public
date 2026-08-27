@@ -1,0 +1,160 @@
+/*******************************
+          Icon Overrides
+*******************************/
+
+
+/*-----------------------------------------------------------------
+        Replacing semantic-ui icons with feather font icons
+-----------------------------------------------------------------*/
+/*
+This is a Less Mixin it can be used to apply those styles to multiple instances
+ */
+
+.feather-font-icon() {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'feather', serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+i.sign-out.icon:before {
+  .feather-font-icon();
+  content: "\e988";
+}
+
+i.pencil.alternate.icon::before {
+  .feather-font-icon();
+  content: "\e963";
+}
+
+i.trash.alternate.outline.icon::before {
+  .feather-font-icon();
+  content: "\e9f6";
+}
+
+i.icon.eye::before {
+  .feather-font-icon();
+  content: "\e967";
+}
+
+i.icon.delete::before {
+  .feather-font-icon();
+  content: "\ea16";
+}
+
+i.icon.dropdown::before {
+  .feather-font-icon();
+  content: "\e940" !important;
+}
+
+#dashboard-content {
+  i.icon.search {
+    width: 36px !important;
+
+    &::before {
+      .feather-font-icon();
+      content: "\e9d8";
+    }
+  }
+}
+
+i.icon.search:before {
+  .feather-font-icon();
+  content: "\e9d8";
+}
+
+
+i.icon.close::before {
+  .feather-font-icon();
+  content: "\ea16";
+}
+
+i.info.circle.icon::before {
+  .feather-font-icon();
+  content: "\e97a";
+}
+
+i.bars.icon.drag-anchor::before {
+  .feather-font-icon();
+  content: "\e9bc";
+}
+
+i.icon.copy.outline::before {
+  .feather-font-icon() ;
+  content: "\e934";
+}
+
+i.icon.download::before {
+  .feather-font-icon() ;
+  content: "\e95f";
+}
+
+i.icon.chevron.up::before {
+  .feather-font-icon() ;
+  content: "\e947";
+}
+
+i.icon.chevron.down::before {
+  .feather-font-icon() ;
+  content: "\e940";
+}
+
+i.icon.chevron.left::before {
+  .feather-font-icon() ;
+  content: "\e941";
+}
+
+i.icon.chevron.right::before {
+  .feather-font-icon() ;
+  content: "\e942";
+}
+
+i.icon.file.archive::before {
+  .feather-font-icon() ;
+  content: "\e909" !important;
+}
+
+i.icon.exclamation.triangle::before {
+  .feather-font-icon() ;
+  content: "\e926";
+}
+
+i.icon.tag::before {
+  .feather-font-icon() ;
+  content: "\e9ec";
+}
+
+// Waiting for decision which style to use (semantic, feather normal or featther bold)
+
+//i.icon.arrow.right::before {
+//  .feather-font-icon();
+//  content: "\e910";
+//  font-weight: bold;
+//}
+
+//i.icon.arrow.down::before {
+//  .feather-font-icon();
+//  content: "\e90a";
+//  font-weight: bold;
+//}
+
+//i.icon.arrow.left::before {
+//  .feather-font-icon();
+//  content: "\e90e";
+//  font-weight: bold;
+//}
+
+//i.icon.arrow.up::before {
+//  .feather-font-icon();
+//  content: "\e912";
+//  font-weight: bold;
+//}

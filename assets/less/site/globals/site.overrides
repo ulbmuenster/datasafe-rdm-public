@@ -1,0 +1,202 @@
+/*******************************
+        Theme Overrides
+*******************************/
+
+@import "../custom/fonts.less";
+@import "./site.variables";
+
+// Custom less for datasafe-RDM specific elements/pages
+@import "datasafe-header.less";
+@import "datasafe-footer.less";
+@import "datasafe-loginPage.less";
+@import "datasafe-dashboard.less";
+@import "datasafe-depositform.less";
+@import "datasafe-recordLandingPage.less";
+@import "datasafe-hidden.less";
+@import "datasafe-static-pages.less";
+@import "datasafe-archiverecord.less";
+@import "datasafe-settings.less";
+@import "datasafe-pill.less";
+@import "datsafe-about.less";
+@import "./datasafe-uppy.less";
+@import "./datasafe-privacy.less";
+// Somwehow dropdown.overrides is not loaded so I will use this
+@import "./datasafe-dropdown.less";
+
+/* --------------- */
+/*      Layout     */
+/* --------------- */
+
+html {
+  height: unset;
+  min-height: 100vh;
+  line-height: 1.45;
+}
+
+body {
+  height: inherit;
+  min-height: 100vh;
+}
+
+
+.invenio-page-body {
+  padding-bottom: 0;
+}
+
+//Make all flashed messages centered
+.ui.message {
+  min-height: unset;
+  text-align: center !important;
+}
+
+div.ui.segment.selected-members-header:first-of-type {
+  min-height: 0;
+  padding: 0;
+  margin-right: 0;
+}
+
+div.ui.dimmer {
+  z-index: 100000;
+}
+
+/* -------------------- */
+/*      Info Banner     */
+/* -------------------- */
+
+// Info Banner can be configured in invenio.cfg --> INFO_BANNER
+.info.banner {
+  color: @warningColor;
+  background-color: @white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  border: 5px solid @warningColor;
+
+  p {
+    margin: 1rem 0;
+    text-align: left;
+  }
+}
+
+/* --------------- */
+/* General styling */
+/* --------------- */
+
+//Setting the global text color
+body {
+  color: @textColor;
+}
+
+a {
+  color: @textColor;
+  text-decoration: underline;
+
+  //&:hover {
+  //  color: darken(@primaryColor, 20%);
+  //}
+}
+
+// Frontend Validation on the Deposit Form
+.invalidInputField {
+  border-color: @warningColor !important;
+  background: #fff6f6 !important;
+  color: #9f3a38 !important;
+}
+
+// This ensures tha the a11y "skip to main(content) link is hidden behind the page content...
+.skip-link {
+  position: absolute;
+  z-index: -999;
+  //... unless it is focused (which can only be done by tabbing on the key board)
+  &:focus {
+    z-index: 99999;
+  }
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+div.horizontal.ruler {
+  border: none;
+  background-color: @midWhite;
+  width: calc(100% + 2rem);
+  height: 1px;
+  margin: 0 0 0.5rem -1rem;
+}
+
+.highlight-search-color {
+  background-color: @highlightSearchColor;
+}
+
+.text-muted {
+  color: @tertiaryTextColor !important;
+}
+
+.field.error {
+  color: @warningColor;
+  border-color: @warningColor;
+}
+
+/* ------------------------------- */
+/*      Administration styling     */
+/* ------------------------------- */
+
+.invenio-administration {
+  div.facet {
+    background-color: @offWhite;
+  }
+
+  div.facet-count {
+    background-color: @white;
+  }
+}
+
+/* ---------------------- */
+/*         Links          */
+/* ---------------------- */
+.link-mixin() {
+  a {
+    color: @tertiaryTextColor;
+    text-decoration-color: @tertiaryTextColor;
+  }
+
+  a:visited {
+    color: @secondaryTextColor;
+    text-decoration-color: @secondaryTextColor;
+  }
+
+  a:hover {
+    color: #625e5b;
+    text-decoration-color: #625e5b;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6, p, address, caption, figcaption, figure, article, td, li {
+  .link-mixin()
+}
+
+// Overriding general style from invenio
+button:focus-visible, a:focus-visible {
+  outline: 2px solid @focusedFormBorderColor !important; // Was 3px before
+}
+
+
+/* ---------------------- */
+/* Archive Record select  */
+/* ---------------------- */
+
+div.css-13cymwt-control {
+  border-radius: 8px;
+  border: 1px solid @borderColor;
+}
+
+// Make all delete icon shadws @textColor
+i.circular.delete.icon {
+  box-shadow: 0 0 0 1px @textColor inset;
+  color: @textColor;
+  opacity: 1 !important;
+}

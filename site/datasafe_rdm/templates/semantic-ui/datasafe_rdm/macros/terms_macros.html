@@ -1,0 +1,86 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{% macro add_ids_to_headings(html_content) %}
+  {% set content_lines = html_content.split('\n') %}
+  {% set ns1 = namespace(heading_count = 0) %}
+  {% for line in content_lines %}
+    {% set line = line.strip() %}
+    {% if line.startswith('<h2') or line.startswith('<h3') or line.startswith('<h4') or line.startswith('<h5') or line.startswith('<h6') %}
+      {% set heading_level = line[1:3] %}
+      {% set start_tag = line.find('>') + 1 %}
+      {% set end_tag = line.rfind('<') %}
+      {% set heading_text = line[start_tag:end_tag] %}
+      {% if line.startswith('<h2') %}
+        {% set heading_id = "terms_" ~ ns1.heading_count %}
+        <{{ heading_level | safe }} id="{{ heading_id | safe }}">{{ heading_text | safe }}</{{ heading_level | safe }}>
+        {% set ns1.heading_count = ns1.heading_count + 1 %}
+      {% elif line.startswith('<h3') or line.startswith('<h4') or line.startswith('<h5') or line.startswith('<h6') %}
+        <{{ heading_level | safe }} >{{ heading_text | safe }}</{{ heading_level | safe }}>
+      {% endif %}
+    {% else %}
+      {{ line | safe }}
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+
+{% macro create_terms_toc(html_content) %}
+  {% set result = [] %}
+  {% set heading_tags = ['h2'] %}
+
+  <ul id="terms-toc">
+    {% for tag in heading_tags %}
+      {% set open_tag = '<' + tag %}
+      {% set close_tag = '</' + tag + '>' %}
+      {% for segment in html_content.split(open_tag)[1:] %}
+        {% set end_tag_index = segment.find(close_tag) %}
+        {% if end_tag_index != -1 %}
+          {% set heading_content = segment[:end_tag_index] %}
+          {% if '>' in heading_content %}
+            {% set heading_text = heading_content.split('>', 1)[1].strip() %}
+            {% if heading_text %}
+              {% set anchor_id = "terms_" ~ (loop.index - 1) %}
+              {% set result = result + [(anchor_id, heading_text)] %}
+              <li><a href="#{{ anchor_id }}" class="terms-toc-link">{{ heading_text }}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% macro insert_toc_before_second_heading(html_content, toc_html) %}
+  {% set ns1 = namespace(heading_count = 0) %}
+  {% set ns2 = namespace(found_second = False) %}
+  {% set ns3 = namespace(content_before = []) %}
+  {% set ns4 = namespace(content_after = []) %}
+
+  {% for line in html_content.split('\n') %}
+    {% set trimmed_line = line.strip() %}
+
+    {% if '<h' in trimmed_line %}
+      {% set ns1.heading_count = ns1.heading_count + 1 %}
+
+      {% if ns1.heading_count >= 2 %}
+        {% set ns2.found_second = True %}
+      {% endif %}
+    {% endif %}
+
+    {% if ns2.found_second %}
+      {% set ns4.content_after = ns4.content_after + [trimmed_line] %}
+    {% else %}
+      {% set ns3.content_before = ns3.content_before + [trimmed_line] %}
+    {% endif %}
+  {% endfor %}
+
+  <div>{{ ns3.content_before | join('\n') | safe }}</div>
+  {{ toc_html | safe }}
+  <div>{{ ns4.content_after | join('\n') | safe }}</div>
+{% endmacro %}
+

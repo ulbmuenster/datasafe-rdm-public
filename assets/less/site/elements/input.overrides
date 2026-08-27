@@ -1,0 +1,54 @@
+/*******************************
+          Input Overrides
+*******************************/
+@import "../globals/site.variables";
+
+// Default states
+.ui.input, input:not(.search) {
+
+  &::selection {
+    color: @textColor;
+    background-color: #c1c1c1 !important;
+  }
+}
+
+.ui.input:hover > input:not(.search) {
+  background-color: #dcdbdb !important;
+  border-color: #dcdbdb !important;
+}
+
+.ui.input > input:not(.search):focus {
+  border-color: #1e74a2 !important;
+  background-color: @white !important;
+}
+
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled] {
+  opacity: 0.45;
+}
+
+.ui.input.error {
+  color: #ff5d5d;
+}
+
+//States for inputs on white background
+.ui.input.bg-white > input:not(.search) {
+  border: 1px solid #b9b7b6;
+  padding: 7px 12px;
+}
+
+.ui.input.bg-white:hover > input:not(.search) {
+  border: 1px solid #b9b7b6 !important;
+  padding: 7px 12px !important;
+  background-color: @offWhite !important;
+}
+
+.ui.input.bg-white > input:not(.search):focus {
+  border: 2px solid #1e74a2 !important;
+  padding: 6px 11px !important;
+  background-color: @white !important;
+}
+
+.ui.input.bg-white.error > input:not(.search) {
+  border-width: 2px;
+  padding: 6px 11px;
+}

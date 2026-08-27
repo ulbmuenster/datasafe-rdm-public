@@ -1,0 +1,60 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{% macro render_faq_toc(content) %}
+  {% set sections = content.split('<h2>')[1:] %} {# Skip first empty split #}
+  <div class="toc">
+    {% for section in sections %}
+      {% set section_parts = section.split('</h2>') %}
+      {% if section_parts|length >= 2 %}
+        {% set section_title = section_parts[0]|trim %}
+        {% set section_anchor_id = "faq_" ~ loop.index %}
+        <a class="toc-link" href="#{{ section_anchor_id }}">
+          <div class="toc-entry">{{ section_title|safe }}</div>
+        </a>
+        {% set section_content = section_parts[1]|trim %}
+        {% set rows = section_content.split('<tr>')[1:] %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endmacro %}
+
+
+
+{% macro render_faq_sections(content) %}
+  {# Split content by <h2> tags to separate different sections #}
+  {% set sections = content.split('<h2>')[1:] %} {# Skip first empty split #}
+  {% for section in sections %}
+    {% set section_parts = section.split('</h2>') %}
+    {% if section_parts|length >= 2 %}
+      {% set section_title = section_parts[0]|trim %}
+      {% set section_content = section_parts[1]|trim %}
+      {% set section_anchor_id = "faq_" ~ loop.index %}
+      <div id="{{ section_anchor_id }}" class="faq-section">
+        <h2>{{ section_title|safe }}</h2>
+        <div class="faq-section-content">
+          {% set rows = section_content.split('<tr>')[1:] %}
+          {% for row in rows %}
+            {% set cols = row.split('</td>') %}
+            {% if cols|length >= 2 %}
+              {% set row_title = cols[0].split('<td>')[1]|trim %}
+              {% set row_content = cols[1].split('<td>')[1]|trim %}
+              {% set row_anchor_id = loop.index %}
+              <div id="{{ section_anchor_id }}_{{ row_anchor_id }}" class="faq-sub-section">
+                <a class="faq-link" href="javascript:void(0)"
+                   onclick="copyLink('{{ section_anchor_id }}_{{ row_anchor_id }}')">
+                  <h3>{{ row_title|safe }}<i class="copy outline icon"></i></h3>
+                </a>
+                <p>{{ row_content|safe }}</p>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endmacro %}

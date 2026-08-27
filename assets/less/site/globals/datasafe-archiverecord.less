@@ -1,0 +1,84 @@
+/*******************************
+         Static pages
+*******************************/
+
+@import "site.variables";
+
+/* ------------------------------------ */
+/*      Styling of the static pages     */
+/* ------------------------------------ */
+
+#archive-record {
+  background-color: @offWhite;
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - @headerTotalHeight);
+
+  #archive-grid {
+    margin-top: 0;
+  }
+
+  #archive-card {
+    margin: 15vh 0 0 0;
+    padding: 1.5rem;
+
+  }
+
+  .ui.header {
+    font-weight: normal;
+  }
+
+  #close-icon {
+    cursor: pointer;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  .title-error {
+    position: relative;
+    top: -1rem;
+  }
+
+  #cris-datasets {
+    height: 42px;
+    margin-left: 27px;
+  }
+
+  .ui.checkbox {
+    line-height: 1rem;
+
+    input {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    label {
+      padding-left: 1.75em;
+    }
+  }
+
+  #use-cris-data-checkbox {
+    padding-left: 0.5em;
+  }
+
+  #transfer-access-rights-checkbox {
+    margin-left: 27px;
+  }
+
+  #archive-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: .5em;
+    margin-top: 2em;
+    line-height: 1.75em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ui.form .fields {
+    margin-bottom: 1em !important;
+  }
+}

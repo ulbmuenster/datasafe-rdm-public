@@ -1,0 +1,40 @@
+{#
+  Copyright (C) 2020 CERN.
+  Copyright (C) 2020 Northwestern University.
+  Copyright (C) 2021 TU Wien.
+  Copyright (C) 2022 New York University.
+
+  Invenio RDM Records is free software; you can redistribute it and/or modify
+  it under the terms of the MIT License; see LICENSE file for more details.
+-#}
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">{{ _('Versions') }}</h2>
+  <div class="card-divider"></div>
+  <div id="record-versions" class="ui segment rdm-sidebar bottom attached pl-0 pr-0 pt-0">
+    <div class="versions">
+      <div id="recordVersions" data-record='{{ record_ui | tojson }}' data-preview='{{ is_preview | tojson }}'
+           data-permissions='{{ permissions | tojson }}'>
+        <div class="rel-p-1"></div>
+        <div class="ui fluid placeholder rel-mr-1 rel-ml-1"></div>
+        <div class="header">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="card-divider"></div>
+    </div>
+  </div>
+  {% if permissions.can_manage and not is_preview %}
+    <div style="display: flex; align-items: center;">
+      <button id="datasafe-new-version-button" class="ui button mini primary">{{ _("Create new version") }}</button>
+      <i id="versioning-help" class="info circle icon large" style="margin-left: 5px; cursor: pointer;"
+         data-content="{{ _('If you want to add, modify, or delete files, create a new version.') }}"
+         data-position="bottom center" data-variation="tiny"></i>
+    </div>
+  {% endif %}
+</div>
+
+
+{{ webpack['datasafe-rdm-versions.js'] }}

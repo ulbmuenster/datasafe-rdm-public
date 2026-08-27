@@ -1,0 +1,233 @@
+@import "./site.variables";
+@import "../views/card.variables";
+@import "../elements/button.variables";
+
+/*---------------------------
+        General Styles
+----------------------------*/
+.ui.container.fluid.page-subheader-outer.compact {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  padding: 0;
+  min-height: unset;
+}
+
+#user-settings {
+  padding: 1rem 1.5rem;
+
+  article {
+    margin-bottom: 2rem;
+  }
+
+  .ui.segment.secondary {
+    border: none !important;
+    background-color: @lightPrimaryColor !important;
+    margin: -12px -16px 0 -16px !important;
+    padding: 12px 16px !important;
+    border-radius: 16px 16px 0 0 !important;
+  }
+
+  .ui.segment {
+    border: none !important;
+  }
+
+  // Helptext styles
+  .info_text {
+    color: @placeholderTextColor
+  }
+
+  .ui.message {
+    text-align: left !important;
+  }
+
+  /*-----------------------
+        Menu Styles
+-------------------------*/
+
+  .ui.vertical.menu {
+    //Do not show horizontal dividers
+    .item::before {
+      width: 0;
+    }
+
+    //Do not show menu icons
+    i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -9999;
+      width: 0;
+      height: 0;
+      display: none;
+    }
+
+    //  Add alittle bit of margin to menu entries
+    a.item {
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+
+    a.active.item {
+      border-radius: 8px !important;
+      border: none !important;
+      color: @textColor !important;
+      background-color: @lightPrimaryColor !important;
+    }
+
+    a.item:hover {
+      border-radius: 8px !important;
+      background-color: @offWhite !important;
+    }
+  }
+
+  /*-----------------------------
+          Profile Styles
+  ------------------------------*/
+
+  span.user-information {
+    //font-family: Courier New, Courier, monospace;
+    line-height: 1.5;
+  }
+
+  /*---------------------------------
+          Access tokens Styles
+  ----------------------------------*/
+  // Token list
+  #token-list {
+    box-shadow: none;
+    border: 1px solid #b9b7b6;
+    border-radius: 8px !important;
+    padding-left: 0;
+
+    .ui.segment {
+      padding: 12px;
+    }
+
+    li a {
+      color: @secondaryTextColor;
+      text-decoration-color: @secondaryTextColor;
+
+      &:hover {
+        color: @textColor;
+        text-decoration-color: @textColor;
+      }
+    }
+
+    .ui.segment:first-of-type {
+      border-top-left-radius: 8px !important;
+      border-top-right-radius: 8px !important;
+    }
+
+    .ui.segment:not(:last-of-type) {
+      border-bottom: 1px solid #cbc9c8 !important;
+    }
+
+    .ui.segment:last-of-type {
+      border-bottom-left-radius: 8px !important;
+      border-bottom-right-radius: 8px !important;
+    }
+  }
+
+  //Token new
+  label[for='name'] {
+    color: @secondaryTextColor;
+  }
+
+  #token-new-cancel-button {
+    margin-right: 8px !important;
+  }
+
+  //Token view
+  #token-new-view-segment {
+
+  }
+
+  #token-new-view-message {
+    margin: 24px -8px 0 -8px;
+  }
+
+  code#access-token {
+    color: @secondaryTextColor !important;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: lighten(@lightPrimaryColor, 5%);
+  }
+
+  #copy-token-button {
+    margin-left: 24px;
+  }
+
+  #token-view-delete-button {
+    margin-right: 8px !important;
+  }
+
+  .token-view-form label[for='name'] {
+    font-weight: bold;
+  }
+
+  /*-------------------
+        Sessions
+  --------------------*/
+
+  p#sessions-text {
+    color: @secondaryTextColor;
+    margin: 8px 0 24px 0;
+  }
+
+  span.session-ip {
+    color: @secondaryTextColor;
+  }
+
+  small {
+    font-size: 13px;
+    color: @tertiaryTextColor
+  }
+
+  //Session Grid
+  div#sessions-grid {
+    margin: 0;
+  }
+
+  .row.record-elem {
+    border: 1px solid #b9b7b6;
+    padding: 12px;
+  }
+
+  .row.record-elem:first-of-type {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+  }
+
+  .row.record-elem:not(:first-of-type) {
+    border-top: none !important;
+  }
+
+  .row.record-elem:not(:last-of-type) {
+    border-bottom: 1px solid #cbc9c8 !important;
+  }
+
+  .row.record-elem:last-of-type {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+  }
+
+  #sessions-action-button {
+    margin-right: 0;
+  }
+
+  .ui.row .ui.column {
+    padding: 0 6px;
+  }
+
+  .ui.row div.ui.column:first-of-type {
+    padding-left: 0;
+    margin-right: -2rem;
+  }
+
+  .ui.row div.ui.column:last-of-type {
+    padding-right: 0;
+    margin-left: 2rem;
+  }
+
+
+}

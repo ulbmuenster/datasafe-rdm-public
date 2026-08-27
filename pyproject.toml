@@ -1,0 +1,36 @@
+[project]
+name = "DatasafeRDM"
+requires-python = ">= 3.12"
+dynamic = ["version"]
+
+dependencies = [
+    "invenio-app-rdm[opensearch2,s3]==14.0.0",
+    "invenio-rdm-records>=19.5.1",
+    "idutils>=1.6.0",
+    "pywebpack>=2.2.1",
+    "invenio-search-ui>=4.2.0",
+    "flask-resources>=1.3.0",
+    "invenio-s3>=3.0.1",
+    "uwsgi>=2.0",
+    "uwsgitop>=0.11",
+    "uwsgi-tools>=1.1.1",
+    "invenio-pdf-generator==0.9.1",
+    "invenio-purge-expired==0.2.6",
+    "datasafe-rdm",
+    "rich<13,>=12"
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.uv]
+prerelease = "allow"
+
+# invenio-pdf-generator and invenio-purge-expired are published as source on
+# GitHub rather than on PyPI. Adjust the `tag`/`rev` below once the actual
+# release tags of https://github.com/ulbmuenster/invenio-pdf-generator and
+# https://github.com/ulbmuenster/invenio-purge-expired are known.
+[tool.uv.sources]
+invenio-pdf-generator = { git = "https://github.com/ulbmuenster/invenio-pdf-generator" }
+invenio-purge-expired = { git = "https://github.com/ulbmuenster/invenio-purge-expired" }
+datasafe-rdm = { editable = true, path = "./site" }

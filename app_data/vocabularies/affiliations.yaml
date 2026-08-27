@@ -1,0 +1,6110 @@
+- country: DE
+  country_name: Germany
+  id: Q505170
+  identifiers:
+  - identifier: 02w2y2t16
+    scheme: ror
+  name: Leuphana Universität Lüneburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q504723
+  identifiers:
+  - identifier: 02azyry73
+    scheme: ror
+  name: Universität Siegen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q506436
+  identifiers:
+  - identifier: 046e0mt33
+    scheme: ror
+  name: Europa-Universität Flensburg
+  status: active
+- acronym: MPS
+  country: DE
+  country_name: Germany
+  id: Q470648
+  identifiers:
+  - identifier: 02j6gm739
+    scheme: ror
+  name: Max-Planck-Institut für Sonnensystemforschung
+  status: active
+- acronym: GIGA
+  country: DE
+  country_name: Germany
+  id: Q470412
+  identifiers:
+  - identifier: 00681ts17
+    scheme: ror
+  name: German Institute for Global and Area Studies
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q475312
+  identifiers:
+  - identifier: 01tbgce33
+    scheme: ror
+  name: Evangelische Hochschule Nürnberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q475602
+  identifiers:
+  - identifier: 03k0z2z93
+    scheme: ror
+  name: Wissenschaftszentrum Berlin für Sozialforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q478695
+  identifiers:
+  - identifier: 02fv99722
+    scheme: ror
+  name: Germanisches Nationalmuseum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q500692
+  identifiers:
+  - identifier: 04ers2y35
+    scheme: ror
+  name: Universität Bremen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q472839
+  identifiers:
+  - identifier: 04zdqq152
+    scheme: ror
+  name: Senckenberg Deutsches Entomologisches Institut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q131617
+  identifiers:
+  - identifier: 00a7n7g54
+    scheme: ror
+  name: Deutsches Museum
+  status: active
+- acronym: EUV
+  country: DE
+  country_name: Germany
+  id: Q149481
+  identifiers:
+  - identifier: 02msan859
+    scheme: ror
+  name: Europa-Universität Viadrina
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q149433
+  identifiers:
+  - identifier: 02wxx3e24
+    scheme: ror
+  name: Brandenburgische Technische Universität
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q118884
+  name: Centre juridique franco-allemand
+  status: active
+- acronym: RGZM
+  country: DE
+  country_name: Germany
+  id: Q878029
+  name: Römisch-Germanisches Zentralmuseum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q878218
+  identifiers:
+  - identifier: 04py35477
+    scheme: ror
+  name: Max-Planck-Institut für Biochemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q879178
+  name: Max-Planck-Institut für Immaterialgüter- und Wettbewerbsrecht
+  status: active
+- acronym: USTUTT
+  country: DE
+  country_name: Germany
+  id: Q122453
+  identifiers:
+  - identifier: 04vnq7t77
+    scheme: ror
+  name: Universität Stuttgart
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q875138
+  identifiers:
+  - identifier: 01xzwj424
+    scheme: ror
+  name: Hochschule für Technik und Wirtschaft Berlin
+  status: active
+- acronym: TH Bingen
+  country: DE
+  country_name: Germany
+  id: Q878170
+  identifiers:
+  - identifier: 01pxkj057
+    scheme: ror
+  name: Technische Hochschule Bingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q875722
+  identifiers:
+  - identifier: 05b2tmp48
+    scheme: ror
+  name: Staatliche Hochschule für Bildende Künste – Städelschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q876880
+  identifiers:
+  - identifier: 02385fa51
+    scheme: ror
+  name: Max-Planck-Institut für Marine Mikrobiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q879216
+  identifiers:
+  - identifier: 03aft2f80
+    scheme: ror
+  name: Hochschule für Bildende Künste Braunschweig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q129195
+  identifiers:
+  - identifier: 01weqhp73
+    scheme: ror
+  name: Technische Universität Ilmenau
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q876629
+  identifiers:
+  - identifier: 00sb7hc59
+    scheme: ror
+  name: Max-Planck-Institut für Polymerforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q878592
+  identifiers:
+  - identifier: 00cfam450
+    scheme: ror
+  name: Helmholtz-Zentrum München
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1333919
+  name: Evangelische Fachhochschule Hannover
+  status: active
+- acronym: Fraunhofer ISC
+  country: DE
+  country_name: Germany
+  id: Q1355787
+  identifiers:
+  - identifier: 05gnv4a66
+    scheme: ror
+  name: Fraunhofer-Institut für Silicatforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1354858
+  identifiers:
+  - identifier: 02skbsp27
+    scheme: ror
+  name: Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1319129
+  name: Fachinformationszentrum Chemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1365807
+  identifiers:
+  - identifier: 04tr4sk76
+    scheme: ror
+  name: Fachhochschule für Finanzen Nordrhein-Westfalen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1324675
+  identifiers:
+  - identifier: 03dv91853
+    scheme: ror
+  name: Fachhochschule Dortmund
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1338536
+  identifiers:
+  - identifier: 03ccc5z68
+    scheme: ror
+  name: Evangelische Hochschule Ludwigsburg
+  status: active
+- acronym: Fraunhofer ISIT
+  country: DE
+  country_name: Germany
+  id: Q1366559
+  identifiers:
+  - identifier: 024p6aq98
+    scheme: ror
+  name: Fraunhofer-Institut für Siliziumtechnologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1356982
+  identifiers:
+  - identifier: 01rfnc002
+    scheme: ror
+  name: Ernst-Abbe-Hochschule Jena
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1377296
+  identifiers:
+  - identifier: 00j9xkc07
+    scheme: ror
+  name: Europäische Fachhochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q910825
+  identifiers:
+  - identifier: 01fbde567
+    scheme: ror
+  name: Max-Planck-Institut für molekulare Pflanzenphysiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q896952
+  identifiers:
+  - identifier: 03k7cjr94
+    scheme: ror
+  name: Deutsches Bergbau-Museum Bochum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q896546
+  identifiers:
+  - identifier: 02e3hdx05
+    scheme: ror
+  name: Hochschule für Angewandte Wissenschaft/Trier University of Applied Science
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q913987
+  identifiers:
+  - identifier: 00fkqwx76
+    scheme: ror
+  name: Hochschule für Angewandte Wissenschaften Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q911561
+  identifiers:
+  - identifier: 00f2yqf98
+    scheme: ror
+  name: Medizinische Hochschule Hannover
+  status: active
+- acronym: EKUT
+  country: DE
+  country_name: Germany
+  id: Q153978
+  identifiers:
+  - identifier: 03a1kwz48
+    scheme: ror
+  name: Eberhard Karls Universität Tübingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q896552
+  identifiers:
+  - identifier: 008pp7a77
+    scheme: ror
+  name: Institut für Zeitgeschichte München-Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q896706
+  identifiers:
+  - identifier: 012m9bp23
+    scheme: ror
+  name: Fachhochschule Potsdam
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q896468
+  identifiers:
+  - identifier: 016604a03
+    scheme: ror
+  name: Technische Hochschule Augsburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q153012
+  identifiers:
+  - identifier: 03bnmw459
+    scheme: ror
+  name: Universität Potsdam
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q597758
+  identifiers:
+  - identifier: 033n9gh91
+    scheme: ror
+  name: Carl von Ossietzky Universität Oldenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q616905
+  identifiers:
+  - identifier: 03p14d497
+    scheme: ror
+  name: Universität Augsburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q897742
+  identifiers:
+  - identifier: 04pyhyx87
+    scheme: ror
+  name: Brand Academy – Hochschule für Design und Kommunikation
+  status: active
+- acronym: HZI
+  country: DE
+  country_name: Germany
+  id: Q1603242
+  identifiers:
+  - identifier: 03d0p2685
+    scheme: ror
+  name: Helmholtz-Zentrum für Infektionsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1596449
+  identifiers:
+  - identifier: 02r2q1d96
+    scheme: ror
+  name: Leibniz-Institut für Virologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622071
+  identifiers:
+  - identifier: 04gg60e72
+    scheme: ror
+  name: Hochschule Aalen
+  status: active
+- acronym: SOEP
+  country: DE
+  country_name: Germany
+  id: Q1559216
+  name: Sozio-oekonomisches Panel
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1562772
+  identifiers:
+  - identifier: 00f5q5839
+    scheme: ror
+  name: HAWK Hochschule Hildesheim/Holzminden/Göttingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1567092
+  identifiers:
+  - identifier: 0165r2y73
+    scheme: ror
+  name: Max-Planck-Institut für Herz- und Lungenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1604537
+  identifiers:
+  - identifier: 03gzxs418
+    scheme: ror
+  name: Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1563580
+  identifiers:
+  - identifier: 04580fn28
+    scheme: ror
+  name: HFH · Hamburger Fern-Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1575493
+  identifiers:
+  - identifier: 01rkqb281
+    scheme: ror
+  name: Leibniz-Institut für Raumbezogene Sozialforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622069
+  identifiers:
+  - identifier: 00xdvw685
+    scheme: ror
+  name: Hochschule 21
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622074
+  identifiers:
+  - identifier: 0076zct58
+    scheme: ror
+  name: Hochschule Anhalt
+  status: active
+- acronym: TIHO
+  country: DE
+  country_name: Germany
+  id: Q1607255
+  identifiers:
+  - identifier: 015qjqf64
+    scheme: ror
+  name: Tierärztliche Hochschule Hannover
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1607075
+  identifiers:
+  - identifier: 03a5xsc56
+    scheme: ror
+  name: Leibniz-Institut für Troposphärenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622076
+  identifiers:
+  - identifier: 0167rnj42
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften Ansbach
+  status: active
+- acronym: PRIF
+  country: DE
+  country_name: Germany
+  id: Q1615908
+  identifiers:
+  - identifier: 021k10z87
+    scheme: ror
+  name: Leibniz-Institut Hessische Stiftung Friedens- und Konfliktforschung
+  status: active
+- acronym: HCU
+  country: DE
+  country_name: Germany
+  id: Q1567759
+  identifiers:
+  - identifier: 01fzsd381
+    scheme: ror
+  name: HafenCity Universität Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1550192
+  identifiers:
+  - identifier: 04qbqv677
+    scheme: ror
+  name: Filmuniversität Babelsberg „Konrad Wolf“
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622072
+  identifiers:
+  - identifier: 00gm0aw40
+    scheme: ror
+  name: Ostbayerische Technische Hochschule Amberg-Weiden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1565090
+  identifiers:
+  - identifier: 00g656d67
+    scheme: ror
+  name: Leibniz-Institut für Neue Materialien
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1615884
+  identifiers:
+  - identifier: 035jc1316
+    scheme: ror
+  name: Hessische Hochschule für Finanzen und Rechtspflege
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q880933
+  identifiers:
+  - identifier: 044g3zk14
+    scheme: ror
+  name: Max-Planck-Institut für Pflanzenzüchtungsforschung
+  status: active
+- acronym: MPIE
+  country: DE
+  country_name: Germany
+  id: Q881977
+  identifiers:
+  - identifier: 01ngpvg12
+    scheme: ror
+  name: Max-Planck-Institut für Nachhaltige Materialien
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q880577
+  name: Filmakademie Baden-Württemberg
+  status: active
+- acronym: UFZ
+  country: DE
+  country_name: Germany
+  id: Q880999
+  identifiers:
+  - identifier: 000h6jb29
+    scheme: ror
+  name: Helmholtz-Zentrum für Umweltforschung – UFZ
+  status: active
+- acronym: MPI-SWS
+  country: DE
+  country_name: Germany
+  id: Q881238
+  identifiers:
+  - identifier: 02pe2kf23
+    scheme: ror
+  name: Max-Planck-Institut für Softwaresysteme
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q880568
+  identifiers:
+  - identifier: 00xmqmx64
+    scheme: ror
+  name: Senckenberg Gesellschaft für Naturforschung
+  status: active
+- acronym: LZI
+  country: DE
+  country_name: Germany
+  id: Q879857
+  identifiers:
+  - identifier: 00k4h2615
+    scheme: ror
+  name: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+  status: active
+- acronym: HZDR
+  country: DE
+  country_name: Germany
+  id: Q883545
+  identifiers:
+  - identifier: 01zy2cs03
+    scheme: ror
+  name: Helmholtz-Zentrum Dresden-Rossendorf
+  status: active
+- acronym: IPP
+  country: DE
+  country_name: Germany
+  id: Q881298
+  identifiers:
+  - identifier: 03taest98
+    scheme: ror
+  name: Max-Planck-Institut für Plasmaphysik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q880440
+  identifiers:
+  - identifier: 03w3a0h43
+    scheme: ror
+  name: Evangelische Hochschule Freiburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q883036
+  identifiers:
+  - identifier: 00s1ckt27
+    scheme: ror
+  name: Hochschule Wismar
+  status: active
+- acronym: HMDK Stuttgart
+  country: DE
+  country_name: Germany
+  id: Q568692
+  identifiers:
+  - identifier: 057qv9h29
+    scheme: ror
+  name: Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart
+  status: active
+- acronym: MPI-INF
+  country: DE
+  country_name: Germany
+  id: Q565400
+  identifiers:
+  - identifier: 01w19ak89
+    scheme: ror
+  name: Max-Planck-Institut für Informatik
+  status: active
+- acronym: VDA
+  country: DE
+  country_name: Germany
+  id: Q563359
+  identifiers:
+  - identifier: 04jt5e503
+    scheme: ror
+  name: Verband der Automobilindustrie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q554425
+  identifiers:
+  - identifier: 00pv45a02
+    scheme: ror
+  name: FH Münster
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q569350
+  identifiers:
+  - identifier: 01a7snz60
+    scheme: ror
+  name: Hochschule für Fernsehen und Film München
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q678965
+  identifiers:
+  - identifier: 04zrf7b53
+    scheme: ror
+  name: Technische Universität Kaiserslautern
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q666828
+  identifiers:
+  - identifier: 05k2sh226
+    scheme: ror
+  name: Bard College Berlin
+  status: active
+- acronym: Leibniz Universität Hannover
+  country: DE
+  country_name: Germany
+  id: Q678982
+  identifiers:
+  - identifier: 0304hq317
+    scheme: ror
+  name: Leibniz Universität Hannover
+  status: active
+- acronym: LUH
+  country: DE
+  country_name: Germany
+  id: Q678982
+  identifiers:
+  - identifier: 0304hq317
+    scheme: ror
+  name: Leibniz Universität Hannover
+  status: active
+- acronym: LUH
+  country: DE
+  country_name: Germany
+  id: Q678982
+  identifiers:
+  - identifier: 0304hq317
+    scheme: ror
+  name: Leibniz Universität Hannover
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q151510
+  identifiers:
+  - identifier: 038t36y30
+    scheme: ror
+  name: Ruprecht-Karls-Universität Heidelberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262617
+  identifiers:
+  - identifier: 014cnmj57
+    scheme: ror
+  name: Duale Hochschule Baden-Württemberg Ravensburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1274007
+  identifiers:
+  - identifier: 01v0c1y10
+    scheme: ror
+  name: EBZ Business School
+  status: active
+- acronym: MPI-IS
+  country: DE
+  country_name: Germany
+  id: Q1287942
+  identifiers:
+  - identifier: 04fq9j139
+    scheme: ror
+  name: Max-Planck-Institut für Intelligente Systeme
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262615
+  name: Duale Hochschule Baden-Württemberg Villingen-Schwenningen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262616
+  name: Duale Hochschule Baden-Württemberg Mosbach
+  status: active
+- acronym: HAM
+  country: DE
+  country_name: Germany
+  id: Q1280712
+  identifiers:
+  - identifier: 038fwdn76
+    scheme: ror
+  name: Hochschule für angewandtes Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1277885
+  identifiers:
+  - identifier: 03fkg8131
+    scheme: ror
+  name: Max-Planck-Institut für Zellbiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1281305
+  identifiers:
+  - identifier: 008n8dd57
+    scheme: ror
+  name: Leibniz-Institut für die Pädagogik der Naturwissenschaften und Mathematik
+  status: active
+- acronym: DIW
+  country: DE
+  country_name: Germany
+  id: Q155228
+  identifiers:
+  - identifier: 0050vmv35
+    scheme: ror
+  name: Deutsches Institut für Wirtschaftsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q155354
+  identifiers:
+  - identifier: 01rdrb571
+    scheme: ror
+  name: Philipps-Universität Marburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1030618
+  name: Leibniz-Institut für Arterioskleroseforschung
+  status: active
+- acronym: Fraunhofer CSP
+  country: DE
+  country_name: Germany
+  id: Q1111030
+  identifiers:
+  - identifier: 04wwmh526
+    scheme: ror
+  name: Fraunhofer-Center für Silizium-Photovoltaik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1024571
+  identifiers:
+  - identifier: 05dbw7b97
+    scheme: ror
+  name: CVJM-Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1153856
+  identifiers:
+  - identifier: 051rc7j94
+    scheme: ror
+  name: Diploma Hochschule
+  status: active
+- acronym: Fraunhofer COMEDD
+  country: DE
+  country_name: Germany
+  id: Q1170371
+  name: Fraunhofer-Einrichtung für Organik, Materialien und elektronische Bauelemente
+  status: active
+- acronym: DHfPG
+  country: DE
+  country_name: Germany
+  id: Q1203121
+  identifiers:
+  - identifier: 047h65335
+    scheme: ror
+  name: Deutsche Hochschule für Prävention und Gesundheitsmanagement
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1170236
+  identifiers:
+  - identifier: 05r7n9c40
+    scheme: ror
+  name: Max-Planck-Institut für terrestrische Mikrobiologie
+  status: active
+- acronym: FH Wedel
+  country: DE
+  country_name: Germany
+  id: Q976984
+  identifiers:
+  - identifier: 00bwfj843
+    scheme: ror
+  name: Fachhochschule Wedel
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1202543
+  identifiers:
+  - identifier: 04sy7nb49
+    scheme: ror
+  name: Deutsche Forschungsanstalt für Lebensmittelchemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1001338
+  name: Duale Hochschule Baden-Württemberg Lörrach
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1203113
+  identifiers:
+  - identifier: 01h7vw195
+    scheme: ror
+  name: Deutsche Hochschule der Polizei
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1011953
+  identifiers:
+  - identifier: 05re2x545
+    scheme: ror
+  name: Burg Giebichenstein Kunsthochschule Halle
+  status: active
+- acronym: MPIfG
+  country: DE
+  country_name: Germany
+  id: Q1119337
+  identifiers:
+  - identifier: 01dwpbz64
+    scheme: ror
+  name: Max-Planck-Institut für Gesellschaftsforschung
+  status: active
+- acronym: ZB MED
+  country: DE
+  country_name: Germany
+  id: Q1204536
+  identifiers:
+  - identifier: 0259fwx54
+    scheme: ror
+  name: ZB MED – Informationszentrum Lebenswissenschaften
+  status: active
+- acronym: Fraunhofer IBMT
+  country: DE
+  country_name: Germany
+  id: Q1167435
+  identifiers:
+  - identifier: 05tpsgh61
+    scheme: ror
+  name: Fraunhofer-Institut für Biomedizinische Technik
+  status: active
+- acronym: DSMZ
+  country: DE
+  country_name: Germany
+  id: Q1203864
+  identifiers:
+  - identifier: 02tyer376
+    scheme: ror
+  name: Deutsche Sammlung von Mikroorganismen und Zellkulturen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1017599
+  identifiers:
+  - identifier: 017bbsh25
+    scheme: ror
+  name: Business School Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q982435
+  identifiers:
+  - identifier: 04b9vrm74
+    scheme: ror
+  name: Ostbayerische Technische Hochschule Regensburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1200666
+  identifiers:
+  - identifier: 03037cz33
+    scheme: ror
+  name: Design akademie berlin, SRH Hochschule für Kommunikation und Design
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1110267
+  identifiers:
+  - identifier: 05w6fhk97
+    scheme: ror
+  name: CBS International Business School
+  status: active
+- acronym: Fraunhofer IPM
+  country: DE
+  country_name: Germany
+  id: Q1118809
+  identifiers:
+  - identifier: 004n2nr09
+    scheme: ror
+  name: Fraunhofer-Institut für Physikalische Messtechnik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q982400
+  identifiers:
+  - identifier: 02vvvm705
+    scheme: ror
+  name: Jade Hochschule
+  status: active
+- acronym: Fraunhofer ISI
+  country: DE
+  country_name: Germany
+  id: Q1439718
+  identifiers:
+  - identifier: 03vyq6t71
+    scheme: ror
+  name: Fraunhofer-Institut für System- und Innovationsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1447117
+  identifiers:
+  - identifier: 037y17y07
+    scheme: ror
+  name: Rheinische Fachhochschule Neuss für Internationale Wirtschaft
+  status: active
+- acronym: Fraunhofer IESE
+  country: DE
+  country_name: Germany
+  id: Q1451983
+  identifiers:
+  - identifier: 00r1wdc11
+    scheme: ror
+  name: Fraunhofer-Institut für Experimentelles Software Engineering
+  status: active
+- acronym: Fraunhofer LBF
+  country: DE
+  country_name: Germany
+  id: Q1451993
+  identifiers:
+  - identifier: 00gt16g40
+    scheme: ror
+  name: Fraunhofer-Institut für Betriebsfestigkeit und Systemzuverlässigkeit
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1441203
+  identifiers:
+  - identifier: 02rtsfd15
+    scheme: ror
+  name: Pädagogische Hochschule Freiburg
+  status: active
+- acronym: Fraunhofer IPMS CNT
+  country: DE
+  country_name: Germany
+  id: Q1451974
+  name: Fraunhofer-Center Nanoelektronische Technologien
+  status: active
+- acronym: Fraunhofer MEVIS
+  country: DE
+  country_name: Germany
+  id: Q1451995
+  identifiers:
+  - identifier: 04farme71
+    scheme: ror
+  name: Fraunhofer-Institut für Digitale Medizin MEVIS
+  status: active
+- acronym: Fraunhofer IOF
+  country: DE
+  country_name: Germany
+  id: Q1451992
+  identifiers:
+  - identifier: 02afjh072
+    scheme: ror
+  name: Fraunhofer-Institut für Angewandte Optik und Feinmechanik
+  status: active
+- acronym: Fraunhofer IFAM
+  country: DE
+  country_name: Germany
+  id: Q1452002
+  identifiers:
+  - identifier: 03pwyy961
+    scheme: ror
+  name: Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1441039
+  identifiers:
+  - identifier: 03crxcn36
+    scheme: ror
+  name: Hochschule Albstadt-Sigmaringen
+  status: active
+- acronym: Fraunhofer IRB
+  country: DE
+  country_name: Germany
+  id: Q1451975
+  identifiers:
+  - identifier: 01yrp7892
+    scheme: ror
+  name: Fraunhofer-Informationszentrum Raum und Bau
+  status: active
+- acronym: Fraunhofer IAO
+  country: DE
+  country_name: Germany
+  id: Q1451990
+  identifiers:
+  - identifier: 01nh64743
+    scheme: ror
+  name: Fraunhofer-Institut für Arbeitswirtschaft und Organisation
+  status: active
+- acronym: Fraunhofer IBP
+  country: DE
+  country_name: Germany
+  id: Q1451988
+  identifiers:
+  - identifier: 04y8p0f91
+    scheme: ror
+  name: Fraunhofer-Institut für Bauphysik
+  status: active
+- acronym: Fraunhofer IAP
+  country: DE
+  country_name: Germany
+  id: Q1451986
+  identifiers:
+  - identifier: 02yhs7m71
+    scheme: ror
+  name: Fraunhofer-Institut für Angewandte Polymerforschung
+  status: active
+- acronym: Fraunhofer IDMT
+  country: DE
+  country_name: Germany
+  id: Q1451997
+  identifiers:
+  - identifier: 04gp0yb49
+    scheme: ror
+  name: Fraunhofer-Institut für Digitale Medientechnologie
+  status: active
+- acronym: Fraunhofer IGB
+  country: DE
+  country_name: Germany
+  id: Q1452007
+  identifiers:
+  - identifier: 0131dra29
+    scheme: ror
+  name: Fraunhofer-Institut für Grenzflächen- und Bioverfahrenstechnik
+  status: active
+- acronym: Fraunhofer IKS
+  country: DE
+  country_name: Germany
+  id: Q1451979
+  identifiers:
+  - identifier: 02fez3815
+    scheme: ror
+  name: Fraunhofer-Institut für Kognitive Systeme IKS
+  status: active
+- acronym: Fraunhofer ICT
+  country: DE
+  country_name: Germany
+  id: Q1452001
+  identifiers:
+  - identifier: 03nb1x490
+    scheme: ror
+  name: Fraunhofer-Institut für Chemische Technologie
+  status: active
+- acronym: Fraunhofer FEP
+  country: DE
+  country_name: Germany
+  id: Q1451998
+  identifiers:
+  - identifier: 03vvewn46
+    scheme: ror
+  name: Fraunhofer-Institut für Organische Elektronik, Elektronenstrahl- und Plasmatechnik
+  status: active
+- acronym: Fraunhofer SCAI
+  country: DE
+  country_name: Germany
+  id: Q1451981
+  identifiers:
+  - identifier: 00trw9c49
+    scheme: ror
+  name: Fraunhofer-Institut für Algorithmen und Wissenschaftliches Rechnen
+  status: active
+- acronym: Fraunhofer FIT
+  country: DE
+  country_name: Germany
+  id: Q1451984
+  identifiers:
+  - identifier: 01ak24c12
+    scheme: ror
+  name: Fraunhofer-Institut für Angewandte Informationstechnik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q510343
+  identifiers:
+  - identifier: 00wz4b049
+    scheme: ror
+  name: Museum Koenig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q529572
+  identifiers:
+  - identifier: 02m11x738
+    scheme: ror
+  name: Hochschule Furtwangen
+  status: active
+- acronym: HSU/UniBw Hamburg
+  country: DE
+  country_name: Germany
+  id: Q530991
+  identifiers:
+  - identifier: 04e8jbs38
+    scheme: ror
+  name: Helmut-Schmidt-Universität/Universität der Bundeswehr Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q521612
+  identifiers:
+  - identifier: 03gf02c22
+    scheme: ror
+  name: Folkwang Universität der Künste
+  status: active
+- acronym: MHL
+  country: DE
+  country_name: Germany
+  id: Q513622
+  identifiers:
+  - identifier: 021f61w41
+    scheme: ror
+  name: Musikhochschule Lübeck
+  status: active
+- acronym: FHI
+  country: DE
+  country_name: Germany
+  id: Q514590
+  identifiers:
+  - identifier: 03k9qs827
+    scheme: ror
+  name: Fritz-Haber-Institut der Max-Planck-Gesellschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1511732
+  identifiers:
+  - identifier: 05mjrzy91
+    scheme: ror
+  name: Max-Planck-Institut für Geoanthropologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1541259
+  name: Graduate School Rhein-Neckar
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1503440
+  identifiers:
+  - identifier: 00nggaz43
+    scheme: ror
+  name: Georg-Simon-Ohm-Hochschule für angewandte Wissenschaften – Fachhochschule
+    Nürnberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1513916
+  identifiers:
+  - identifier: 04tenkb98
+    scheme: ror
+  name: German Graduate School of Management and Law
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1532259
+  identifiers:
+  - identifier: 03bh13774
+    scheme: ror
+  name: Wilhelm Löhe Hochschule für angewandte Wissenschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1492202
+  identifiers:
+  - identifier: 011gev843
+    scheme: ror
+  name: Popakademie Baden-Württemberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1499019
+  identifiers:
+  - identifier: 04tjfqn96
+    scheme: ror
+  name: Leibniz-Institut für Geschichte und Kultur des östlichen Europa
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1509323
+  identifiers:
+  - identifier: 01qjbb734
+    scheme: ror
+  name: Hochschule der Sächsischen Polizei
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1493545
+  identifiers:
+  - identifier: 0534re684
+    scheme: ror
+  name: Max-Planck-Institut für Evolutionsbiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1505130
+  identifiers:
+  - identifier: 001rdde17
+    scheme: ror
+  name: Hochschule Hamm-Lippstadt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1523703
+  identifiers:
+  - identifier: 04sms9203
+    scheme: ror
+  name: Technische Hochschule Aschaffenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1549322
+  name: Großherzoglich-Sächsische Forstlehranstalt Eisenach
+  status: active
+- acronym: GI
+  country: DE
+  country_name: Germany
+  id: Q1518474
+  identifiers:
+  - identifier: 03220m208
+    scheme: ror
+  name: Gesellschaft für Informatik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1481465
+  identifiers:
+  - identifier: 01hwhm419
+    scheme: ror
+  name: Hessische Hochschule für Polizei und Verwaltung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1485220
+  identifiers:
+  - identifier: 018afyw53
+    scheme: ror
+  name: GESIS – Leibniz-Institut für Sozialwissenschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1503391
+  name: Max-Planck-Institut für Verhaltensphysiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1509126
+  name: Private Fachhochschule Döpfer für Physiotherapie und Ergotherapie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1545954
+  name: Hochschule für internationale Wirtschaft und Logistik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1540704
+  identifiers:
+  - identifier: 039gdg280
+    scheme: ror
+  name: Hochschule für Technik Stuttgart
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1503374
+  identifiers:
+  - identifier: 01hnv8x68
+    scheme: ror
+  name: Leibniz-Institut für Bildungsmedien | Georg-Eckert-Institut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1514069
+  identifiers:
+  - identifier: 018mbvt80
+    scheme: ror
+  name: German open Business School
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1522976
+  identifiers:
+  - identifier: 01mzk5576
+    scheme: ror
+  name: Leibniz-Institut für Pflanzenbiochemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q679134
+  identifiers:
+  - identifier: 058kzsd48
+    scheme: ror
+  name: Universität Paderborn
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q682926
+  identifiers:
+  - identifier: 02a33b393
+    scheme: ror
+  name: Max-Planck-Institut für evolutionäre Anthropologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q679945
+  identifiers:
+  - identifier: 00vjd4k74
+    scheme: ror
+  name: Handelshochschule Leipzig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q685557
+  identifiers:
+  - identifier: 01k97gp34
+    scheme: ror
+  name: Technische Universität Dortmund
+  status: active
+- acronym: MPIM
+  country: DE
+  country_name: Germany
+  id: Q632667
+  identifiers:
+  - identifier: 02dh8ja68
+    scheme: ror
+  name: Max-Planck-Institut für Mathematik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q619201
+  identifiers:
+  - identifier: 04kzfg204
+    scheme: ror
+  name: Apollon Hochschule der Gesundheitswirtschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q650345
+  identifiers:
+  - identifier: 03bavdz78
+    scheme: ror
+  name: Hochschule für Musik Freiburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q636031
+  identifiers:
+  - identifier: 02tdyw459
+    scheme: ror
+  name: Archivschule Marburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q655866
+  identifiers:
+  - identifier: 00ggpsq73
+    scheme: ror
+  name: Otto-von-Guericke-Universität Magdeburg
+  status: active
+- acronym: BNITM
+  country: DE
+  country_name: Germany
+  id: Q617048
+  identifiers:
+  - identifier: 01evwfd48
+    scheme: ror
+  name: Bernhard-Nocht-Institut für Tropenmedizin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q686171
+  identifiers:
+  - identifier: 00k62pe27
+    scheme: ror
+  name: Technische Hochschule Wildau
+  status: active
+- acronym: FeU Hagen
+  country: DE
+  country_name: Germany
+  id: Q687017
+  identifiers:
+  - identifier: 04tkkr536
+    scheme: ror
+  name: Fernuniversität in Hagen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q689854
+  identifiers:
+  - identifier: 031vc2293
+    scheme: ror
+  name: Technische Universität Bergakademie Freiberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391230
+  name: Fachhochschule Suderburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391213
+  identifiers:
+  - identifier: 00xnq7h44
+    scheme: ror
+  name: Fachhochschule Ottersberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391235
+  identifiers:
+  - identifier: 03bthq143
+    scheme: ror
+  name: FH Westküste
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391222
+  identifiers:
+  - identifier: 02nq4wt82
+    scheme: ror
+  name: Hochschule Schmalkalden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391202
+  identifiers:
+  - identifier: 032xqbj11
+    scheme: ror
+  name: Technische Hochschule Lübeck
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391220
+  name: Fachhochschule Schloss Hohenfels
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391214
+  identifiers:
+  - identifier: 04mvanw22
+    scheme: ror
+  name: Fachhochschule Polizei Sachsen-Anhalt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391208
+  name: Fachhochschule Nordostniedersachsen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391224
+  name: Fachhochschule Schwäbisch Hall
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391189
+  identifiers:
+  - identifier: 01hkc4630
+    scheme: ror
+  name: Fachhochschule Erfurt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391239
+  identifiers:
+  - identifier: 031ph8d53
+    scheme: ror
+  name: Hochschule Worms
+  status: active
+- acronym: FHSLw
+  country: DE
+  country_name: Germany
+  id: Q1391244
+  name: Fachhochschule der Luftwaffe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391246
+  identifiers:
+  - identifier: 00yvfbm89
+    scheme: ror
+  name: Fachhochschule der Diakonie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391225
+  identifiers:
+  - identifier: 048gb8814
+    scheme: ror
+  name: Hochschule für Rechtspflege Schwetzingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391247
+  identifiers:
+  - identifier: 05k17x772
+    scheme: ror
+  name: Hochschule der Polizei des Landes Brandenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391187
+  identifiers:
+  - identifier: 01vbd1435
+    scheme: ror
+  name: Fachhochschule Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391210
+  identifiers:
+  - identifier: 032n3b254
+    scheme: ror
+  name: Fachhochschule Oldenburg/Ostfriesland/Wilhelmshaven
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391198
+  identifiers:
+  - identifier: 05dkqa017
+    scheme: ror
+  name: Fachhochschule Kaiserslautern
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391201
+  identifiers:
+  - identifier: 03q0ab227
+    scheme: ror
+  name: Fachhochschule Kiel
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391231
+  identifiers:
+  - identifier: 04g99jx54
+    scheme: ror
+  name: Hochschule Stralsund
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1453965
+  name: Freie Hochschule für Grafik-Design & Bildende Kunst Freiburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1453964
+  identifiers:
+  - identifier: 001e43z98
+    scheme: ror
+  name: Freie Hochschule Stuttgart
+  status: active
+- acronym: Fraunhofer WKI
+  country: DE
+  country_name: Germany
+  id: Q1452010
+  identifiers:
+  - identifier: 015cbgt79
+    scheme: ror
+  name: Fraunhofer-Institut für Holzforschung
+  status: active
+- acronym: Fraunhofer IME
+  country: DE
+  country_name: Germany
+  id: Q1452021
+  identifiers:
+  - identifier: 03j85fc72
+    scheme: ror
+  name: Fraunhofer-Institut für Molekularbiologie und Angewandte Oekologie
+  status: active
+- acronym: Fraunhofer ITWM
+  country: DE
+  country_name: Germany
+  id: Q1452034
+  identifiers:
+  - identifier: 019hjw009
+    scheme: ror
+  name: Fraunhofer-Institut für Techno- und Wirtschaftsmathematik
+  status: active
+- acronym: Fraunhofer ISE
+  country: DE
+  country_name: Germany
+  id: Q1452037
+  identifiers:
+  - identifier: 02kfzvh91
+    scheme: ror
+  name: Fraunhofer-Institut für Solare Energiesysteme
+  status: active
+- acronym: Fraunhofer IWES
+  country: DE
+  country_name: Germany
+  id: Q1452046
+  identifiers:
+  - identifier: 02phevt59
+    scheme: ror
+  name: Fraunhofer-Institut für Windenergie und Energiesystemtechnik
+  status: active
+- acronym: Fraunhofer IZFP
+  country: DE
+  country_name: Germany
+  id: Q1452048
+  identifiers:
+  - identifier: 03wq67h32
+    scheme: ror
+  name: Fraunhofer-Institut für Zerstörungsfreie Prüfverfahren
+  status: active
+- acronym: Fraunhofer FIRST
+  country: DE
+  country_name: Germany
+  id: Q1452029
+  name: Fraunhofer-Institut für Rechnerarchitektur und Softwaretechnik
+  status: active
+- acronym: Fraunhofer TEG
+  country: DE
+  country_name: Germany
+  id: Q1452055
+  name: Fraunhofer-Technologie-Entwicklungsgruppe
+  status: active
+- acronym: Fraunhofer IML
+  country: DE
+  country_name: Germany
+  id: Q1452016
+  identifiers:
+  - identifier: 00z7dje19
+    scheme: ror
+  name: Fraunhofer-Institut für Materialfluss und Logistik
+  status: active
+- acronym: Fraunhofer IST
+  country: DE
+  country_name: Germany
+  id: Q1452025
+  identifiers:
+  - identifier: 048vzmn57
+    scheme: ror
+  name: Fraunhofer-Institut für Schicht- und Oberflächentechnik
+  status: active
+- acronym: Fraunhofer SIT
+  country: DE
+  country_name: Germany
+  id: Q1452030
+  identifiers:
+  - identifier: 03qt2gs44
+    scheme: ror
+  name: Fraunhofer-Institut für Sichere Informationstechnologie
+  status: active
+- acronym: Fraunhofer IVI
+  country: DE
+  country_name: Germany
+  id: Q1452041
+  identifiers:
+  - identifier: 01nqmht92
+    scheme: ror
+  name: Fraunhofer-Institut für Verkehrs- und Infrastruktursysteme
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1471785
+  identifiers:
+  - identifier: 03ap2av50
+    scheme: ror
+  name: Max-Planck-Institut für Neurobiologie
+  status: active
+- acronym: Fraunhofer ILT
+  country: DE
+  country_name: Germany
+  id: Q1452014
+  identifiers:
+  - identifier: 03ebbfh95
+    scheme: ror
+  name: Fraunhofer-Institut für Lasertechnik
+  status: active
+- acronym: Fraunhofer UMSICHT
+  country: DE
+  country_name: Germany
+  id: Q1452038
+  identifiers:
+  - identifier: 00nj8ry09
+    scheme: ror
+  name: Fraunhofer-Institut für Umwelt-, Sicherheits- und Energietechnik
+  status: active
+- acronym: Fraunhofer IWS
+  country: DE
+  country_name: Germany
+  id: Q1452043
+  identifiers:
+  - identifier: 05h8wjh50
+    scheme: ror
+  name: Fraunhofer-Institut für Werkstoff- und Strahltechnik
+  status: active
+- acronym: Fraunhofer IFF
+  country: DE
+  country_name: Germany
+  id: Q1452005
+  identifiers:
+  - identifier: 04qfaak15
+    scheme: ror
+  name: Fraunhofer-Institut für Fabrikbetrieb und -automatisierung
+  status: active
+- acronym: Fraunhofer IKTS
+  country: DE
+  country_name: Germany
+  id: Q1452015
+  identifiers:
+  - identifier: 0448sak71
+    scheme: ror
+  name: Fraunhofer-Institut für Keramische Technologien und Systeme
+  status: active
+- acronym: Fraunhofer HHI
+  country: DE
+  country_name: Germany
+  id: Q1452019
+  identifiers:
+  - identifier: 02tbr6331
+    scheme: ror
+  name: Fraunhofer-Institut für Nachrichtentechnik
+  status: active
+- acronym: Fraunhofer IPA
+  country: DE
+  country_name: Germany
+  id: Q1452023
+  identifiers:
+  - identifier: 01rvqha10
+    scheme: ror
+  name: Fraunhofer-Institut für Produktionstechnik und Automatisierung
+  status: active
+- acronym: Fraunhofer IPA
+  country: DE
+  country_name: Germany
+  id: Q1452023
+  identifiers:
+  - identifier: 01rvqha10
+    scheme: ror
+  name: Fraunhofer-Institut für Produktionstechnik und Automatisierung
+  status: active
+- acronym: Fraunhofer IWM
+  country: DE
+  country_name: Germany
+  id: Q1452044
+  identifiers:
+  - identifier: 04hm8eb66
+    scheme: ror
+  name: Fraunhofer-Institut für Werkstoffmechanik
+  status: active
+- acronym: Fraunhofer IZM
+  country: DE
+  country_name: Germany
+  id: Q1452049
+  identifiers:
+  - identifier: 031aqk326
+    scheme: ror
+  name: Fraunhofer-Institut für Zuverlässigkeit und Mikrointegration
+  status: active
+- acronym: FML
+  country: DE
+  country_name: Germany
+  id: Q1457829
+  identifiers:
+  - identifier: 04vh1tq58
+    scheme: ror
+  name: Friedrich-Miescher-Laboratorium für biologische Arbeitsgruppen in der Max-Planck-Gesellschaft
+  status: active
+- acronym: Fraunhofer IAIS
+  country: DE
+  country_name: Germany
+  id: Q1452013
+  identifiers:
+  - identifier: 04nc32781
+    scheme: ror
+  name: Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme
+  status: active
+- acronym: Fraunhofer IMS
+  country: DE
+  country_name: Germany
+  id: Q1452022
+  identifiers:
+  - identifier: 01243c877
+    scheme: ror
+  name: Fraunhofer-Institut für Mikroelektronische Schaltungen und Systeme
+  status: active
+- acronym: Fraunhofer ITEM
+  country: DE
+  country_name: Germany
+  id: Q1452035
+  identifiers:
+  - identifier: 02byjcr11
+    scheme: ror
+  name: Fraunhofer-Institut für Toxikologie und Experimentelle Medizin
+  status: active
+- acronym: Fraunhofer IWU
+  country: DE
+  country_name: Germany
+  id: Q1452042
+  identifiers:
+  - identifier: 026taa863
+    scheme: ror
+  name: Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik
+  status: active
+- acronym: Fraunhofer IMW
+  country: DE
+  country_name: Germany
+  id: Q1452057
+  identifiers:
+  - identifier: 03h61ra63
+    scheme: ror
+  name: Fraunhofer-Zentrum für Internationales Management und Wissensökonomie
+  status: active
+- acronym: Fraunhofer IPK
+  country: DE
+  country_name: Germany
+  id: Q1452026
+  identifiers:
+  - identifier: 045eg9c12
+    scheme: ror
+  name: Fraunhofer-Institut für Produktionsanlagen und Konstruktionstechnik
+  status: active
+- acronym: Fraunhofer FOKUS
+  country: DE
+  country_name: Germany
+  id: Q1452018
+  identifiers:
+  - identifier: 00px80p03
+    scheme: ror
+  name: Fraunhofer-Institut für Offene Kommunikationssysteme
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1454033
+  identifiers:
+  - identifier: 03kzgcv48
+    scheme: ror
+  name: Freie Theologische Hochschule Gießen
+  status: active
+- acronym: Fraunhofer FHR
+  country: DE
+  country_name: Germany
+  id: Q1452011
+  identifiers:
+  - identifier: 00a6rw165
+    scheme: ror
+  name: Fraunhofer-Institut für Hochfrequenzphysik und Radartechnik
+  status: active
+- acronym: Fraunhofer IGD
+  country: DE
+  country_name: Germany
+  id: Q1452008
+  identifiers:
+  - identifier: 04gmsar03
+    scheme: ror
+  name: Fraunhofer-Institut für Graphische Datenverarbeitung IGD
+  status: active
+- acronym: Fraunhofer IPT
+  country: DE
+  country_name: Germany
+  id: Q1452027
+  identifiers:
+  - identifier: 00t0rcy29
+    scheme: ror
+  name: Fraunhofer-Institut für Produktionstechnologie
+  status: active
+- acronym: Fraunhofer ISST
+  country: DE
+  country_name: Germany
+  id: Q1452032
+  identifiers:
+  - identifier: 058kjq542
+    scheme: ror
+  name: Fraunhofer-Institut für Software- und Systemtechnik ISST
+  status: active
+- acronym: VOLKSWAGEN AG
+  country: DE
+  country_name: Germany
+  id: Q156578
+  identifiers:
+  - identifier: 01f3bhg26
+    scheme: ror
+  name: Volkswagen AG
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q702486
+  identifiers:
+  - identifier: 02778hg05
+    scheme: ror
+  name: Universität Trier
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q702499
+  identifiers:
+  - identifier: 04qmmjx98
+    scheme: ror
+  name: Universität Osnabrück
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391276
+  name: Fachhochschule für Verwaltung und Rechtspflege Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1431158
+  name: Reinhold-Würth-Hochschule
+  status: active
+- acronym: Fraunhofer IVV
+  country: DE
+  country_name: Germany
+  id: Q1396758
+  identifiers:
+  - identifier: 02at7zv53
+    scheme: ror
+  name: Fraunhofer-Institut für Verfahrenstechnik und Verpackung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391278
+  identifiers:
+  - identifier: 05eyxqf74
+    scheme: ror
+  name: Private Hochschule für Wirtschaft und Technik Vechta/Diepholz/Oldenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1429906
+  identifiers:
+  - identifier: 0044w3h23
+    scheme: ror
+  name: Pädagogische Hochschule Heidelberg
+  status: active
+- acronym: FHM
+  country: DE
+  country_name: Germany
+  id: Q1391258
+  identifiers:
+  - identifier: 01f5b8367
+    scheme: ror
+  name: Fachhochschule des Mittelstands
+  status: active
+- acronym: ZMT
+  country: DE
+  country_name: Germany
+  id: Q1413854
+  identifiers:
+  - identifier: 019w00969
+    scheme: ror
+  name: Leibniz-Zentrum für Marine Tropenforschung
+  status: active
+- acronym: FHSH 2
+  country: DE
+  country_name: Germany
+  id: Q1391256
+  name: Fachhochschule des Heeres 2
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1405041
+  identifiers:
+  - identifier: 02be22443
+    scheme: ror
+  name: Ferdinand-Braun-Institut, Leibniz-Institut für Höchstfrequenztechnik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1407910
+  identifiers:
+  - identifier: 040djv263
+    scheme: ror
+  name: Max-Planck-Institut für molekulare Biomedizin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1408542
+  identifiers:
+  - identifier: 000jzpp78
+    scheme: ror
+  name: International University in Germany
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1428381
+  identifiers:
+  - identifier: 036f7qt17
+    scheme: ror
+  name: Fliedner Fachhochschule Düsseldorf
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1438161
+  identifiers:
+  - identifier: 036ragn25
+    scheme: ror
+  name: Forschungszentrum Borstel
+  status: active
+- acronym: Fraunhofer IOSB
+  country: DE
+  country_name: Germany
+  id: Q1432182
+  identifiers:
+  - identifier: 01zx97922
+    scheme: ror
+  name: Fraunhofer-Institut für Optronik, Systemtechnik und Bildauswertung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391248
+  identifiers:
+  - identifier: 03waye253
+    scheme: ror
+  name: Fachhochschule der Sächsischen Verwaltung Meißen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391282
+  identifiers:
+  - identifier: 03z6vda50
+    scheme: ror
+  name: Fachhochschule für die Wirtschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391292
+  identifiers:
+  - identifier: 02nzadc54
+    scheme: ror
+  name: Fachhochschule für öffentliche Verwaltung Rheinland-Pfalz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391293
+  identifiers:
+  - identifier: 02dsdsv34
+    scheme: ror
+  name: Hochschule für Polizei und öffentliche Verwaltung Nordrhein-Westfalen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391286
+  name: Fachhochschule für Öffentliche Verwaltung Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391271
+  identifiers:
+  - identifier: 040erbe63
+    scheme: ror
+  name: Fachhochschule für Interkulturelle Theologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391267
+  identifiers:
+  - identifier: 02g11qe83
+    scheme: ror
+  name: Fachhochschule für Rechtspflege Nordrhein-Westfalen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391288
+  identifiers:
+  - identifier: 040dxjz28
+    scheme: ror
+  name: Fachhochschule für öffentliche Verwaltung, Polizei und Rechtspflege
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1400766
+  identifiers:
+  - identifier: 0367m1n91
+    scheme: ror
+  name: Hochschule Weserbergland
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391259
+  name: Fachhochschule für Bergbau Saar
+  status: active
+- acronym: HS Bund
+  country: DE
+  country_name: Germany
+  id: Q1391252
+  identifiers:
+  - identifier: 03t7d6q88
+    scheme: ror
+  name: Hochschule des Bundes für öffentliche Verwaltung
+  status: active
+- acronym: Fraunhofer AST
+  country: DE
+  country_name: Germany
+  id: Q1427956
+  name: Fraunhofer-Anwendungszentrum für Systemtechnik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391254
+  identifiers:
+  - identifier: 046ns5110
+    scheme: ror
+  name: Fachhochschule der Wirtschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391272
+  identifiers:
+  - identifier: 003xt6d81
+    scheme: ror
+  name: Fachhochschule für Verwaltung und Dienstleistung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391265
+  identifiers:
+  - identifier: 05d6z1532
+    scheme: ror
+  name: Hochschule für Finanzen Rheinland-Pfalz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1413500
+  identifiers:
+  - identifier: 01w09y597
+    scheme: ror
+  name: Hochschule für Musik und Darstellende Kunst Mannheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391296
+  name: Clementine-von-Wallmenich-Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1438623
+  identifiers:
+  - identifier: 030h7k016
+    scheme: ror
+  name: Max-Planck-Institut für Dynamik komplexer technischer Systeme
+  status: active
+- acronym: Fraunhofer IPMS
+  country: DE
+  country_name: Germany
+  id: Q1391898
+  identifiers:
+  - identifier: 020n3fw10
+    scheme: ror
+  name: Fraunhofer-Institut für Photonische Mikrosysteme
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q885105
+  identifiers:
+  - identifier: 05n1ym881
+    scheme: ror
+  name: Kirchliche Hochschule Wuppertal
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q884503
+  identifiers:
+  - identifier: 04ms51788
+    scheme: ror
+  name: Westsächsische Hochschule Zwickau
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q895960
+  identifiers:
+  - identifier: 00a7vgh58
+    scheme: ror
+  name: Max-Planck-Institut für Kohlenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q884111
+  identifiers:
+  - identifier: 02ge27m07
+    scheme: ror
+  name: Hochschule für Technik und Wirtschaft des Saarlandes
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q895634
+  identifiers:
+  - identifier: 04eka8j06
+    scheme: ror
+  name: Technische Hochschule Ostwestfalen-Lippe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q895796
+  identifiers:
+  - identifier: 03py54049
+    scheme: ror
+  name: Hochschule für Schauspielkunst „Ernst Busch“ Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q896116
+  identifiers:
+  - identifier: 04vq9c111
+    scheme: ror
+  name: Staatliche Hochschule für Gestaltung Karlsruhe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q884358
+  identifiers:
+  - identifier: 00qakfc35
+    scheme: ror
+  name: Hochschule Pforzheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q573975
+  identifiers:
+  - identifier: 033bb5z47
+    scheme: ror
+  name: Bauhaus-Universität Weimar
+  status: active
+- acronym: R&S
+  country: DE
+  country_name: Germany
+  id: Q571907
+  identifiers:
+  - identifier: 048j11q41
+    scheme: ror
+  name: Rohde & Schwarz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q569460
+  identifiers:
+  - identifier: 00dnfj623
+    scheme: ror
+  name: Hochschule für Musik „Hanns Eisler“ Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q569899
+  identifiers:
+  - identifier: 04fxab197
+    scheme: ror
+  name: Naturwissenschaftlich-Technische Akademie Isny
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q574571
+  identifiers:
+  - identifier: 01eezs655
+    scheme: ror
+  name: Universität Regensburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622216
+  identifiers:
+  - identifier: 03xgcq477
+    scheme: ror
+  name: Hochschule für Technik, Wirtschaft und Kultur Leipzig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622234
+  identifiers:
+  - identifier: 02p5hsv84
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften Coburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622239
+  identifiers:
+  - identifier: 01k5h5v15
+    scheme: ror
+  name: Technische Hochschule Würzburg-Schweinfurt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622244
+  identifiers:
+  - identifier: 01ge5zt06
+    scheme: ror
+  name: Hochschule für nachhaltige Entwicklung Eberswalde
+  status: active
+- acronym: HfWU
+  country: DE
+  country_name: Germany
+  id: Q1622229
+  identifiers:
+  - identifier: 02rqsa469
+    scheme: ror
+  name: Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen
+  status: active
+- acronym: IGZ
+  country: DE
+  country_name: Germany
+  id: Q1623334
+  identifiers:
+  - identifier: 01a62v145
+    scheme: ror
+  name: Leibniz-Institut für Gemüse- und Zierpflanzenbau
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622215
+  name: Hochschule für Politik München
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622233
+  name: Hochschule für angewandte Wissenschaften Bamberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1623675
+  identifiers:
+  - identifier: 02bwxev54
+    scheme: ror
+  name: Theologisches Seminar Elstal
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622226
+  identifiers:
+  - identifier: 05k9vmz93
+    scheme: ror
+  name: Hochschule für Telekommunikation Leipzig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622237
+  identifiers:
+  - identifier: 045gdxt02
+    scheme: ror
+  name: Hochschule für bildende Künste Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622242
+  identifiers:
+  - identifier: 05q2pee13
+    scheme: ror
+  name: Hochschule für Öffentliche Verwaltung Bremen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1632429
+  identifiers:
+  - identifier: 01j2dwr66
+    scheme: ror
+  name: Katholische Stiftungshochschule München
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622214
+  identifiers:
+  - identifier: 055s1wn27
+    scheme: ror
+  name: Hochschule für Polizei Baden-Württemberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622222
+  identifiers:
+  - identifier: 05q5pk319
+    scheme: ror
+  name: Hochschule für Technik und Wirtschaft Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q159630
+  identifiers:
+  - identifier: 00a208s56
+    scheme: ror
+  name: Technische Universität Chemnitz
+  status: active
+- acronym: TU Dresden
+  country: DE
+  country_name: Germany
+  id: Q158158
+  identifiers:
+  - identifier: 042aqky30
+    scheme: ror
+  name: Technische Universität Dresden
+  status: active
+- acronym: TUD
+  country: DE
+  country_name: Germany
+  id: Q158158
+  identifiers:
+  - identifier: 042aqky30
+    scheme: ror
+  name: Technische Universität Dresden
+  status: active
+- acronym: TU Dresden
+  country: DE
+  country_name: Germany
+  id: Q158158
+  identifiers:
+  - identifier: 042aqky30
+    scheme: ror
+  name: Technische Universität Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q152171
+  identifiers:
+  - identifier: 041nas322
+    scheme: ror
+  name: Rheinische Friedrich-Wilhelms-Universität Bonn
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q156737
+  identifiers:
+  - identifier: 04v76ef78
+    scheme: ror
+  name: Christian-Albrechts-Universität zu Kiel
+  status: active
+- acronym: DLR
+  country: DE
+  country_name: Germany
+  id: Q157332
+  identifiers:
+  - identifier: 04bwf3e34
+    scheme: ror
+  name: Deutsches Zentrum für Luft- und Raumfahrt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1205927
+  identifiers:
+  - identifier: 00shv0x82
+    scheme: ror
+  name: Deutsches Rheuma-Forschungszentrum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1248645
+  identifiers:
+  - identifier: 004hd5y14
+    scheme: ror
+  name: Leibniz-Institut für Plasmaforschung und Technologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1258462
+  identifiers:
+  - identifier: 01t4pxy10
+    scheme: ror
+  name: Dresden International University
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262602
+  name: Duale Hochschule Baden-Württemberg Heidenheim
+  status: active
+- acronym: RH
+  country: DE
+  country_name: Germany
+  id: Q1245583
+  identifiers:
+  - identifier: 00txhpa83
+    scheme: ror
+  name: Rheinische Hochschule Köln
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1206136
+  identifiers:
+  - identifier: 043j0f473
+    scheme: ror
+  name: Deutsches Zentrum für Neurodegenerative Erkrankungen
+  status: active
+- acronym: DIE
+  country: DE
+  country_name: Germany
+  id: Q1205727
+  identifiers:
+  - identifier: 04565hy55
+    scheme: ror
+  name: Deutsches Institut für Erwachsenenbildung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262599
+  name: Duale Hochschule Baden-Württemberg Karlsruhe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1238833
+  name: Steuerakademie Niedersachsen
+  status: active
+- acronym: DIPF
+  country: DE
+  country_name: Germany
+  id: Q1205728
+  identifiers:
+  - identifier: 0327sr118
+    scheme: ror
+  name: DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1205636
+  identifiers:
+  - identifier: 01r70sq06
+    scheme: ror
+  name: Deutsches Forschungsinstitut für öffentliche Verwaltung Speyer
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1205899
+  identifiers:
+  - identifier: 02f99v835
+    scheme: ror
+  name: Deutsches Primatenzentrum
+  status: active
+- acronym: GFZ
+  country: DE
+  country_name: Germany
+  id: Q1205654
+  identifiers:
+  - identifier: 04z8jg394
+    scheme: ror
+  name: GFZ Helmholtz-Zentrum für Geoforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1249190
+  name: EDU.CON Hochschule Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1205726
+  identifiers:
+  - identifier: 05xdczy51
+    scheme: ror
+  name: Deutsches Institut für Ernährungsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1259168
+  identifiers:
+  - identifier: 04t5phd24
+    scheme: ror
+  name: Fachhochschule Südwestfalen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262310
+  identifiers:
+  - identifier: 04w49ae90
+    scheme: ror
+  name: EBC Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262612
+  name: Duale Hochschule Baden-Württemberg Stuttgart
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1251781
+  identifiers:
+  - identifier: 03vpj4s62
+    scheme: ror
+  name: Max-Planck-Institut für molekulare Physiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1257534
+  identifiers:
+  - identifier: 00jvbme10
+    scheme: ror
+  name: Fachhochschule für Finanzen Brandenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262608
+  name: Duale Hochschule Baden-Württemberg Mannheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1262605
+  identifiers:
+  - identifier: 02xdzy536
+    scheme: ror
+  name: Duale Hochschule Baden-Württemberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1205596
+  identifiers:
+  - identifier: 04ews3245
+    scheme: ror
+  name: Deutsches Diabetes-Zentrum
+  status: active
+- acronym: HdM
+  country: DE
+  country_name: Germany
+  id: Q1233544
+  identifiers:
+  - identifier: 022r03w28
+    scheme: ror
+  name: Hochschule der Medien
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q161982
+  identifiers:
+  - identifier: 023b0x485
+    scheme: ror
+  name: Johannes Gutenberg-Universität Mainz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q165528
+  identifiers:
+  - identifier: 00r1edq15
+    scheme: ror
+  name: Universität Greifswald
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622096
+  identifiers:
+  - identifier: 01bc76c69
+    scheme: ror
+  name: Hochschule Emden/Leer
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622118
+  identifiers:
+  - identifier: 051qw9f78
+    scheme: ror
+  name: Hochschule Konstanz Technik, Wirtschaft und Gestaltung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622120
+  name: Hochschule Lausitz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622079
+  identifiers:
+  - identifier: 0004r6b85
+    scheme: ror
+  name: Hochschule Biberach
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622123
+  identifiers:
+  - identifier: 04vjfp916
+    scheme: ror
+  name: Fachhochschule Magdeburg-Stendal
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622083
+  identifiers:
+  - identifier: 04m2anh63
+    scheme: ror
+  name: Hochschule Bonn-Rhein-Sieg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622099
+  identifiers:
+  - identifier: 03hj50651
+    scheme: ror
+  name: Hochschule Fresenius
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622093
+  identifiers:
+  - identifier: 001yqrb02
+    scheme: ror
+  name: Hochschule Bremerhaven
+  status: active
+- acronym: THI
+  country: DE
+  country_name: Germany
+  id: Q1622111
+  identifiers:
+  - identifier: 02bxzcy64
+    scheme: ror
+  name: Technische Hochschule Ingolstadt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622078
+  identifiers:
+  - identifier: 04x02q560
+    scheme: ror
+  name: Hochschule für Technik, Wirtschaft und Gesundheit Bochum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622125
+  identifiers:
+  - identifier: 042xxdh20
+    scheme: ror
+  name: Hochschule für Wirtschaft und Gesellschaft Ludwigshafen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622101
+  identifiers:
+  - identifier: 056cezx90
+    scheme: ror
+  name: Hochschule Esslingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622109
+  identifiers:
+  - identifier: 04q5vv384
+    scheme: ror
+  name: Hochschule für Angewandte Wissenschaften Hof
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622115
+  identifiers:
+  - identifier: 02m4p8096
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften Kempten
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622121
+  identifiers:
+  - identifier: 056z5bx32
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften Landshut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622117
+  identifiers:
+  - identifier: 04j351e79
+    scheme: ror
+  name: Hochschule Koblenz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622092
+  identifiers:
+  - identifier: 04f7jc139
+    scheme: ror
+  name: Hochschule Bremen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622105
+  identifiers:
+  - identifier: 048yn7628
+    scheme: ror
+  name: Hochschule Harz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622113
+  identifiers:
+  - identifier: 01hqp1g48
+    scheme: ror
+  name: Hochschule Kehl
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622203
+  name: Hochschule für Musik Mainz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622175
+  identifiers:
+  - identifier: 02pnhcc10
+    scheme: ror
+  name: Hochschule für Forstwirtschaft Rottenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622183
+  identifiers:
+  - identifier: 03hj8rz96
+    scheme: ror
+  name: Hochschule für Gesundheit
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622157
+  name: Hochschule für Finanzwirtschaft & Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622189
+  name: Hochschule für Katholische Kirchenmusik und Musikpädagogik Regensburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622191
+  identifiers:
+  - identifier: 0446hjy70
+    scheme: ror
+  name: Hochschule für Kirchenmusik der Evangelischen Kirche von Westfalen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622155
+  identifiers:
+  - identifier: 05tn39y33
+    scheme: ror
+  name: Akademie der Polizei Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622160
+  identifiers:
+  - identifier: 02kraxp86
+    scheme: ror
+  name: SRH Hochschule der populären Künste
+  status: active
+- acronym: HSWT
+  country: DE
+  country_name: Germany
+  id: Q1622145
+  identifiers:
+  - identifier: 00gzkxz88
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften Weihenstephan-Triesdorf
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622193
+  name: Hochschule für Kirchenmusik der Evangelischen Kirche der schlesischen Oberlausitz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622129
+  identifiers:
+  - identifier: 03ggzay52
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften Neu-Ulm
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622151
+  identifiers:
+  - identifier: 05fwp8t64
+    scheme: ror
+  name: Hochschule der Deutschen Bundesbank
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622198
+  identifiers:
+  - identifier: 00jbwpt44
+    scheme: ror
+  name: Hochschule für Medien, Kommunikation und Wirtschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622141
+  identifiers:
+  - identifier: 02nkxrq89
+    scheme: ror
+  name: Hochschule Ruhr West
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622174
+  name: Hochschule der Deutschen Gesetzlichen Unfallversicherung
+  status: active
+- acronym: DHGS
+  country: DE
+  country_name: Germany
+  id: Q1622185
+  identifiers:
+  - identifier: 04j1sr579
+    scheme: ror
+  name: Deutsche Hochschule für Gesundheit und Sport
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622138
+  identifiers:
+  - identifier: 04wdt0z89
+    scheme: ror
+  name: Hochschule Rhein-Waal
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622147
+  identifiers:
+  - identifier: 056tzgr32
+    scheme: ror
+  name: Hochschule Zittau/Görlitz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622188
+  identifiers:
+  - identifier: 00zk46w34
+    scheme: ror
+  name: Hochschule für Internationales Management Heidelberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622135
+  identifiers:
+  - identifier: 059vymd37
+    scheme: ror
+  name: Hochschule Osnabrück
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622159
+  identifiers:
+  - identifier: 026c3xn33
+    scheme: ror
+  name: Hochschule der Wirtschaft für Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622179
+  identifiers:
+  - identifier: 030sdwr92
+    scheme: ror
+  name: Hochschule für Gestaltung Offenbach am Main
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622133
+  identifiers:
+  - identifier: 03zh5eq96
+    scheme: ror
+  name: Hochschule Offenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622149
+  identifiers:
+  - identifier: 04z03cz64
+    scheme: ror
+  name: Hochschule der Bildenden Künste Saar
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622143
+  identifiers:
+  - identifier: 05e5kd476
+    scheme: ror
+  name: Technische Hochschule Ulm
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q538520
+  identifiers:
+  - identifier: 038rep477
+    scheme: ror
+  name: Theologische Hochschule Friedensau
+  status: active
+- acronym: WACKER
+  country: DE
+  country_name: Germany
+  id: Q535517
+  identifiers:
+  - identifier: 01h21cs69
+    scheme: ror
+  name: Wacker Chemie AG
+  status: active
+- acronym: AWI
+  country: DE
+  country_name: Germany
+  id: Q536656
+  identifiers:
+  - identifier: 032e6b942
+    scheme: ror
+  name: Alfred-Wegener-Institut
+  status: active
+- acronym: HfM Weimar
+  country: DE
+  country_name: Germany
+  id: Q536163
+  identifiers:
+  - identifier: 000evwg49
+    scheme: ror
+  name: Hochschule für Musik Franz Liszt Weimar
+  status: active
+- acronym: HSRM
+  country: DE
+  country_name: Germany
+  id: Q542415
+  identifiers:
+  - identifier: 0378gm372
+    scheme: ror
+  name: Hochschule RheinMain
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q662355
+  identifiers:
+  - identifier: 040d40q10
+    scheme: ror
+  name: Kunstakademie Düsseldorf
+  status: active
+- acronym: HMTM
+  country: DE
+  country_name: Germany
+  id: Q657167
+  identifiers:
+  - identifier: 02m7p2c22
+    scheme: ror
+  name: Hochschule für Musik und Theater München
+  status: active
+- acronym: AIP
+  country: DE
+  country_name: Germany
+  id: Q662864
+  identifiers:
+  - identifier: 03mrbr458
+    scheme: ror
+  name: Leibniz-Institut für Astrophysik Potsdam
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q656142
+  identifiers:
+  - identifier: 001zbj766
+    scheme: ror
+  name: Mathematisches Forschungsinstitut Oberwolfach
+  status: active
+- acronym: MPIK
+  country: DE
+  country_name: Germany
+  id: Q316653
+  identifiers:
+  - identifier: 052d0h423
+    scheme: ror
+  name: Max-Planck-Institut für Kernphysik
+  status: active
+- acronym: HHU
+  country: DE
+  country_name: Germany
+  id: Q317032
+  identifiers:
+  - identifier: 024z2rq82
+    scheme: ror
+  name: Heinrich-Heine-Universität Düsseldorf
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q317053
+  identifiers:
+  - identifier: 033eqas34
+    scheme: ror
+  name: Justus-Liebig-Universität Gießen
+  status: active
+- acronym: GSI
+  country: DE
+  country_name: Germany
+  id: Q703993
+  identifiers:
+  - identifier: 02k8cbn47
+    scheme: ror
+  name: GSI Helmholtzzentrum für Schwerionenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q704468
+  identifiers:
+  - identifier: 05ydjnb78
+    scheme: ror
+  name: Universität Passau
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q702524
+  identifiers:
+  - identifier: 03606hw36
+    scheme: ror
+  name: Universität Erfurt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q154561
+  identifiers:
+  - identifier: 05qpz1x62
+    scheme: ror
+  name: Friedrich-Schiller-Universität Jena
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q153987
+  identifiers:
+  - identifier: 0245cg223
+    scheme: ror
+  name: Albert-Ludwigs-Universität Freiburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q707272
+  identifiers:
+  - identifier: 01c1w6d29
+    scheme: ror
+  name: Otto-Friedrich-Universität Bamberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q734324
+  identifiers:
+  - identifier: 010nsgg66
+    scheme: ror
+  name: Technische Universität Braunschweig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q706441
+  identifiers:
+  - identifier: 01wz97s39
+    scheme: ror
+  name: Senckenberg-Naturmuseum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1622130
+  identifiers:
+  - identifier: 03b9q7371
+    scheme: ror
+  name: Hochschule Neubrandenburg
+  status: active
+- acronym: HOME
+  country: DE
+  country_name: Germany
+  id: Q1622126
+  identifiers:
+  - identifier: 04f8x5b20
+    scheme: ror
+  name: Hochschule Merseburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q154804
+  identifiers:
+  - identifier: 03s7gtk40
+    scheme: ror
+  name: Universität Leipzig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380222
+  name: Evangelische Hochschule für Kirchenmusik Halle
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380172
+  identifiers:
+  - identifier: 03vz3qc29
+    scheme: ror
+  name: Evangelische Hochschule Rheinland-Westfalen-Lippe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380205
+  identifiers:
+  - identifier: 007bw6q41
+    scheme: ror
+  name: Evangelische Hochschule Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380217
+  name: Hochschule für Kirchenmusik Dresden
+  status: active
+- acronym: HSBI
+  country: DE
+  country_name: Germany
+  id: Q1391181
+  identifiers:
+  - identifier: 00edvg943
+    scheme: ror
+  name: Hochschule Bielefeld
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380174
+  name: Evangelische Fachhochschule für Sozialwesen Reutlingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380210
+  name: Evangelische Hochschule Moritzburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1388309
+  name: FH KUNST Arnstadt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1377302
+  identifiers:
+  - identifier: 0243j3z07
+    scheme: ror
+  name: Europäische Fernhochschule Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1379386
+  identifiers:
+  - identifier: 003r76697
+    scheme: ror
+  name: Nordakademie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1388301
+  identifiers:
+  - identifier: 04tqgg260
+    scheme: ror
+  name: FH Aachen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1388737
+  identifiers:
+  - identifier: 0387prb75
+    scheme: ror
+  name: FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380175
+  name: Evangelische Fachhochschule Ludwigshafen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380226
+  identifiers:
+  - identifier: 02r724415
+    scheme: ror
+  name: Evangelische Hochschule für Soziale Arbeit Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1391182
+  identifiers:
+  - identifier: 04qj3gf68
+    scheme: ror
+  name: Technische Hochschule Brandenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1380215
+  name: Evangelische Hochschule Tabor
+  status: active
+- acronym: JMU
+  country: DE
+  country_name: Germany
+  id: Q161976
+  identifiers:
+  - identifier: 00fbnyb24
+    scheme: ror
+  name: Julius-Maximilians-Universität Würzburg
+  status: active
+- acronym: Uni Rostock
+  country: DE
+  country_name: Germany
+  id: Q159895
+  identifiers:
+  - identifier: 03zdwsf69
+    scheme: ror
+  name: Universität Rostock
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q156725
+  identifiers:
+  - identifier: 00g30e956
+    scheme: ror
+  name: Universität Hamburg
+  status: active
+- acronym: RWTH Aachen
+  country: DE
+  country_name: Germany
+  id: Q273263
+  identifiers:
+  - identifier: 04xfq0f34
+    scheme: ror
+  name: RWTH Aachen
+  status: active
+- acronym: MPIBP
+  country: DE
+  country_name: Germany
+  id: Q255876
+  identifiers:
+  - identifier: 02panr271
+    scheme: ror
+  name: Max-Planck-Institut für Biophysik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q251061
+  identifiers:
+  - identifier: 03e8s1d88
+    scheme: ror
+  name: Potsdam-Institut für Klimafolgenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q257792
+  identifiers:
+  - identifier: 0387jng26
+    scheme: ror
+  name: Max-Planck-Institut für Kognitions- und Neurowissenschaften
+  status: active
+- acronym: HfM Würzburg
+  country: DE
+  country_name: Germany
+  id: Q260107
+  identifiers:
+  - identifier: 05m1pqv80
+    scheme: ror
+  name: Hochschule für Musik Würzburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q248702
+  identifiers:
+  - identifier: 016zq4f37
+    scheme: ror
+  name: Hochschule für Gestaltung Schwäbisch Gmünd
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q263537
+  identifiers:
+  - identifier: 03hbmgt12
+    scheme: ror
+  name: Technische Hochschule Rosenheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q152838
+  identifiers:
+  - identifier: 01y9bpm73
+    scheme: ror
+  name: Georg-August-Universität Göttingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q317070
+  identifiers:
+  - identifier: 031bsb921
+    scheme: ror
+  name: Universität Mannheim
+  status: active
+- acronym: PHKA
+  country: DE
+  country_name: Germany
+  id: Q1310061
+  identifiers:
+  - identifier: 01t1kq612
+    scheme: ror
+  name: Pädagogische Hochschule Karlsruhe
+  status: active
+- acronym: FHSH 1
+  country: DE
+  country_name: Germany
+  id: Q1291328
+  name: Fachhochschule des Heeres 1
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1305888
+  identifiers:
+  - identifier: 000tpgs13
+    scheme: ror
+  name: Muthesius Kunsthochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1318081
+  identifiers:
+  - identifier: 027b9qx26
+    scheme: ror
+  name: Hochschule Niederrhein
+  status: active
+- acronym: Fraunhofer IZI
+  country: DE
+  country_name: Germany
+  id: Q1313270
+  identifiers:
+  - identifier: 04x45f476
+    scheme: ror
+  name: Fraunhofer-Institut für Zelltherapie und Immunologie
+  status: active
+- acronym: Fraunhofer IAF
+  country: DE
+  country_name: Germany
+  id: Q1315154
+  identifiers:
+  - identifier: 0083ncs46
+    scheme: ror
+  name: Fraunhofer-Institut für Angewandte Festkörperphysik
+  status: active
+- acronym: Hereon
+  country: DE
+  country_name: Germany
+  id: Q1290544
+  identifiers:
+  - identifier: 03qjp1d79
+    scheme: ror
+  name: Helmholtz-Zentrum Geesthacht
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1316819
+  identifiers:
+  - identifier: 04d62a771
+    scheme: ror
+  name: Leibniz-Institut für Agrartechnik und Bioökonomie e.V. (ATB)
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q284992
+  identifiers:
+  - identifier: 047wbd030
+    scheme: ror
+  name: Hochschule Darmstadt
+  status: active
+- acronym: UniBw M
+  country: DE
+  country_name: Germany
+  id: Q283099
+  identifiers:
+  - identifier: 05kkv3f82
+    scheme: ror
+  name: Universität der Bundeswehr München
+  status: active
+- acronym: MPI-DS
+  country: DE
+  country_name: Germany
+  id: Q277098
+  identifiers:
+  - identifier: 0087djs12
+    scheme: ror
+  name: Max-Planck-Institut für Dynamik und Selbstorganisation
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q294098
+  name: AKAD Bildungsgesellschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q309948
+  identifiers:
+  - identifier: 04tsk2644
+    scheme: ror
+  name: Ruhr-Universität Bochum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q828762
+  name: Staatliche Studienakademie Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q772059
+  identifiers:
+  - identifier: 02pp7px91
+    scheme: ror
+  name: Max-Planck-Institut für Bildungsforschung
+  status: active
+- acronym: HKA
+  country: DE
+  country_name: Germany
+  id: Q761708
+  identifiers:
+  - identifier: 01c0m1t63
+    scheme: ror
+  name: Hochschule Karlsruhe
+  status: active
+- acronym: BTK
+  country: DE
+  country_name: Germany
+  id: Q821803
+  identifiers:
+  - identifier: 05f3gj938
+    scheme: ror
+  name: Berliner Technische Kunsthochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q805685
+  name: Baltic College
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q812777
+  identifiers:
+  - identifier: 03afcx965
+    scheme: ror
+  name: Bbw Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q812648
+  identifiers:
+  - identifier: 02r625m11
+    scheme: ror
+  name: Frankfurt University of Applied Sciences
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q795830
+  name: BEST-Sabel-Hochschule Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q827038
+  identifiers:
+  - identifier: 00f2wje32
+    scheme: ror
+  name: Kunsthochschule für Medien Köln
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q822371
+  identifiers:
+  - identifier: 00e4bwe12
+    scheme: ror
+  name: Max-Planck-Institut für extraterrestrische Physik
+  status: active
+- acronym: DESY
+  country: DE
+  country_name: Germany
+  id: Q311801
+  identifiers:
+  - identifier: 01js2sh04
+    scheme: ror
+  name: Deutsches Elektronen-Synchrotron
+  status: active
+- acronym: HMT Leipzig
+  country: DE
+  country_name: Germany
+  id: Q312578
+  identifiers:
+  - identifier: 04msbx814
+    scheme: ror
+  name: Hochschule für Musik und Theater „Felix Mendelssohn Bartholdy“ Leipzig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q168426
+  identifiers:
+  - identifier: 00pd74e08
+    scheme: ror
+  name: Universität Münster
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1667170
+  name: Monrepos
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1649374
+  name: Max-Planck-Institut zur Erforschung der Lebensbedingungen der wissenschaftlich-technischen
+    Welt
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1667017
+  name: International University of Cooperative Education Freiburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1664946
+  identifiers:
+  - identifier: 02se0t636
+    scheme: ror
+  name: Leibniz-Institut für Photonische Technologien
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1665047
+  identifiers:
+  - identifier: 03gjpvv92
+    scheme: ror
+  name: Leibniz-Institut für Wirtschaftsforschung Halle
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1636934
+  name: Humboldt-Viadrina School of Governance
+  status: active
+- acronym: ISM
+  country: DE
+  country_name: Germany
+  id: Q1665159
+  identifiers:
+  - identifier: 04sn8qj61
+    scheme: ror
+  name: International School of Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1652403
+  identifiers:
+  - identifier: 00178eg98
+    scheme: ror
+  name: Max-Planck-Institut für Ornithologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1653042
+  identifiers:
+  - identifier: 0530gbs37
+    scheme: ror
+  name: IB Hochschule für Gesundheit und Soziales
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1665037
+  identifiers:
+  - identifier: 01xc6bj88
+    scheme: ror
+  name: Leibniz-Institut für Werkstofforientierte Technologien
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1666398
+  name: International Business School of Service Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1636610
+  identifiers:
+  - identifier: 02mavc002
+    scheme: ror
+  name: Max-Planck-Institut für ethnologische Forschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1638442
+  identifiers:
+  - identifier: 0080y7t67
+    scheme: ror
+  name: Max-Planck-Institut zur Erforschung multireligiöser und multiethnischer Gesellschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1664845
+  identifiers:
+  - identifier: 02c22vc57
+    scheme: ror
+  name: Leibniz-Institut für Präventionsforschung und Epidemiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1664940
+  identifiers:
+  - identifier: 039s64n79
+    scheme: ror
+  name: Leibniz-Institut für Ost- und Südosteuropaforschung
+  status: active
+- acronym: IDS
+  country: DE
+  country_name: Germany
+  id: Q1664834
+  identifiers:
+  - identifier: 00hvwkt50
+    scheme: ror
+  name: Leibniz-Institut für Deutsche Sprache
+  status: active
+- acronym: Ifw
+  country: DE
+  country_name: Germany
+  id: Q1665030
+  identifiers:
+  - identifier: 032yym934
+    scheme: ror
+  name: Institut für Weltwirtschaft
+  status: active
+- acronym: IU
+  country: DE
+  country_name: Germany
+  id: Q1667281
+  identifiers:
+  - identifier: 04fdat027
+    scheme: ror
+  name: IU Internationale Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2446761
+  name: Touro College Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2478851
+  name: Umwelt-Campus Birkenfeld
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2342693
+  name: Stenden University Berlin
+  status: active
+- acronym: Hannover TIB
+  country: DE
+  country_name: Germany
+  id: Q2399120
+  identifiers:
+  - identifier: 04aj4c181
+    scheme: ror
+  name: Technische Informationsbibliothek (TIB)
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2399066
+  identifiers:
+  - identifier: 033jd5r25
+    scheme: ror
+  name: Technische Hochschule Georg Agricola
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2418970
+  identifiers:
+  - identifier: 03xwwgw91
+    scheme: ror
+  name: Theologische Hochschule Reutlingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2324294
+  identifiers:
+  - identifier: 00zayq578
+    scheme: ror
+  name: Staatliche Akademie der Bildenden Künste Stuttgart
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2418952
+  name: Theologische Hochschule Beuron
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2418963
+  identifiers:
+  - identifier: 05131dq54
+    scheme: ror
+  name: Theologische Hochschule Ewersbach
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q447953
+  identifiers:
+  - identifier: 00613ak93
+    scheme: ror
+  name: Bergische Universität Wuppertal
+  status: active
+- acronym: HfM Karlsruhe
+  country: DE
+  country_name: Germany
+  id: Q448324
+  identifiers:
+  - identifier: 03ps48j85
+    scheme: ror
+  name: Hochschule für Musik Karlsruhe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q448590
+  identifiers:
+  - identifier: 01j9f6752
+    scheme: ror
+  name: Universität Koblenz-Landau
+  status: active
+- acronym: DKFZ
+  country: DE
+  country_name: Germany
+  id: Q449325
+  identifiers:
+  - identifier: 04cdgtt98
+    scheme: ror
+  name: Deutsches Krebsforschungszentrum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q447354
+  identifiers:
+  - identifier: 04qb8nc58
+    scheme: ror
+  name: Technische Universität Clausthal
+  status: active
+- acronym: FZJ
+  country: DE
+  country_name: Germany
+  id: Q697111
+  identifiers:
+  - identifier: 02nv7yv05
+    scheme: ror
+  name: Forschungszentrum Jülich
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q690912
+  identifiers:
+  - identifier: 00b1c9541
+    scheme: ror
+  name: Universität Hohenheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q696757
+  identifiers:
+  - identifier: 04mz5ra38
+    scheme: ror
+  name: Universität Duisburg-Essen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q835440
+  identifiers:
+  - identifier: 0546hnb39
+    scheme: ror
+  name: Universität Konstanz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q835662
+  identifiers:
+  - identifier: 032000t02
+    scheme: ror
+  name: Universität Ulm
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q835529
+  identifiers:
+  - identifier: 005bk2339
+    scheme: ror
+  name: Max-Planck-Institut für Festkörperforschung
+  status: active
+- acronym: Fraunhofer IIS
+  country: DE
+  country_name: Germany
+  id: Q835535
+  identifiers:
+  - identifier: 024ape423
+    scheme: ror
+  name: Fraunhofer-Institut für Integrierte Schaltungen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1934862
+  name: Militärakademie „Friedrich Engels“
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2101676
+  name: Polizeiakademie Niedersachsen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2044046
+  identifiers:
+  - identifier: 01we8bn75
+    scheme: ror
+  name: PFH Private Hochschule Göttingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912110
+  identifiers:
+  - identifier: 0199g0r92
+    scheme: ror
+  name: Max-Planck-Institut für Stoffwechselforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2113846
+  identifiers:
+  - identifier: 01gm0md04
+    scheme: ror
+  name: Provadis School of International Management and Technology
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2120205
+  identifiers:
+  - identifier: 02g2sh456
+    scheme: ror
+  name: Pädagogische Hochschule Schwäbisch Gmünd
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1997776
+  identifiers:
+  - identifier: 02743t710
+    scheme: ror
+  name: Norddeutsche Hochschule für Rechtspflege
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2035460
+  identifiers:
+  - identifier: 01bk10867
+    scheme: ror
+  name: Ostfalia Hochschule für angewandte Wissenschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2207713
+  identifiers:
+  - identifier: 0572yc306
+    scheme: ror
+  name: SRH Hochschule für Wirtschaft und Medien Calw
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2058481
+  identifiers:
+  - identifier: 01mk1hj86
+    scheme: ror
+  name: Paul-Drude-Institut für Festkörperelektronik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2269936
+  identifiers:
+  - identifier: 05jv9s411
+    scheme: ror
+  name: Senckenberg Museum für Naturkunde Görlitz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2111090
+  name: Private Fernfachhochschule Sachsen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912108
+  identifiers:
+  - identifier: 00jpzvz45
+    scheme: ror
+  name: Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2207696
+  identifiers:
+  - identifier: 026kenw55
+    scheme: ror
+  name: SRH Hochschule für Gesundheit
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2120187
+  name: Pädagogische Hochschule Esslingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912116
+  identifiers:
+  - identifier: 02x1q2477
+    scheme: ror
+  name: Max-Planck-Institut zur Erforschung von Gemeinschaftsgütern
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1916267
+  identifiers:
+  - identifier: 001vjqx13
+    scheme: ror
+  name: Medical School Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1922219
+  identifiers:
+  - identifier: 0167r2g29
+    scheme: ror
+  name: Merz Akademie
+  status: active
+- acronym: OKS
+  country: DE
+  country_name: Germany
+  id: Q2035743
+  name: Ostkreuzschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2048456
+  identifiers:
+  - identifier: 01ptm9403
+    scheme: ror
+  name: Palucca Hochschule für Tanz Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2121899
+  identifiers:
+  - identifier: 04xsjvn35
+    scheme: ror
+  name: Quadriga Hochschule Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2088266
+  identifiers:
+  - identifier: 00vcnds94
+    scheme: ror
+  name: Philosophisch-Theologische Hochschule Benediktbeuern
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2015908
+  name: Offiziershochschule des Ministeriums des Innern Artur Becker – Bereitschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2207700
+  identifiers:
+  - identifier: 00yx29a03
+    scheme: ror
+  name: SRH Fernhochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2207700
+  identifiers:
+  - identifier: 05ygfpx91
+    scheme: ror
+  name: SRH Fernhochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2088268
+  identifiers:
+  - identifier: 00717c553
+    scheme: ror
+  name: Philosophisch-Theologische Hochschule Münster
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2120222
+  identifiers:
+  - identifier: 031eq5e98
+    scheme: ror
+  name: Pädagogische Hochschule Weingarten
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2120211
+  identifiers:
+  - identifier: 02j0n6s98
+    scheme: ror
+  name: Pädagogische Hochschule Ludwigsburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912109
+  identifiers:
+  - identifier: 020as7681
+    scheme: ror
+  name: Max-Planck-Institut für die Physik des Lichts
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2088271
+  identifiers:
+  - identifier: 01ej3e061
+    scheme: ror
+  name: Kölner Hochschule für Katholische Theologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2115997
+  identifiers:
+  - identifier: 02qchbs48
+    scheme: ror
+  name: Psychologische Hochschule Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2147736
+  identifiers:
+  - identifier: 02pse8162
+    scheme: ror
+  name: RWI – Leibniz-Institut für Wirtschaftsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q833743
+  name: Internationale Hochschule SDI München
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q832398
+  identifiers:
+  - identifier: 02h1nk258
+    scheme: ror
+  name: Max-Planck-Institut für Hirnforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q832808
+  identifiers:
+  - identifier: 02f5b7n18
+    scheme: ror
+  name: Max-Planck-Institut für Chemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q828771
+  name: Staatliche Studienakademie Plauen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q832219
+  identifiers:
+  - identifier: 03hkr1v69
+    scheme: ror
+  name: Leibniz-Institut für Agrarentwicklung in Transformationsökonomien
+  status: active
+- acronym: GhK
+  country: DE
+  country_name: Germany
+  id: Q833822
+  identifiers:
+  - identifier: 04zc7p361
+    scheme: ror
+  name: Universität Kassel
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q829535
+  identifiers:
+  - identifier: 01vekys64
+    scheme: ror
+  name: Max-Planck-Institut für Quantenoptik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q829654
+  identifiers:
+  - identifier: 0489gab80
+    scheme: ror
+  name: Innovations for High Performance Microelectronics
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q835416
+  identifiers:
+  - identifier: 006g31f33
+    scheme: ror
+  name: Leibniz-Institut für Sonnenphysik (KIS)
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q828773
+  name: Staatliche Studienakademie Glauchau
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q50662
+  identifiers:
+  - identifier: 04cvxnb49
+    scheme: ror
+  name: Goethe-Universität Frankfurt am Main
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1718821
+  name: KMM Hamburg – Institut für Kultur- und Medienmanagement
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1736345
+  name: Katholische Hochschule für Soziale Arbeit
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1736343
+  identifiers:
+  - identifier: 04e7egx43
+    scheme: ror
+  name: Katholische Hochschule für Kirchenmusik Rottenburg
+  status: active
+- acronym: LIAG
+  country: DE
+  country_name: Germany
+  id: Q1813721
+  identifiers:
+  - identifier: 05txczf44
+    scheme: ror
+  name: Leibniz-Institut für Angewandte Geophysik
+  status: active
+- acronym: KatHO NRW
+  country: DE
+  country_name: Germany
+  id: Q1736344
+  identifiers:
+  - identifier: 024nr0776
+    scheme: ror
+  name: Katholische Hochschule Nordrhein-Westfalen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813719
+  identifiers:
+  - identifier: 02jhqqg57
+    scheme: ror
+  name: Leibniz-Institut für Analytische Wissenschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1739877
+  identifiers:
+  - identifier: 01tspta37
+    scheme: ror
+  name: Leibniz-Institut für Polymerforschung Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1736348
+  identifiers:
+  - identifier: 00996c044
+    scheme: ror
+  name: Katholische Hochschule für Sozialwesen Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1791731
+  identifiers:
+  - identifier: 04xx1tc24
+    scheme: ror
+  name: Max-Planck-Institut für Biologie des Alterns
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1804968
+  identifiers:
+  - identifier: 05cj29x94
+    scheme: ror
+  name: Leibniz-Institut für Arbeitsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813727
+  identifiers:
+  - identifier: 04enhpe73
+    scheme: ror
+  name: Leibniz-Institut für Atmosphärenphysik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1773894
+  identifiers:
+  - identifier: 00zbhen47
+    scheme: ror
+  name: Kunsthochschule Berlin-Weißensee
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1667283
+  name: Internationale Hochschule Liebenzell
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1698934
+  name: Thüringer Fachhochschule für öffentliche Verwaltung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1736333
+  name: Katholische Fachhochschule Norddeutschland
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1792452
+  name: Kunsthochschule Mainz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1736342
+  identifiers:
+  - identifier: 00vd2h880
+    scheme: ror
+  name: Katholische Hochschule Freiburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1667439
+  identifiers:
+  - identifier: 0046gcs23
+    scheme: ror
+  name: Max-Planck-Institut für Infektionsbiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1667285
+  name: Internationale Hochschule für Exekutives Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1728041
+  name: University of Management and Communication
+  status: active
+- acronym: MPI-MG
+  country: DE
+  country_name: Germany
+  id: Q1721667
+  identifiers:
+  - identifier: 03ate3e03
+    scheme: ror
+  name: Max-Planck-Institut für molekulare Genetik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1743407
+  identifiers:
+  - identifier: 039a53269
+    scheme: ror
+  name: Leibniz-Institut für Alternsforschung
+  status: active
+- acronym: ZPID
+  country: DE
+  country_name: Germany
+  id: Q1681243
+  identifiers:
+  - identifier: 0165gz615
+    scheme: ror
+  name: Leibniz-Institut für Psychologie (ZPID)
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1757937
+  identifiers:
+  - identifier: 01k6xby62
+    scheme: ror
+  name: SRH Hochschule Hamm
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1792343
+  identifiers:
+  - identifier: 00ztzxf77
+    scheme: ror
+  name: Kunstakademie Münster
+  status: active
+- acronym: UdK Berlin
+  country: DE
+  country_name: Germany
+  id: Q55038
+  identifiers:
+  - identifier: 03eznrw16
+    scheme: ror
+  name: Universität der Künste Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q54166
+  identifiers:
+  - identifier: 014nnvj65
+    scheme: ror
+  name: Technische Hochschule Köln
+  status: active
+- acronym: HfMT Köln
+  country: DE
+  country_name: Germany
+  id: Q55021
+  identifiers:
+  - identifier: 05256tw11
+    scheme: ror
+  name: Hochschule für Musik und Tanz Köln
+  status: active
+- acronym: HfK Bremen
+  country: DE
+  country_name: Germany
+  id: Q466664
+  identifiers:
+  - identifier: 02fstjp34
+    scheme: ror
+  name: Hochschule für Künste Bremen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q464752
+  identifiers:
+  - identifier: 04wqsqf86
+    scheme: ror
+  name: Hochschule für Bildende Künste Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q468181
+  identifiers:
+  - identifier: 01y01jq30
+    scheme: ror
+  name: Hochschule für Musik Carl Maria von Weber Dresden
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q468553
+  identifiers:
+  - identifier: 02kw5st29
+    scheme: ror
+  name: Technische Hochschule Deggendorf
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q702482
+  identifiers:
+  - identifier: 0234wmv40
+    scheme: ror
+  name: Universität Bayreuth
+  status: active
+- acronym: UdS
+  country: DE
+  country_name: Germany
+  id: Q700758
+  identifiers:
+  - identifier: 01jdpyv68
+    scheme: ror
+  name: Universität des Saarlandes
+  status: active
+- acronym: HfMT Hamburg
+  country: DE
+  country_name: Germany
+  id: Q700824
+  identifiers:
+  - identifier: 00dfbms98
+    scheme: ror
+  name: Hochschule für Musik und Theater Hamburg
+  status: active
+- acronym: USAAR
+  country: DE
+  country_name: Germany
+  id: Q700758
+  identifiers:
+  - identifier: 01jdpyv68
+    scheme: ror
+  name: Universität des Saarlandes
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q700245
+  identifiers:
+  - identifier: 02ks53214
+    scheme: ror
+  name: Max-Planck-Institut für chemische Ökologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q317125
+  identifiers:
+  - identifier: 00q644y50
+    scheme: ror
+  name: Hochschule Reutlingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q317087
+  identifiers:
+  - identifier: 00t3r8h32
+    scheme: ror
+  name: Universität zu Lübeck
+  status: active
+- acronym: MPI-CBG
+  country: DE
+  country_name: Germany
+  id: Q317361
+  identifiers:
+  - identifier: 05b8d3w18
+    scheme: ror
+  name: Max-Planck-Institut für molekulare Zellbiologie und Genetik
+  status: active
+- acronym: HfMDK
+  country: DE
+  country_name: Germany
+  id: Q317796
+  identifiers:
+  - identifier: 03c0qqf32
+    scheme: ror
+  name: Hochschule für Musik und Darstellende Kunst Frankfurt am Main
+  status: active
+- acronym: Hamburg ZBW WGL
+  country: DE
+  country_name: Germany
+  id: Q317179
+  identifiers:
+  - identifier: 03a96gc12
+    scheme: ror
+  name: ZBW – Leibniz-Informationszentrum Wirtschaft
+  status: active
+- acronym: Kiel ZBW WGL
+  country: DE
+  country_name: Germany
+  id: Q317179
+  identifiers:
+  - identifier: 03a96gc12
+    scheme: ror
+  name: ZBW – Leibniz-Informationszentrum Wirtschaft
+  status: active
+- acronym: LMU
+  country: DE
+  country_name: Germany
+  id: Q55044
+  identifiers:
+  - identifier: 05591te55
+    scheme: ror
+  name: Ludwig-Maximilians-Universität München
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q322938
+  identifiers:
+  - identifier: 02hdve317
+    scheme: ror
+  name: Staatliche Akademie der Bildenden Künste Karlsruhe
+  status: active
+- acronym: HfM Detmold
+  country: DE
+  country_name: Germany
+  id: Q317855
+  identifiers:
+  - identifier: 03y02pg02
+    scheme: ror
+  name: Hochschule für Musik Detmold
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q321369
+  identifiers:
+  - identifier: 04p61dj41
+    scheme: ror
+  name: Technische Hochschule Mannheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q317859
+  name: Senckenberg Forschungsinstitut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q318118
+  identifiers:
+  - identifier: 0492sjc74
+    scheme: ror
+  name: Max-Planck-Institut für Wissenschaftsgeschichte
+  status: active
+- acronym: GEOMAR
+  country: DE
+  country_name: Germany
+  id: Q323945
+  identifiers:
+  - identifier: 02h2x0161
+    scheme: ror
+  name: Helmholtz-Zentrum für Ozeanforschung Kiel
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q319333
+  identifiers:
+  - identifier: 02f9det96
+    scheme: ror
+  name: Stiftungsuniversität Hildesheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q322886
+  identifiers:
+  - identifier: 00ftx0026
+    scheme: ror
+  name: Hochschule Düsseldorf
+  status: active
+- acronym: FAU
+  country: DE
+  country_name: Germany
+  id: Q40025
+  identifiers:
+  - identifier: 00f7hpc57
+    scheme: ror
+  name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q32120
+  identifiers:
+  - identifier: 05gqaka33
+    scheme: ror
+  name: Martin-Luther-Universität Halle-Wittenberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912082
+  identifiers:
+  - identifier: 00pwgnh47
+    scheme: ror
+  name: Max-Planck-Institut für Kolloid- und Grenzflächenforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912101
+  identifiers:
+  - identifier: 01y9arx16
+    scheme: ror
+  name: Max-Planck-Institut für Chemische Energiekonversion
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912078
+  name: Max-Planck-Institut für Limnologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912088
+  identifiers:
+  - identifier: 0095xwr23
+    scheme: ror
+  name: Max-Planck-Institut für Mikrostrukturphysik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912091
+  identifiers:
+  - identifier: 04dq56617
+    scheme: ror
+  name: Max-Planck-Institut für Psychiatrie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912098
+  identifiers:
+  - identifier: 03vp67w60
+    scheme: ror
+  name: Max-Planck-Institut für Sozialrecht und Sozialpolitik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912086
+  identifiers:
+  - identifier: 01bf9rw71
+    scheme: ror
+  name: Max-Planck-Institut für Physik komplexer Systeme
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912096
+  identifiers:
+  - identifier: 03gj2cq31
+    scheme: ror
+  name: Max-Planck-Institut für Steuerrecht und Öffentliche Finanzen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912104
+  identifiers:
+  - identifier: 026nmvv73
+    scheme: ror
+  name: Max-Planck-Institut für biologische Kybernetik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912080
+  identifiers:
+  - identifier: 05esem239
+    scheme: ror
+  name: Max-Planck-Institut für Meteorologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912106
+  identifiers:
+  - identifier: 04a7f6w43
+    scheme: ror
+  name: Max-Planck-Institut für experimentelle Medizin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912085
+  identifiers:
+  - identifier: 00ez2he07
+    scheme: ror
+  name: Max-Planck-Institut für Mathematik in den Naturwissenschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912093
+  identifiers:
+  - identifier: 023ahcz89
+    scheme: ror
+  name: Max-Planck-Institut für ausländisches und internationales Privatrecht
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q315229
+  identifiers:
+  - identifier: 0189raq88
+    scheme: ror
+  name: Deutsche Sporthochschule Köln
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q315175
+  identifiers:
+  - identifier: 03hzkp562
+    scheme: ror
+  name: Hochschule für Grafik und Buchkunst Leipzig
+  status: active
+- acronym: HM
+  country: DE
+  country_name: Germany
+  id: Q314089
+  identifiers:
+  - identifier: 012k1v959
+    scheme: ror
+  name: Hochschule für angewandte Wissenschaften München
+  status: active
+- acronym: HZB
+  country: DE
+  country_name: Germany
+  id: Q314578
+  identifiers:
+  - identifier: 02aj13c28
+    scheme: ror
+  name: Helmholtz-Zentrum Berlin für Materialien und Energie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q314073
+  identifiers:
+  - identifier: 045495t75
+    scheme: ror
+  name: Ifo Institut für Wirtschaftsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q314684
+  identifiers:
+  - identifier: 02qdc9985
+    scheme: ror
+  name: Technische Hochschule Mittelhessen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q314305
+  identifiers:
+  - identifier: 00yq55g44
+    scheme: ror
+  name: Universität Witten/Herdecke
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q55520282
+  name: NTNM Campus-Bibliothek
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q61943383
+  identifiers:
+  - identifier: 0191jdv19
+    scheme: ror
+  name: Fachhochschule Clara Hoffbauer Potsdam
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q27973252
+  identifiers:
+  - identifier: 03t7jd518
+    scheme: ror
+  name: Duale Hochschule Gera-Eisenach
+  status: active
+- acronym: HSVN
+  country: DE
+  country_name: Germany
+  id: Q53869248
+  name: Hochschule für Verwaltung in Niedersachsen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21036325
+  name: Hochschule der Bayerischen Wirtschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21040608
+  name: Hochschule für Kommunikation und Gestaltung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21040612
+  name: Hochschule für angewandte Pädagogik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21040671
+  name: Fachhochschule Dieburg
+  status: active
+- acronym: UTN
+  country: DE
+  country_name: Germany
+  id: Q56187114
+  identifiers:
+  - identifier: 02sv65x64
+    scheme: ror
+  name: Technische Universität Nürnberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q59536537
+  identifiers:
+  - identifier: 0378v2g76
+    scheme: ror
+  name: ATHENE
+  status: active
+- acronym: Fraunhofer IEE
+  country: DE
+  country_name: Germany
+  id: Q71250662
+  identifiers:
+  - identifier: 05ptp9d64
+    scheme: ror
+  name: Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik
+  status: active
+- acronym: ILS
+  country: DE
+  country_name: Germany
+  id: Q19965029
+  identifiers:
+  - identifier: 02cyskn39
+    scheme: ror
+  name: ILS–Institut für Landes- und Stadtentwicklungsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21040685
+  name: Media Akademie – Hochschule Stuttgart
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q20828993
+  identifiers:
+  - identifier: 0243gzr89
+    scheme: ror
+  name: Max-Planck-Institut für Biologie
+  status: active
+- acronym: Fraunhofer IISB
+  country: DE
+  country_name: Germany
+  id: Q23561231
+  identifiers:
+  - identifier: 04q5rka56
+    scheme: ror
+  name: Fraunhofer-Institut für Integrierte Systeme und Bauelementetechnologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18122149
+  name: Max-Planck-Institut für Zellchemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18287426
+  name: Duale Hochschule Baden-Württemberg Heilbronn
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q55522531
+  name: Deutsches Institut für Fernstudienforschung
+  status: active
+- acronym: MPSD
+  country: DE
+  country_name: Germany
+  id: Q19841613
+  identifiers:
+  - identifier: 0411b0f77
+    scheme: ror
+  name: Max-Planck-Institut für Struktur und Dynamik der Materie
+  status: active
+- acronym: FOM
+  country: DE
+  country_name: Germany
+  id: Q55156
+  identifiers:
+  - identifier: 05m3vpd98
+    scheme: ror
+  name: Fachhochschule für Oekonomie & Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q55518129
+  name: VWA und Berufsakademie Lüneburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18122151
+  name: Max-Planck-Institut zur Erforschung von Wirtschaftssystemen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q40387612
+  identifiers:
+  - identifier: 045tmdc16
+    scheme: ror
+  name: CODE University of Applied Sciences
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q23782301
+  name: Berufsakademie Breitenbrunn
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q66587451
+  name: Digital Business University of Applied Sciences
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q30263706
+  identifiers:
+  - identifier: 03eqwj662
+    scheme: ror
+  name: Leibniz Fachhochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q19963141
+  name: Pädagogische Hochschule Lörrach
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21040613
+  identifiers:
+  - identifier: 05gxhfq53
+    scheme: ror
+  name: Hochschule der Polizei Rheinland-Pfalz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q21040611
+  name: Berlin International University of Applied Sciences
+  status: active
+- acronym: Fraunhofer FKIE
+  country: DE
+  country_name: Germany
+  id: Q18624247
+  identifiers:
+  - identifier: 05nn0gw40
+    scheme: ror
+  name: Fraunhofer-Institut für Kommunikation, Informationsverarbeitung und Ergonomie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q49375801
+  name: Verwaltungsgebäude Löbauer Straße 1
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q60392152
+  name: Pädagogische Hochschule Zwickau
+  status: active
+- acronym: Fraunhofer IMM
+  country: DE
+  country_name: Germany
+  id: Q63681720
+  name: Fraunhofer-Institut für Mikrotechnik und Mikrosysteme
+  status: active
+- acronym: Fraunhofer AISEC
+  country: DE
+  country_name: Germany
+  id: Q21725096
+  identifiers:
+  - identifier: 03w0bbr97
+    scheme: ror
+  name: Fraunhofer-Institut für Angewandte und Integrierte Sicherheit
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q64355120
+  name: Berufsakademie Wilhelmshaven
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q65952781
+  name: Staatliche Studienakademie Leipzig
+  status: active
+- acronym: Fraunhofer IEM
+  country: DE
+  country_name: Germany
+  id: Q28890073
+  identifiers:
+  - identifier: 004nttc42
+    scheme: ror
+  name: Fraunhofer-Institut für Entwurfstechnik Mechatronik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q20828998
+  identifiers:
+  - identifier: 00kck3n79
+    scheme: ror
+  name: Cusanus Hochschule
+  status: active
+- acronym: Institut für Landes- und Stadtentwicklungsforschung
+  country: DE
+  country_name: Germany
+  id: Q19965029
+  identifiers:
+  - identifier: 02cyskn39
+    scheme: ror
+  name: ILS–Institut für Landes- und Stadtentwicklungsforschung
+  status: active
+- acronym: NBS
+  country: DE
+  country_name: Germany
+  id: Q24175530
+  identifiers:
+  - identifier: 0114gzh18
+    scheme: ror
+  name: NBS Northern Business School - Hochschule für Management und Sicherheit
+  status: active
+- acronym: CISPA
+  country: DE
+  country_name: Germany
+  id: Q55436361
+  identifiers:
+  - identifier: 02njgxr09
+    scheme: ror
+  name: CISPA - Helmholtz-Zentrum für Informationssicherheit
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912059
+  identifiers:
+  - identifier: 01c997669
+    scheme: ror
+  name: Max-Planck-Institut für Chemische Physik fester Stoffe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813793
+  identifiers:
+  - identifier: 01ygyzs83
+    scheme: ror
+  name: ZALF
+  status: active
+- acronym: IKZ
+  country: DE
+  country_name: Germany
+  id: Q1813738
+  identifiers:
+  - identifier: 037p86664
+    scheme: ror
+  name: Leibniz-Institut für Kristallzüchtung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912067
+  name: Max-Planck-Institut für Geschichte
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813753
+  identifiers:
+  - identifier: 01zwmgk08
+    scheme: ror
+  name: Leibniz-Institut für Neurobiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813772
+  name: Leibniz-Institut für umweltmedizinische Forschung an der Heinrich-Heine-Universität
+    Düsseldorf
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813740
+  identifiers:
+  - identifier: 02wt6e634
+    scheme: ror
+  name: Leibniz-Institut für Länderkunde
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912065
+  identifiers:
+  - identifier: 022jc0g24
+    scheme: ror
+  name: Max-Planck-Institut für Biologie Tübingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813751
+  identifiers:
+  - identifier: 055s37c97
+    scheme: ror
+  name: Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912041
+  identifiers:
+  - identifier: 04wrg1d30
+    scheme: ror
+  name: Max-Planck-Forschungsstelle für Enzymologie der Proteinfaltung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813756
+  identifiers:
+  - identifier: 02n5r1g44
+    scheme: ror
+  name: Leibniz-Institut für Nutztierbiologie
+  status: active
+- acronym: MSH
+  country: DE
+  country_name: Germany
+  id: Q1881867
+  identifiers:
+  - identifier: 006thab72
+    scheme: ror
+  name: MSH Medical School Hamburg – Fachhochschule für Gesundheit und Medizin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813732
+  identifiers:
+  - identifier: 01nftxb06
+    scheme: ror
+  name: Leibniz-Institut für Gewässerökologie und Binnenfischerei
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912076
+  identifiers:
+  - identifier: 058xzat49
+    scheme: ror
+  name: Max-Planck-Institut für Immunbiologie und Epigenetik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1908482
+  name: Mathias Hochschule Rheine
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813774
+  identifiers:
+  - identifier: 02t26g637
+    scheme: ror
+  name: Leibniz-Institut für ökologische Raumentwicklung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912011
+  identifiers:
+  - identifier: 03jbf6q27
+    scheme: ror
+  name: Max-Born-Institut für Nichtlineare Optik und Kurzzeitspektroskopie
+  status: active
+- acronym: IWM
+  country: DE
+  country_name: Germany
+  id: Q1813768
+  identifiers:
+  - identifier: 03hv28176
+    scheme: ror
+  name: Leibniz-Institut für Wissensmedien
+  status: active
+- acronym: MDC
+  country: DE
+  country_name: Germany
+  id: Q1912019
+  identifiers:
+  - identifier: 04p5ggc03
+    scheme: ror
+  name: Max-Delbrück-Centrum für Molekulare Medizin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813742
+  identifiers:
+  - identifier: 010s54n03
+    scheme: ror
+  name: Leibniz-Forschungsinstitut für Molekulare Pharmakologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1912063
+  identifiers:
+  - identifier: 051yxp643
+    scheme: ror
+  name: Max-Planck-Institut für Biogeochemie
+  status: active
+- acronym: LIKAT
+  country: DE
+  country_name: Germany
+  id: Q1813734
+  identifiers:
+  - identifier: 029hg0311
+    scheme: ror
+  name: Leibniz-Institut für Katalyse
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q1813770
+  identifiers:
+  - identifier: 05nywn832
+    scheme: ror
+  name: Leibniz-Institut für Zoo- und Wildtierforschung
+  status: active
+- acronym: MPIA
+  country: DE
+  country_name: Germany
+  id: Q209610
+  identifiers:
+  - identifier: 01vhnrs90
+    scheme: ror
+  name: Max-Planck-Institut für Astronomie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q233098
+  identifiers:
+  - identifier: 052d1a351
+    scheme: ror
+  name: Museum für Naturkunde Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q191206
+  identifiers:
+  - identifier: 02qnsw591
+    scheme: ror
+  name: Zentrum für Europäische Wirtschaftsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q202952
+  identifiers:
+  - identifier: 024ga3r86
+    scheme: ror
+  name: Hochschule Mittweida
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q224514
+  identifiers:
+  - identifier: 03m2kj587
+    scheme: ror
+  name: Hochschule Hannover
+  status: active
+- acronym: ZZF
+  country: DE
+  country_name: Germany
+  id: Q191269
+  identifiers:
+  - identifier: 005xmsp39
+    scheme: ror
+  name: Leibniz-Zentrum für Zeithistorische Forschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q97368765
+  name: Max-Planck-Institut für Ökonomik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q108940696
+  name: Kolping Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q98676164
+  name: Fachhochschule Kaiser-Wilhelm-Ring 23 in Amberg (D-3-61-000-343#3)
+  status: active
+- acronym: Fraunhofer IGCV
+  country: DE
+  country_name: Germany
+  id: Q74589546
+  identifiers:
+  - identifier: 05xp9bk66
+    scheme: ror
+  name: Fraunhofer-Institut für Gießerei-, Composite- und Verarbeitungstechnik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q96623670
+  name: Staatliche Studienakademie Riesa
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q110489587
+  name: University of Labour
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q85559999
+  identifiers:
+  - identifier: 05wxywg93
+    scheme: ror
+  name: Leibniz-Institut für Finanzmarktforschung SAFE
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q111012341
+  name: Fachhochschule für Bibliotheks- und Dokumentationswesen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q112118377
+  name: Leibniz-Zentrum für Europäische Wirtschaftsforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q117459349
+  name: INU – Innovative Hochschule für angewandte Wissenschaften
+  status: active
+- acronym: Fraunhofer IAPT
+  country: DE
+  country_name: Germany
+  id: Q77075682
+  identifiers:
+  - identifier: 059ne2r23
+    scheme: ror
+  name: Fraunhofer-Einrichtung für Additive Produktionstechnologien
+  status: active
+- acronym: MPI-INB
+  country: DE
+  country_name: Germany
+  id: Q111675906
+  identifiers:
+  - identifier: 02yjyfs84
+    scheme: ror
+  name: Max-Planck-Institut für Neurobiologie des Verhaltens – caesar
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q74673447
+  identifiers:
+  - identifier: 005pfhc08
+    scheme: ror
+  name: Senckenberg Centre for Human Evolution and Palaeoenvironment
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q122575751
+  name: Berufsakademie für Bankwirtschaft
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q122577611
+  name: Berufsakademie Melle
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q122577742
+  name: IBS IT & Business School Oldenburg
+  status: active
+- acronym: RPTU
+  country: DE
+  country_name: Germany
+  id: Q111020102
+  identifiers:
+  - identifier: 01qrts582
+    scheme: ror
+  name: Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q122870890
+  name: GISMA Business School, Campus Potsdam
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q110665671
+  name: SRH University Campus Fürth
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q127256070
+  name: Medizinische Universität Lausitz – Carl Thiem
+  status: active
+- acronym: MPI-NAT
+  country: DE
+  country_name: Germany
+  id: Q110636214
+  identifiers:
+  - identifier: 03av75f26
+    scheme: ror
+  name: Max-Planck-Institut für Multidisziplinäre Naturwissenschaften
+  status: active
+- acronym: Fraunhofer CBP
+  country: DE
+  country_name: Germany
+  id: Q77075644
+  identifiers:
+  - identifier: 011s5nh14
+    scheme: ror
+  name: Fraunhofer-Zentrum für Chemisch-Biotechnologische Prozesse
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q131349392
+  name: Deutsche Fachschule für Blecharbeiter und Installateure
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q71454495
+  name: Königlich-Sächsische Baugewerkenschule Leipzig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q98676149
+  name: Fachhochschule Kaiser-Wilhelm-Ring 23 in Amberg (D-3-61-000-343#4)
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q115755098
+  identifiers:
+  - identifier: 0483qx226
+    scheme: ror
+  name: Leibniz-Zentrum für Archäologie
+  status: active
+- acronym: MPI-BI
+  country: DE
+  country_name: Germany
+  id: Q116756266
+  identifiers:
+  - identifier: 03g267s60
+    scheme: ror
+  name: Max-Planck-Institut für biologische Intelligenz
+  status: active
+- acronym: MPI-BI
+  country: DE
+  country_name: Germany
+  id: Q116756266
+  identifiers:
+  - identifier: 03g267s60
+    scheme: ror
+  name: Max-Planck-Institut für biologische Intelligenz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q104842820
+  identifiers:
+  - identifier: 00tea5y39
+    scheme: ror
+  name: Helmholtz-Institut für Funktionelle Marine Biodiversität an der Universität
+    Oldenburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q851413
+  identifiers:
+  - identifier: 00w7whj55
+    scheme: ror
+  name: Berliner Hochschule für Technik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q871732
+  identifiers:
+  - identifier: 02jgyam08
+    scheme: ror
+  name: Max-Planck-Institut für demografische Forschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q836125
+  identifiers:
+  - identifier: 03e76ya46
+    scheme: ror
+  name: Max-Planck-Institut für biophysikalische Chemie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q835883
+  identifiers:
+  - identifier: 04zb59n70
+    scheme: ror
+  name: Leibniz-Institut für Festkörper- und Werkstoffforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q872180
+  identifiers:
+  - identifier: 05m0ggf57
+    scheme: ror
+  name: Katholische Hochschule Mainz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q870192
+  identifiers:
+  - identifier: 00sngv739
+    scheme: ror
+  name: Herder-Institut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q872595
+  identifiers:
+  - identifier: 03xh9nq73
+    scheme: ror
+  name: Leibniz-Institut für Ostseeforschung Warnemünde
+  status: active
+- acronym: LRZ
+  country: DE
+  country_name: Germany
+  id: Q872555
+  identifiers:
+  - identifier: 05558nw16
+    scheme: ror
+  name: Leibniz-Rechenzentrum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q5062518
+  identifiers:
+  - identifier: 03ty9wj75
+    scheme: ror
+  name: Leibniz-Zentrum Moderner Orient
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2496174
+  identifiers:
+  - identifier: 045y6d111
+    scheme: ror
+  name: Universität Vechta
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2565230
+  identifiers:
+  - identifier: 04p7ekn23
+    scheme: ror
+  name: Westfälische Hochschule Gelsenkirchen Bocholt Recklinghausen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q5395128
+  identifiers:
+  - identifier: 03hass884
+    scheme: ror
+  name: Ernst Ruska-Centrum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2519262
+  name: VWA und Berufsakademie Göttingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2572209
+  identifiers:
+  - identifier: 00vkbtf98
+    scheme: ror
+  name: Wilhelm Büchner Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2778415
+  identifiers:
+  - identifier: 03sry2h30
+    scheme: ror
+  name: Max-Planck-Institut für Gravitationsphysik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q6795128
+  name: Max Planck Institut für Experimentelle Endokrinologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2555215
+  identifiers:
+  - identifier: 00h1x4t21
+    scheme: ror
+  name: Weierstraß-Institut für Angewandte Analysis und Stochastik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2570367
+  name: Wildau Institute of Technology
+  status: active
+- acronym: VCI
+  country: DE
+  country_name: Germany
+  id: Q2513764
+  identifiers:
+  - identifier: 00kvk1853
+    scheme: ror
+  name: Verband der Chemischen Industrie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2557506
+  name: Welfenakademie Braunschweig
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2496408
+  identifiers:
+  - identifier: 021ft0n22
+    scheme: ror
+  name: Universitätsmedizin Göttingen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2718933
+  identifiers:
+  - identifier: 00s4rmz74
+    scheme: ror
+  name: Hochschule Ravensburg-Weingarten
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2586224
+  identifiers:
+  - identifier: 00x67g916
+    scheme: ror
+  name: Allensbach Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2718928
+  identifiers:
+  - identifier: 05myv7q56
+    scheme: ror
+  name: Hochschule Geisenheim
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q4310240
+  identifiers:
+  - identifier: 00ygt2y02
+    scheme: ror
+  name: Ernst Strüngmann Institut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q2646956
+  identifiers:
+  - identifier: 04b404920
+    scheme: ror
+  name: Alice Salomon Hochschule Berlin
+  status: active
+- acronym: FZK
+  country: DE
+  country_name: Germany
+  id: Q11161114
+  name: Forschungszentrum Karlsruhe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q7392824
+  identifiers:
+  - identifier: 01prjcc04
+    scheme: ror
+  name: SRH Hochschule Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q310695
+  identifiers:
+  - identifier: 05n911h24
+    scheme: ror
+  name: Technische Universität Darmstadt
+  status: active
+- acronym: KIT
+  country: DE
+  country_name: Germany
+  id: Q309988
+  identifiers:
+  - identifier: 04t3en479
+    scheme: ror
+  name: Karlsruher Institut für Technologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q54096
+  identifiers:
+  - identifier: 00rcxh774
+    scheme: ror
+  name: Universität zu Köln
+  status: active
+- acronym: TUHH
+  country: DE
+  country_name: Germany
+  id: Q1060
+  identifiers:
+  - identifier: 04bs1pb34
+    scheme: ror
+  name: Technische Universität Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15819802
+  identifiers:
+  - identifier: 03d0yjb51
+    scheme: ror
+  name: IST-Hochschule für Management
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15825520
+  identifiers:
+  - identifier: 04c14rw28
+    scheme: ror
+  name: Leibniz-Institut für Bildungsverläufe
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15529123
+  identifiers:
+  - identifier: 052xgjt73
+    scheme: ror
+  name: Airbus Defence and Space
+  status: active
+- acronym: FHSMP
+  country: DE
+  country_name: Germany
+  id: Q17123097
+  identifiers:
+  - identifier: 00kcgm063
+    scheme: ror
+  name: Fachhochschule für Sport und Management Potsdam
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15804334
+  name: DPFA Hochschule Sachsen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15806008
+  name: Digitalisierung von Schiffsplänen
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q17122136
+  name: Akkon-Hochschule für Humanwissenschaften
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15818931
+  identifiers:
+  - identifier: 04vpsen23
+    scheme: ror
+  name: HSD Hochschule Döpfer
+  status: active
+- acronym: TUHH
+  country: DE
+  country_name: Germany
+  id: Q1060
+  identifiers:
+  - identifier: 04bs1pb34
+    scheme: ror
+  name: Technische Universität Hamburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15811164
+  name: GA Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q16855778
+  name: Praxis-Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q17123645
+  name: VICTORIA | Internationale Hochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18122132
+  name: Max-Planck-Institut für Eiweiß- und Lederforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18122138
+  name: Max-Planck-Institut für Landarbeit und Landtechnik
+  status: active
+- acronym: Hamburg GIGA FB Asien
+  country: DE
+  country_name: Germany
+  id: Q15111127
+  name: GIGA Informationszentrum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15837022
+  name: Nordische Universität
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18122150
+  name: Max-Planck-Institut für Zellphysiologie
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q18122120
+  name: Max-Planck-Institut für Bastfaserforschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15852343
+  identifiers:
+  - identifier: 016p3a611
+    scheme: ror
+  name: VWA Hochschule
+  status: active
+- acronym: MPIEA
+  country: DE
+  country_name: Germany
+  id: Q15834499
+  identifiers:
+  - identifier: 000rdbk18
+    scheme: ror
+  name: Max-Planck-Institut für empirische Ästhetik
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q16320336
+  identifiers:
+  - identifier: 04839sh14
+    scheme: ror
+  name: Medizinische Hochschule Brandenburg Theodor Fontane
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q15119984
+  identifiers:
+  - identifier: 033198s46
+    scheme: ror
+  name: Max-Planck-Institut für Innovation und Wettbewerb
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q464443
+  identifiers:
+  - identifier: 03rkmps36
+    scheme: ror
+  name: Hochschule für Wirtschaft und Recht Berlin
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q459724
+  identifiers:
+  - identifier: 02re32a17
+    scheme: ror
+  name: Hochschule Mainz
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q453821
+  identifiers:
+  - identifier: 041bz9r75
+    scheme: ror
+  name: Hochschule Fulda
+  status: active
+- acronym: MPP
+  country: DE
+  country_name: Germany
+  id: Q463326
+  identifiers:
+  - identifier: 0079jjr10
+    scheme: ror
+  name: Max-Planck-Institut für Physik
+  status: active
+- acronym: HMTMH
+  country: DE
+  country_name: Germany
+  id: Q455331
+  identifiers:
+  - identifier: 00x67m532
+    scheme: ror
+  name: Hochschule für Musik, Theater und Medien Hannover
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q455354
+  identifiers:
+  - identifier: 02hdxnq28
+    scheme: ror
+  name: Deutsches Schifffahrtsmuseum
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q414353
+  name: Akademie für digitale Medienproduktion
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q328274
+  identifiers:
+  - identifier: 01xpfrc74
+    scheme: ror
+  name: Hochschule Flensburg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q324178
+  identifiers:
+  - identifier: 000bxzc63
+    scheme: ror
+  name: Max-Planck-Institut für medizinische Forschung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q338514
+  identifiers:
+  - identifier: 015a98c38
+    scheme: ror
+  name: Accadis Hochschule Bad Homburg
+  status: active
+- acronym: Fraunhofer EMI
+  country: DE
+  country_name: Germany
+  id: Q438787
+  identifiers:
+  - identifier: 00csq2k70
+    scheme: ror
+  name: Fraunhofer-Institut für Kurzzeitdynamik, Ernst-Mach-Institut
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q414258
+  name: Akademie für Darstellende Kunst Baden-Württemberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q389143
+  identifiers:
+  - identifier: 0515m2n86
+    scheme: ror
+  name: Max-Planck-Institut für ausländisches öffentliches Recht und Völkerrecht
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q414327
+  identifiers:
+  - identifier: 010b6ag76
+    scheme: ror
+  name: Akademie für Raumforschung und Landesplanung
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q348411
+  name: Adam-Ries-Fachhochschule
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q414041
+  identifiers:
+  - identifier: 03yxw1t21
+    scheme: ror
+  name: Akademie der Bildenden Künste Nürnberg
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q327772
+  identifiers:
+  - identifier: 059dyrr28
+    scheme: ror
+  name: Leibniz-Institut für Europäische Geschichte
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q327693
+  identifiers:
+  - identifier: 04g5gcg95
+    scheme: ror
+  name: Hochschule Heilbronn
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q22963
+  identifiers:
+  - identifier: 01d30w739
+    scheme: ror
+  name: Deutsche Universität für Verwaltungswissenschaften Speyer
+  status: active
+- acronym: DT
+  country: DE
+  country_name: Germany
+  id: Q9396
+  identifiers:
+  - identifier: 00m8prc86
+    scheme: ror
+  name: Deutsche Telekom
+  status: active
+- country: DE
+  country_name: Germany
+  id: Q24382
+  identifiers:
+  - identifier: 02hpadn98
+    scheme: ror
+  name: Universität Bielefeld
+  status: active

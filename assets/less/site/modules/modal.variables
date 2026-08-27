@@ -1,0 +1,45 @@
+/*******************************
+         Modal Variables
+*******************************/
+@import "../globals/site.variables";
+
+@borderRadius: 20px;
+
+/* Close Icon */
+@closeOpacity: 0.8;
+@closeSize: 1.25em;
+@closeColor: @textColor; // Was "@white" before
+
+@closeHitbox: 1rem;
+@closeDistance: 0.25rem;
+@closeHitBoxOffset: (@closeHitbox - 1rem) / 2;
+@closePadding: @closeHitBoxOffset 0rem 0rem 0rem;
+@closeTop: 1rem; // Was "-(@closeDistance + @closeHitbox)" before
+@closeRight: 1rem; // Was "-(@closeDistance + @closeHitbox)" before
+
+/* Header */
+@headerMargin: 0em;
+@headerVerticalPadding: 1.5rem;
+@headerHorizontalPadding: 1.5rem;
+@headerPadding: @headerVerticalPadding @headerHorizontalPadding;
+@headerBackground: @white;
+@headerColor: @textColor; // Was "@darkTextColor" before
+@headerFontSize: unit((20/@emSize), rem); // Was "@huge" before
+@headerBoxShadow: none;
+@headerFontWeight: @normal;
+@headerFontFamily: @headerFont;
+@headerBorder: none;
+
+/* Content */
+@contentFontSize: 1rem;
+@contentPadding: 1.5em;
+@contentLineHeight: 1.4;
+@contentBackground: #FFFFFF;
+
+/* Modal Actions */
+@actionBorder: none;
+@actionBackground: @white;
+@actionPadding: 1.5em 1.5em;
+@actionAlign: right;
+
+@buttonDistance: 0.75em;

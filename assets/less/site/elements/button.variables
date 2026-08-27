@@ -1,0 +1,121 @@
+/*******************************
+        Button Variables
+*******************************/
+
+@import "../globals/site.variables";
+@import "input.variables";
+
+/*-------------------
+       Element
+--------------------*/
+/* Button */
+@horizontalMargin: 0.5rem;
+@verticalPadding: @6px;
+@horizontalPadding: @12px;
+
+@lineHeight: @20px;
+
+/* Text */
+@fontWeight: @normal;
+@buttonBorderRadius: 8px;
+
+/* Icon */
+@iconHeight: @16px;
+
+
+/*-------------------
+    Button Colors
+--------------------*/
+@buttonBorderColorFocused: 2px solid #1e74a2;
+
+/*--- Primary Buttons---*/
+// default
+@buttonPrimaryTextColor: @textColor;
+@buttonPrimaryColor: @primaryColor;
+@buttonPrimaryBorder: 2px solid @primaryColor;
+// :hover
+@buttonPrimaryTextColorHover: @buttonPrimaryTextColor;
+@buttonPrimaryColorHover: #74bee5;
+@buttonPrimaryBorderHover: 2px solid @buttonPrimaryColorHover;
+// :focus
+@buttonPrimaryTextColorFocus: @buttonPrimaryTextColor;
+@buttonPrimaryColorFocus: @primaryColor;
+@buttonPrimaryBorderFocus: 2px solid @primaryColor;
+// :focus-visible
+@buttonPrimaryTextColorFocusVisible: @buttonPrimaryTextColor;
+@buttonPrimaryColorFocusVisible: @primaryColor;
+@buttonPrimaryBorderFocusVisible: @buttonBorderColorFocused;
+@buttonPrimaryOutlineFocusVisible: none !important;
+// :active
+@buttonPrimaryTextColorActive: @textColor;
+@buttonPrimaryColorActive: #49aadd;
+@buttonPrimaryBorderActive: 2px solid #49aadd;
+// .selected
+@buttonPrimaryTextColorSelected: @white;
+@buttonPrimaryColorSelected: #1e74a2;
+@buttonPrimaryBorderSelected: 2px solid @buttonPrimaryColorSelected;
+
+/*--- Secondary Buttons ---*/
+// default
+@buttonSecondaryTextColor: @textColor;
+@buttonSecondaryColor: #dcdbdb;
+@buttonSecondaryBorder: 2px solid @buttonSecondaryColor;
+// :hover
+@buttonSecondaryTextColorHover: @buttonSecondaryTextColor;
+@buttonSecondaryColorHover: #cbc9c8;
+@buttonSecondaryBorderHover: 2px solid @buttonSecondaryColorHover;
+// :focus
+@buttonSecondaryTextColorFocus: @buttonSecondaryTextColor;
+@buttonSecondaryColorFocus: @buttonSecondaryColor;
+@buttonSecondaryBorderFocus: 2px solid @buttonSecondaryColor;
+// :focus-visible
+@buttonSecondaryTextColorFocusVisible: @buttonSecondaryTextColor;
+@buttonSecondaryColorFocusVisible: @buttonSecondaryColor;
+@buttonSecondaryBorderFocusVisible: @buttonBorderColorFocused;
+@buttonSecondaryOutlineFocusVisible: none !important;
+// :active
+@buttonSecondaryTextColorActive: @textColor;
+@buttonSecondaryColorActive: #b9b7b6;
+@buttonSecondaryBorderActive: 2px solid @buttonSecondaryColorActive;
+// .selected
+@buttonSecondaryTextColorSelected: @white;
+@buttonSecondaryColorSelected: #858280;
+@buttonSecondaryBorderSelected: 2px solid @buttonSecondaryColorSelected;
+
+/*--- Tertiary Buttons ---*/
+// default
+@buttonTertiaryTextColor: @textColor;
+@buttonTertiaryColor: @white;
+@buttonTertiaryBorder: 1px solid @buttonTertiaryColor;
+// :hover
+@buttonTertiaryTextColorHover: @buttonTertiaryTextColor;
+@buttonTertiaryColorHover: #dcdbdb;
+@buttonTertiaryBorderHover: 1px solid @buttonTertiaryColorHover;
+// :focus
+@buttonTertiaryTextColorFocus: @buttonTertiaryTextColor;
+@buttonTertiaryColorFocus: @buttonTertiaryColor;
+@buttonTertiaryBorderFocus: @buttonTertiaryBorder;
+// :focus-visible
+@buttonTertiaryTextColorFocusVisible: @buttonTertiaryTextColor;
+@buttonTertiaryColorFocusVisible: @buttonTertiaryColor;
+@buttonTertiaryBorderFocusVisible: 1px solid #1e74a2;
+@buttonTertiaryOutlineFocusVisible: none !important;
+// :active
+@buttonTertiaryTextColorActive: @buttonTertiaryTextColor;
+@buttonTertiaryColorActive: #cbc9c8;
+@buttonTertiaryBorderActive: 1px solid @buttonTertiaryColorActive;
+// .selected
+@buttonTertiaryTextColorSelected: @white;
+@buttonTertiaryColorSelected: #858280;
+@buttonTertiaryBorderSelected: 1px solid @buttonTertiaryColorSelected;
+
+/*-------------------
+    Button Spacing
+--------------------*/
+
+@horizontalMargin: 0.5rem;
+@verticalPadding: @relative6px;
+@horizontalPadding: @relative12px;
+
+
+@lineHeight: 1.45;

@@ -1,0 +1,19 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or
+  modify it under the terms of the MIT License; see LICENSE file for more
+  details.
+#}
+
+{{ webpack['i18n_app.js'] }}
+{{ webpack['theme.js'] }}
+{{ webpack['base-theme-rdm.js'] }}
+
+<!-- datasafe-RDM: Loads the reactoverrides.js file to override components
+path: datasafe-rdm/site/datasafe_rdm/assets/semantic-ui/js/datasafe_rdm/reactoverrides.js
+-->
+{{ webpack['configure-overridestore.js'] }}
+
+<!-- datasafe-RDM: Loads the i18next.js script to overwrite translations in other invenio modules -->
+{{ webpack['add-translations.js'] }}

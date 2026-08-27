@@ -1,0 +1,229 @@
+/*******************************
+         Static pages
+*******************************/
+
+@import "site.variables";
+
+/* ------------------------------------ */
+/*      Styling of the static pages     */
+/* ------------------------------------ */
+
+#static-page {
+  width: 1280px;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: @textColor;
+
+  h1 {
+    font-size: 31px;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+
+  }
+
+  > div.default-content {
+    max-width: 960px;
+    margin: 2rem auto 11rem;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.05);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background: #FFFFFF;
+    border: none;
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+    border-radius: 16px;
+    padding: 3rem 3rem 6rem 3rem;
+  }
+}
+
+/* ------------------------------------ */
+/*      Styling of the FAQ page         */
+/* ------------------------------------ */
+
+#faq {
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: @textColor;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 1em;
+  }
+
+  p, p + * {
+    color: @tertiaryTextColor;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+  }
+
+  .faq-section {
+    margin-top: 3.5rem;
+
+    .faq-sub-section:last-of-type > p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  #faq-sidebar {
+
+    .toc-heading {
+      margin-top: 26px;
+      margin-bottom: 21px;
+    }
+
+    border-right: 1px solid #b9b7b6;
+  }
+
+  .faq-nav-options {
+    margin-bottom: 2rem;
+  }
+
+  .faq-link {
+    text-decoration: none;
+
+    &:hover i {
+      color: #636363;
+    }
+
+    i {
+      color: transparent;
+    }
+  }
+
+  #faq-toc-wrapper {
+    top: 163px;
+    position: sticky;
+    margin-bottom: 1.5rem;
+  }
+
+  #faq-toc {
+    margin-bottom: 1.5rem;
+  }
+
+  #faq-main-content {
+    margin-top: 71px;
+    margin-bottom: 11rem;
+  }
+
+  #faq-content {
+    padding: 3rem;
+  }
+
+  #faq-toc a {
+    text-decoration: none !important;
+    color: @textColor !important;
+  }
+
+  .faq-highlight {
+    border-radius: 8px;
+    background-color: @highlightSearchColor; // Was rgba(249, 224, 115, 0.4) before
+    padding: 16px;
+    // This gives the article some padding without taking it out of line
+    margin: -16px;
+    // This compensates for the negativ margins, alas not at the end of a section, but theres enough space
+    & + *::before {
+      content: "";
+      display: block;
+      margin-top: 3rem;
+    }
+  }
+
+  .fade-bg-color {
+    background-color: transparent;
+    transition: all 3s ease-out;
+  }
+
+
+  .toc-entry {
+    margin-bottom: 1em;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px !important;
+  }
+
+  .toc-entry:hover {
+    margin-bottom: 1em;
+    background-color: @lightestColor;
+  }
+
+  .toc-entry.active {
+    margin-bottom: 1em;
+    background-color: @lightestColor;
+    border-radius: 5px;
+  }
+}
+
+
+#terms {
+
+  h1 {
+    font-size: 1.9375rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  ul {
+    padding-left: 16px;
+  }
+
+  #terms-toc {
+    margin: 1.5rem 0;
+    padding-left: 0;
+    list-style-type: none;
+    color: @tertiaryTextColor;
+  }
+
+  #terms-license {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 4rem;
+    font-size: 13px;
+    text-wrap: balance;
+    word-break: keep-all;
+
+    img {
+      height: 25px;
+    }
+  }
+}
+
+#credits {
+  ul {
+    padding-left: 1rem;
+  }
+}

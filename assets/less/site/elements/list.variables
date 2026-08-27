@@ -1,0 +1,15 @@
+/*******************************
+             List
+*******************************/
+@import "../globals/site.variables";
+
+/*-------------------
+      Elements
+--------------------*/
+
+/* Header */
+@itemHeaderFontWeight: @normal;
+@itemHeaderColor: @textColor;
+
+/* Description */
+@itemDescriptionColor: @tertiaryTextColor;

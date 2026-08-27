@@ -1,0 +1,134 @@
+/*******************************
+         Form Overrides
+*******************************/
+
+@import "./form.variables";
+@import "../globals/site.variables";
+
+/* --------------- */
+/*   Deposit Form  */
+/* --------------- */
+
+/*--- error labels---*/
+
+// Invenio style  für error labels auf eigenen Seiten
+.ui.prompt.label.error {
+  white-space: normal;
+  background: #FFFFFF !important;
+  border: 1px solid #E0B4B4 !important;
+  color: #9F3A38 !important;
+}
+
+/* ----------------------------- */
+/*   General form input styling  */
+/* ----------------------------- */
+
+// Form inputs
+.ui.form {
+     // Exclude fields with certain classes
+  .fields ~ .field.bg-white:not(.invenio-select-field):not(.invenio-remote-select-field):not(.search):not(.dropdown):not(.selection):not(.additional-titles),
+  .field:not(.bg-white):not(.invenio-remote-select-field):not(.invenio-select-field):not(.search):not(.dropdown):not(.selection):not(.additional-titles) {
+
+        // Exclude .react-select-dropdown__input inside .react-select-dropdown__input-container
+        :not(.react-select-dropdown__input-container) > input:not([type]),
+        :not(.react-select-dropdown__input-container) > input[type="date"],
+        :not(.react-select-dropdown__input-container) > input[type="datetime-local"],
+        :not(.react-select-dropdown__input-container) > input[type="email"],
+        :not(.react-select-dropdown__input-container) > input[type="number"],
+        :not(.react-select-dropdown__input-container) > input[type="password"],
+        :not(.react-select-dropdown__input-container) > input[type="search"],
+        :not(.react-select-dropdown__input-container) > input[type="tel"],
+        :not(.react-select-dropdown__input-container) > input[type="time"],
+        :not(.react-select-dropdown__input-container) > input[type="text"]:not(.search),
+        :not(.react-select-dropdown__input-container) > input[type="file"],
+        :not(.react-select-dropdown__input-container) > input[type="url"] {
+
+
+      &:hover {
+        background-color: #dcdbdb !important;
+        border-color: #dcdbdb !important;
+      }
+
+      &::selection {
+        color: @textColor;
+      }
+
+      &:focus {
+        border: 2px solid #1e74a2 !important;
+        background-color: @white !important;
+      }
+
+    }
+
+    &.error input {
+      border: 2px solid @negativeBorderColor !important;
+      background-color: @negativeBackgroundColor !important;
+      color: @negativeBorderColor !important;
+      padding: 6px 11px !important;
+
+      &::placeholder {
+        color: @negativeBorderColor !important;
+      }
+    }
+  }
+}
+
+// Form inputs on white background
+.ui.form {
+  // Exclude fields with certain classes
+  .fields ~ .field.bg-white:not(.invenio-select-field):not(.invenio-remote-select-field):not(.search):not(.dropdown):not(.selection):not(.additional-titles),
+  .field.bg-white:not(.invenio-select-field):not(.invenio-remote-select-field):not(.search):not(.dropdown):not(.selection):not(.additional-titles) {
+
+    input:not([type]),
+    input[type="date"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="text"]:not(.search),
+    input[type="file"],
+    input[type="url"] {
+      outline: none;
+      transition: background-color 0.1s ease, border 0.1s ease, border-color 0.1s ease;
+      border: 1px solid #b9b7b6;
+      padding: 7px 12px;
+
+      &:hover {
+        border: 1px solid #b9b7b6 !important;
+        padding: 7px 12px;
+        background-color: @offWhite;
+      }
+
+      &::selection {
+        background-color: transparent;
+        color: @textColor;
+      }
+
+      &:disabled {
+        border: 1px solid #979492 !important;
+        opacity: 1 !important;
+      }
+
+      &:focus {
+        border: 1px solid #1e74a2 !important;
+        outline: 1px solid #1e74a2 !important;
+        background-color: @white !important;
+      }
+
+    }
+
+    &.error input {
+      border: 2px solid @negativeBorderColor !important;
+      background-color: @negativeBackgroundColor !important;
+      color: @negativeBorderColor !important;
+      padding: 6px 11px !important;
+
+      &::placeholder {
+        color: @negativeBorderColor !important;
+      }
+    }
+  }
+}

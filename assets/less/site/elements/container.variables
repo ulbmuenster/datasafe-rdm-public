@@ -1,0 +1,18 @@
+/*******************************
+            Container
+*******************************/
+@import "../globals/site.variables";
+
+/*-------------------
+       Element
+--------------------*/
+
+/* Minimum Gutter is used to determine  the maximum container width for a given device */
+
+@maxWidth: 100%;
+
+/* Devices */
+
+@computerMinimumGutter: 0em; // was "(@emSize  * 1.5)" before
+@computerWidth: @computerBreakpoint; // Was "@computerBreakpoint - (@computerMinimumGutter * 2) - @scrollbarWidth" before
+@computerGutter: auto;

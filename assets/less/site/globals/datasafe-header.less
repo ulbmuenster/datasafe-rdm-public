@@ -1,0 +1,276 @@
+/*******************************
+         Header Overrides
+*******************************/
+
+@import "./site.variables";
+@import "../elements/button.variables";
+
+/* -------------------- */
+/* invenio menu styling */
+/* -------------------- */
+
+.theme.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  box-shadow: none;
+  border-bottom: 1px solid @borderColor;
+
+  //This pushes the messages shadow over the headers bottom border
+  .ui.message, .ui.attached.message {
+    border-radius: 0;
+  }
+}
+
+//This also provides the basic styles to the header on the login page
+#header-nav, #login-header > div.content {
+  background-image: none;
+  background-color: #fff;
+  border-color: transparent;
+
+  #header-nav-content {
+    max-width: @computerBreakpoint;
+    margin: 0 auto;
+    height: 80px;
+
+    .column {
+      text-align: center;
+      align-self: center;
+    }
+  }
+
+  .logo {
+    display: block;
+    align-self: center;
+    width: 150px;
+    height: 41.45px;
+    margin-left: .5em;
+  }
+
+  .sitename {
+    width: 100%;
+
+    a#title-link {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #4d8199;
+    }
+  }
+
+  #datasafe-logo {
+    height: 36px;
+
+  }
+
+  h1#title {
+    height: 36px;
+    line-height: 36px;
+    margin: 0 0 0 unit((10 / @emSize), em);
+    font-size: unit((20 / @emSize), rem);
+    font-weight: lighter;
+    color: #4d8199;
+  }
+
+  .login {
+    grid-column: right;
+    justify-self: end;
+    align-self: center;
+    margin-right: 2em;
+
+  }
+
+}
+
+#sub-header-nav {
+  background: #e6e6e6;
+
+  #sub-header-nav-content {
+    max-width: @computerBreakpoint;
+    height: inherit;
+    margin: 0 auto;
+  }
+
+  #faq-button {
+    height: 36px;
+    width: 36px;
+    padding: 4px !important;
+
+  }
+
+  #language-selector {
+    height: 36px;
+    width: 36px;
+    padding: 4px !important;
+  }
+
+  #language-code-form {
+    height: 36px;
+  }
+
+  //Language selector dropdown: Hide the label
+  #lang-code-label {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #lang-code {
+    min-width: 5em;
+    //  Remove dropdown icon
+    -moz-appearance: none;
+    // for Chrome
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  #language-menu {
+    button {
+      font-family: "MetaWebPro", sans-serif;
+    }
+
+    button:first-of-type {
+      width: 100%;
+    }
+  }
+}
+
+#language-menu,
+#user-profile-menu {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 16px !important;
+  border: 1px solid @midWhite;
+  margin-top: 0.4em !important;
+
+  & > .item {
+    padding: 11px 14px;
+    border: 2px solid @white;
+    transition: border 0.1s ease, background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
+
+  }
+
+  & > .item:first-of-type {
+    margin-top: -1px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+
+  & > .item:last-of-type {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+
+  & > .item.selected {
+    background-color: @offWhite;
+    border: 2px solid @offWhite;
+    font-weight: normal;
+  }
+
+  & > .item:hover {
+    background-color: @offWhite;
+    border: 2px solid @offWhite;
+  }
+
+  & > .item:focus-visible {
+    outline: none !important;
+    border: 2px solid @focusedFormBorderColor;
+  }
+}
+
+
+.flex-grid {
+  display: flex;
+}
+
+.flex-column-left {
+  display: flex;
+  flex: 1;
+  justify-content: start;
+  align-items: center;
+  padding-left: 1.5em;
+
+  & > div {
+    margin-right: 1em;
+  }
+}
+
+.flex-column-right {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  padding-right: 1.5em;
+  row-gap: 0.5em;
+}
+
+/*-------------------
+    Header Buttons
+--------------------*/
+
+a#my-datasafe-link {
+  height: @subHeaderNavHeight;
+  line-height: @subHeaderNavHeight;
+  border-top: 2px solid #e6e6e6;
+  text-wrap: nowrap;
+  color: @textColor;
+  text-decoration: none;
+  padding: 0 0.75em;
+
+  &:hover {
+    background-color: @midWhite;
+    border-top: 2px solid @midWhite;
+  }
+
+  &.active {
+    color: #165577;
+    border-bottom: 2px solid #165577;
+  }
+
+  &:focus-visible {
+    border: 2px solid @focusedFormBorderColor;
+    outline: none !important;
+    padding: 0 calc(0.75em - 2px);
+    //line-height: calc(@subHeaderNavHeight - 2px);
+  }
+}
+
+// Info button: Make the icon centered
+#information-button {
+  width: 36px;
+
+  i {
+    //margin-top: 1px !important;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+//User dropdown button
+#user-profile-dropdown:focus-visible {
+  outline: 2px solid #1e74a2;
+  border-radius: 8px;
+
+
+}
+
+#user-profile-dropdown-btn {
+  width: 36px;
+  height: 36px;
+  margin-right: 0;
+  padding: 0;
+
+  span {
+    //to center the initials vertically
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: @largestMobileScreen) {
+  div.flex-column-left {
+    padding: 0;
+  }
+}
+

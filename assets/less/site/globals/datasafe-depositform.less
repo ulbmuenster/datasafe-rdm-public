@@ -1,0 +1,652 @@
+/***************************************
+         Deposit Form  Overrides
+***************************************/
+
+@import "../elements/icon.variables";
+@import "site.variables";
+
+/*-------------------------------------------------------------------*/
+/*                       deposit form styling                        */
+/*-------------------------------------------------------------------*/
+#deposit-form {
+  height: 100%;
+
+  label.helptext {
+    color: @tertiaryTextColor;
+    font-size: 16px;
+  }
+
+  #delete-button {
+    margin-right: 0;
+  }
+
+  .ui.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    #rdm-deposit-form {
+      height: inherit;
+      background-color: @offWhite;
+      padding: 1.5em;
+
+      div.ui.accordion {
+        div.content.active {
+          padding: .5em;
+        }
+      }
+    }
+  }
+
+  .ui.visible.flashed.warning.message {
+    background-color: @negativeBackgroundColor;
+    color: @secondaryTextColor;
+
+    i.exclamation.triangle {
+      color: @negativeColor;
+    }
+
+    a {
+      color: @tertiaryTextColor;
+    }
+
+    a:visited {
+      color: @secondaryTextColor
+    }
+
+    a:hover {
+      color: #625e5b;
+
+      .ui.circular.label {
+        background-color: @white;
+      }
+    }
+
+    .ui.circular.label {
+      margin-left: 0.5em;
+      color: @negativeTextColor;
+      border: 1px solid @negativeBorderColor;
+      background-color: @negativeBackgroundColor;
+    }
+  }
+}
+
+/*-------------------------------------------------------------------*/
+/*                            Draft title                            */
+/*-------------------------------------------------------------------*/
+div#draft-title {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 1.5em;
+  flex-wrap: wrap;
+
+
+  div#draft-title-icon {
+    flex: 0 0;
+    height: 64px;
+    width: 64px;
+  }
+
+  div#draft-title-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    column-gap: 1em;
+    min-width: 1px;
+    flex-wrap: wrap;
+
+
+    div#text {
+      //width: 100%;
+      overflow: hidden;
+      word-wrap: break-word;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+      color: #a8a6a4;
+      margin: 0;
+    }
+
+    h3 {
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+
+  div#draft-title-actions {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+
+    button {
+      max-height: 36px;
+
+      .trash.alternate.outline.icon {
+        margin-right: 0.5em !important;
+      }
+    }
+  }
+}
+
+/*-------------------------------------------------------------------*/
+/*                          Files Accordion                          */
+/*-------------------------------------------------------------------*/
+#deposit-form {
+
+  i.trash.alternate.outline {
+    color: @textColor;
+    font-size: 16px;
+  }
+
+  .ui.horizontal.list > .item {
+    margin-left: 0.5em;
+  }
+}
+
+/* -------------- */
+/*  Progress bar  */
+/* -------------- */
+
+div.ui.progress {
+  border-radius: 4px;
+
+  div.bar {
+    border-radius: 4px;
+  }
+}
+
+/*-------------------------------------------------------------------*/
+/*                      Access rights Accordion                      */
+/*-------------------------------------------------------------------*/
+// This also styles the Share modal on the record landing page
+div.share-content.content {
+
+  #access-helptext {
+    color: #a8a6a4;
+  }
+
+  div.ui.tiny.label.primary {
+    color: @textColor
+  }
+
+  button {
+    padding: 0.28125rem 0.75rem;
+
+    i {
+      margin-right: 0.5em !important;
+    }
+  }
+
+  h5 {
+    color: @tertiaryTextColor;
+    font-size: unit((13 / @emSize), rem);
+  }
+}
+
+// reduce the whitespace in the add people modal
+.selected-members-header {
+  background: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0.5em 0;
+}
+
+// Style the persons pills in the add person modal
+#add-people-modal {
+  div.divider.default.text {
+    color: #cbc9c8;
+  }
+
+  button.selected-member {
+    padding: 0;
+    background: none;
+    margin: 5px 10px 5px 0;
+
+    div.ui.label {
+      font-size: unit((13 / @emSize), rem);
+      font-weight: normal;
+      line-height: 20px;
+      color: @textColor;
+      padding: 4px 8px;
+      background-color: unset;
+      border: 1px solid #74706d;
+      border-radius: 18px;
+
+      i {
+        font-size: 0.6151em !important;
+      }
+    }
+  }
+
+  // Adjust font-sizes of the Acces rights labels
+  div.ui.items div.item {
+    label:first-of-type {
+      font-size: unit((13 / @emSize), rem);
+    }
+
+    div.meta {
+      font-size: unit((13 / @emSize), rem);
+      line-height: 1.45;
+      color: @placeholderTextColor;
+    }
+  }
+}
+
+@media (max-width: 1279px) {
+  .ui.table:not(.unstackable) tbody tr td[data-label] {
+    display: grid;
+    grid-template-columns: [col1-start] 20% [col2-start] 80% [end];
+    align-items: center;
+  }
+}
+
+/*-------------------------------------------------------------------*/
+/*                         Metadata Accordion                        */
+/*-------------------------------------------------------------------*/
+div#metadata-section {
+
+  /* TOX tinymce editor */
+
+  div.tox.tox-tinymce {
+    border: 1px solid @borderColor;
+    border-radius: 8px;
+
+    div.tox-editor-header {
+      box-shadow: none;
+      border-bottom: 1px solid @borderColor;
+      background-color: #f9f9f9;;
+    }
+
+    button.tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke {
+      background-color: @offWhite;
+      border-radius: 8px;
+    }
+
+    div.tox-toolbar__primary {
+      background-color: #f9f9f9;
+    }
+
+    .helptext {
+      font-size: unit((13 / @emSize), rem);
+    }
+  }
+
+  /*----------------------------------------------------------------*/
+  /*                         Title Component                        */
+  /*----------------------------------------------------------------*/
+
+  div.title-field {
+    margin-bottom: 0 !important;
+
+    & > label[for="metadata.title"] {
+      font-size: 1rem;
+      font-weight: normal;
+      margin-bottom: .75em;
+    }
+  }
+
+  div.additional-titles {
+    margin-bottom: 1em !important;
+
+    div.fields.invenio-group-field {
+      margin-top: 0 !important;
+    }
+
+    & > label:first-of-type {
+      margin-bottom: 0 !important;
+    }
+
+    div.fields > div.field {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+
+      button:last-of-type {
+        margin-top: 12px;
+      }
+    }
+
+    div.fields.invenio-group-field.additional-title-item {
+      background-color: #f5f5f5 !important;
+      margin-top: 12px !important;
+      padding: 0 !important;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    .sixteen.wide.field {
+      margin-bottom: 12px !important;
+      padding: 0 !important;
+    }
+
+    .fifteen.wide.column {
+      padding-right: 0 !important;
+
+      .two.column.grid {
+        margin-top: -12px !important;
+
+        .column {
+          padding-top: 12px !important;
+          margin-bottom: -8px !important;
+        }
+
+        .column:first-of-type {
+          padding-right: 6px !important;
+        }
+
+        .column:last-of-type {
+          padding-left: 6px !important;
+        }
+      }
+    }
+
+    .one.wide.column {
+      padding-left: 0 !important;
+
+      .field {
+        width: 16px;
+        height: 16px;
+        margin-left: auto;
+      }
+
+      i.close-btn, i.close.icon {
+        cursor: pointer;
+        margin: 0 !important;
+      }
+    }
+  }
+
+  /*-----------------------------------------------------------------*/
+  /*                      Creatibutors Component                     */
+  /*-----------------------------------------------------------------*/
+
+  div.field.additional-titles + div.required.field {
+    margin: 2em 0 !important;
+
+    .description > .creatibutor {
+      line-height: 20px;
+    }
+
+    & > label:first-of-type {
+      font-size: 1rem;
+      font-weight: normal;
+      margin-bottom: .75em;
+    }
+
+    & > div.ui.list {
+      border: 1px solid @borderColor;
+      border-radius: 8px;
+      padding: .78125em .75em;
+      margin-bottom: 12px;
+
+      div.item.deposit-drag-listitem:last-of-type {
+        margin-bottom: 0;
+      }
+
+      div.item.deposit-drag-listitem,
+      div.item.deposit-drag-listitem .content {
+        font-size: 0.8125rem;
+        line-height: 30px;
+        margin: 0;
+      }
+    }
+
+    // Hide an empty creators list
+    & > div.ui.list.empty {
+      padding: 0;
+      border: none;
+    }
+
+    button:last-of-type {
+      margin: 0;
+    }
+  }
+
+  /*----------------------------------------------------------------*/
+  /*                      Description Component                     */
+  /*----------------------------------------------------------------*/
+
+  div[id="metadata.description"] {
+    margin-bottom: 12px !important;
+
+    label:first-of-type {
+      font-size: 1rem;
+      font-weight: normal;
+      margin-bottom: .75em;
+    }
+
+
+    & + div.field.additional-descriptions {
+      margin-top: .5em;
+      margin-bottom: 2em !important;
+
+      .field-label-class.invenio-field-label {
+        margin-bottom: 0 !important;
+      }
+
+      div.fields {
+        div.field.align-self-end.mt-15 {
+          margin-top: 0 !important;
+        }
+      }
+    }
+  }
+
+  // Additional descriptions
+  div.field.additional-descriptions {
+
+    // tiny-mce tox editor in additional descriptions
+    div.tox.tox-tinymce {
+      //border: 1px solid @borderColor;
+      border: none;
+      border-radius: 8px;
+
+      div.tox-editor-header {
+        box-shadow: none;
+        border-bottom: 1px solid @borderColor;
+        background-color: #ffffff;;
+      }
+
+      button.tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke {
+        background-color: @offWhite;
+        border-radius: 8px;
+      }
+
+      div.tox-toolbar__primary {
+        background-color: #ffffff;
+      }
+    }
+
+    div[id*="metadata.additional_descriptions."] {
+      margin-bottom: 12px !important;
+    }
+
+    .ui.grid.description:last-of-type {
+      margin-bottom: 12px !important;
+
+      > .row {
+        background-color: #f5f5f5;
+        padding: 16px 0 !important;
+      }
+    }
+
+    .fifteen.wide.column {
+      padding-right: 0 !important;
+
+      .ui.grid {
+        .column:first-of-type {
+          padding-right: 6px;
+        }
+
+        .column:last-of-type {
+          padding-left: 6px;
+        }
+      }
+    }
+
+
+    .one.wide.column {
+      padding-left: 0 !important;
+
+      .field {
+        width: 16px;
+        height: 16px;
+        margin-left: auto;
+      }
+
+      i.close-btn, i.close.icon {
+        cursor: pointer;
+        margin: 0 !important;
+      }
+    }
+  }
+
+  /*----------------------------------------------------------------*/
+  /*                   Subjects/Keywords/Tags Component             */
+  /*----------------------------------------------------------------*/
+
+  label[for="metadata.subjects"] {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+
+  div#subjects-row {
+    margin-bottom: 2em;
+  }
+
+  /*-------------------------------------------------------------------*/
+  /*                         Dates Component                           */
+  /*-------------------------------------------------------------------*/
+
+  label[for="metadata.dates"] {
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+
+  input[id="metadata.dates.0.date"] {
+    margin-bottom: .25em;
+  }
+
+  /*-------------------------------------------------------------------*/
+  /*                        Funding Component                          */
+  /*-------------------------------------------------------------------*/
+
+  div#datasafe-funding-field {
+
+    label[for="metadata.funding"] {
+      margin-bottom: .75em;
+    }
+
+    .ui.list {
+      font-size: .8125rem;
+      border: 1px solid @borderColor;
+      border-radius: 8px;
+      padding: .75em;
+      margin-bottom: 12px;
+
+
+      .funding-field-item {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+
+        &:after {
+          content: none;
+        }
+
+        button:last-of-type {
+          margin-right: 0;
+        }
+      }
+
+      .funding-field-item:not(:last-of-type) {
+        margin-bottom: .75em;
+      }
+
+      .funder-name {
+        color: @secondaryTextColor;
+        line-height: 1.45;
+      }
+
+      .fundingid {
+        color: @tertiaryTextColor;
+        line-height: 1.45;
+      }
+
+      div.field > button:last-of-type {
+        padding-top: .5em;
+      }
+    }
+  }
+}
+
+/*-------------------------------------------------------------------*/
+/*                              Sidebar                              */
+/*-------------------------------------------------------------------*/
+#deposit-sidebar {
+  padding-left: .5em;
+  // This keeps the draft box in the deposit form from scrolling under the header
+
+  div:first-child {
+    position: sticky;
+    top: calc(@headerTotalHeight + 1.5em);
+  }
+
+  div.ui.raised.card {
+    padding: 0;
+  }
+
+
+  .row:first-of-type > .column:first-of-type {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+  }
+
+  div.content:nth-of-type(2) {
+    border-top: 1px solid #cbc9c8;
+  }
+
+  .column {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .ui.grid > .neutral.row, .ui.grid > .positive.row {
+    background-color: unset !important;
+
+    & > div {
+      text-align: left;
+    }
+  }
+}
+
+#save-column {
+  padding-top: 12px;
+  padding-bottom: 0;
+}
+
+#publish-column {
+  padding-top: 8px;
+}
+
+
+/*-------------------------------------------------------------------*/
+/*                          Media queries                            */
+/*-------------------------------------------------------------------*/
+// Keep custom padding in mobile and tablet view
+@media screen and (max-width: calc(@computerBreakpoint - 1px)) {
+
+  #deposit-sidebar {
+    padding-left: 1em;
+  }
+}

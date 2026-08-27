@@ -1,0 +1,87 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{% extends "invenio_communities/base.html" %}
+{%- set title = _("About datasafe") -%}
+
+{%- block page_body %}
+  <div id="about">
+    <div class="about-content">
+      <section id="about-hero" class="ui grid"
+               style="background-image: url({{ url_for('static', filename='images/about_page/about-hero-background.jpg') }})">
+
+        <div class="row ">
+          <h1>datasafe </h1>
+          <p>{{ _("Fast and secure archiving of your <br> research data for 10 years.") }}</p>
+        </div>
+
+        <!-- TODO: add a screenshot of your own instance here -->
+      </section>
+      <section id="about-content">
+        <article>
+        <h1>{{ _("About datasafe") }}</h1>
+        <p>{{ _("datasafe-RDM is an InvenioRDM-based research data archive originally developed by the University of
+              Münster to let researchers archive research data non-publicly for a fixed retention period free of
+              charge. This public template repository has had University of Münster-specific branding, contact
+              details, and internal integrations removed — adapt it to describe your own deployment.") }}</p>
+
+        <p class="part">{{ _("Our repository is based on the InvenioRDM framework developed at the European Organisation for
+              Nuclear Research (CERN), which is also the basis for ") }}</p>
+        <a href="https://zenodo.org/" target="_blank">Zenodo.org</a>
+        <p class="part">{{ _(". By participating in collaborative efforts to
+              improve this framework, we contribute our expertise while benefiting from the developments of the
+              international community.") }}</p>
+          </article>
+        <div class="ui grid">
+          <div class="three column center aligned row">
+            <div class="column">
+              <div class="ui image bullet-point">
+                <img src="{{ url_for('static', filename='images/about_page/target.png') }}" alt="" class="ui image">
+              </div>
+              <h5 class="bullet-point-heading">{{ _("Simple") }}</h5>
+              <p class="bullet-point-text">{{ _("Archiving made easy - define access rights and describe data.") }}</p>
+            </div>
+            <div class="column">
+              <div class="ui image bullet-point">
+                <img src="{{ url_for('static', filename='images/about_page/lock.png') }}" alt="" class="ui image">
+              </div>
+              <h5 class="bullet-point-heading">{{ _("Secure") }}</h5>
+              <p
+                class="bullet-point-text">{{ _("Access for authorised persons only - you control who can view your data and metadata.") }}</p>
+            </div>
+            <div class="column">
+              <div class="ui image bullet-point">
+                <img src="{{ url_for('static', filename='images/about_page/map-pin.png') }}" alt="" class="ui image">
+              </div>
+              <h5 class="bullet-point-heading">{{ _("Local") }}</h5>
+              <p
+                class="bullet-point-text">{{ _("Archiving on Münster University servers - guaranteed integrity and availability.") }}</p>
+            </div>
+          </div>
+        </div>
+        <p>{{ _("Do you still have questions or need support in using our repository? Please take a look at our
+              FAQ (<a href='/faq'>link</a>).") }}</p>
+      </section>
+      <section id="about-footer">
+        <div class="ui grid">
+          <div class="two column row">
+            <div class="five wide column"><p>{{ _("powered by") }}</p></div>
+          </div>
+          <div class="row">
+            <div class="five wide bottom aligned column">
+              <a class="logo-link" href="https://inveniosoftware.org/products/rdm/" target="_blank">
+                <img id="invenio-rdm-logo" class="ui image"
+                     src="{{ url_for('static', filename='images/about_page/invenio_rdm_logo.png') }}"
+                     alt="Invenio RDM Logo" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+{%- endblock page_body %}

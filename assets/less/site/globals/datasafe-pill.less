@@ -1,0 +1,110 @@
+/* --------------- */
+/*   Pill styling  */
+/* --------------- */
+
+@import "site.variables";
+
+/*-------------------------------
+      General Pill styles
+-------------------------------*/
+.row.pill-row {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.ui.label.pill {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 18px;
+  max-width: 100%;
+  background-color: @midWhite;
+  color: @textColor;
+  padding: 5px 8px !important;
+  border: 1px solid #74706d;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: default;
+
+  span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  i.delete.icon {
+    font-size: 16px;
+    color: @textColor;
+    opacity: 1;
+
+  }
+}
+
+.ui.label.pill.search {
+  background-color: white;
+  font-weight: 400;
+}
+
+.ui.label.pill.subject {
+  margin-top: .75rem;
+  background-color: white;
+}
+
+.ui.label.pill:hover {
+  i.delete.icon {
+    color: @tertiaryTextColor;
+  }
+}
+
+.ui.label.pill {
+  i.delete.icon:focus-visible {
+    outline: 2px solid #1e74a2;
+    //border-radius: 50%; // This looks better imo
+  }
+}
+
+.ui.label.pill.disabled {
+  i.delete.icon {
+    pointer-events: none;
+  }
+}
+
+/*---------------------------------------------
+      Identifiers and affiliation "pills"
+---------------------------------------------*/
+
+div.ui.multiple.selection.dropdown[name="affiliations"],
+div.ui.multiple.selection.dropdown[name="person_or_org.identifiers"] {
+  padding: 0px 13px;
+
+  a.ui.label,
+  a.ui.label:hover,
+  a.ui.label.active {
+    max-height: 20px;
+    box-shadow: none;
+    background-color: @midWhite;
+    color: @textColor;
+    padding: 2.25px 8px !important;
+    border: 1px solid #74706d;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    cursor: default;
+    border-radius: 18px;
+    text-decoration: none;
+
+    i.delete.icon {
+      color: @textColor !important;
+      opacity: 1;
+    }
+  }
+
+  a.ui.label:hover {
+    i.delete.icon {
+      color: @tertiaryTextColor !important;
+    }
+  }
+
+}

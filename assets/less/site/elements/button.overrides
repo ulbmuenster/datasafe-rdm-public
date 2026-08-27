@@ -1,0 +1,253 @@
+/*******************************
+        Button Variables
+*******************************/
+
+@import "../globals/site.variables";
+@import "button.variables";
+
+
+/*-------------------
+    General styles
+--------------------*/
+
+.ui.button {
+  border-radius: @buttonBorderRadius;
+  line-height: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease, border 0.1s ease;
+
+  &.tertiary {
+    padding: 7px 12px;
+  }
+
+  > i {
+    vertical-align: top;
+    opacity: 1 !important;
+  }
+
+  &.mini, &.small {
+    padding: 3.5px 8px;
+    line-height: 16px;
+
+    &.tertiary {
+      padding: 4.5px 8px;
+    }
+  }
+}
+
+.ui.button:not(.icon) > .icon:not(.button):not(.dropdown) {
+  margin: 0 8px 0 0;
+}
+
+// This overrides the original style and adds !impoertant
+.ui.icon.buttons:not(.labeled) .button:not(.labeled), .ui.icon.button:not(.labeled) {
+  padding: 6px 6px 6px !important;
+  min-width: 36px;
+
+  &.tertiary {
+    padding: 7px 7px !important;
+  }
+
+  &.mini, &.small {
+    min-width: 27px;
+    min-height: 27px;
+    padding: 3.5px !important;
+
+
+    &.tertiary {
+      padding: 4.5px !important;
+    }
+  }
+}
+
+/*-------------------
+    Primary Button
+--------------------*/
+.ui.button.primary:not(.selected-member) {
+  color: @buttonPrimaryTextColor;
+  background: @buttonPrimaryColor;
+  border: @buttonPrimaryBorder;
+
+  &:hover {
+    color: @buttonPrimaryTextColorHover;
+    background: @buttonPrimaryColorHover;
+    border: @buttonPrimaryBorderHover;
+  }
+
+  &:focus {
+    color: @buttonPrimaryTextColor;
+    background: @buttonPrimaryColor;
+    border: @buttonPrimaryBorder;
+  }
+
+  &:focus-visible {
+    color: @buttonPrimaryTextColorFocusVisible;
+    background: @buttonPrimaryColorFocusVisible;
+    border: @buttonPrimaryBorderFocusVisible;
+    outline: @buttonPrimaryOutlineFocusVisible;
+  }
+
+  &:active {
+    color: @buttonPrimaryTextColorActive;
+    background: @buttonPrimaryColorActive;
+    border: @buttonPrimaryBorderActive;
+  }
+
+  &.selected {
+    color: @buttonPrimaryTextColorSelected;
+    background: @buttonPrimaryColorSelected;
+    border: @buttonPrimaryBorderSelected;
+  }
+}
+
+/*-------------------
+    Secondary Button
+--------------------*/
+.ui.button:not(.selected-member) {
+  color: @buttonSecondaryTextColor;
+  background: @buttonSecondaryColor;
+  border: @buttonSecondaryBorder;
+
+  &.bg-main-menu {
+    background: #cbc9c8;
+    border: 2px solid #cbc9c8;
+  }
+
+  &:hover {
+    color: @buttonSecondaryTextColorHover;
+    background: @buttonSecondaryColorHover;
+    border: @buttonSecondaryBorderHover;
+
+    &.bg-main-menu {
+      background: #b9b7b6;
+      border: 2px solid #b9b7b6;
+    }
+  }
+
+  &:focus {
+    color: @buttonSecondaryTextColor;
+    background: @buttonSecondaryColor;
+    border: @buttonSecondaryBorder;
+
+    &.bg-main-menu {
+      background: #cbc9c8;
+      border: 2px solid #cbc9c8;
+    }
+  }
+
+  &:focus-visible {
+    color: @buttonSecondaryTextColorFocusVisible;
+    background: @buttonSecondaryColorFocusVisible;
+    border: @buttonSecondaryBorderFocusVisible;
+    outline: @buttonSecondaryOutlineFocusVisible;
+
+    &.bg-main-menu {
+      color: @buttonSecondaryTextColorFocusVisible;
+      background: #cbc9c8;
+      border: @buttonSecondaryBorderFocusVisible;
+      outline: @buttonSecondaryOutlineFocusVisible;
+    }
+  }
+
+  &:active {
+    color: @buttonSecondaryTextColorActive;
+    background: @buttonSecondaryColorActive;
+    border: @buttonSecondaryBorderActive;
+
+    &.bg-main-menu {
+      background: #a8a6a4;
+      border: 2px solid #a8a6a4;
+    }
+  }
+
+  &.selected {
+    color: @buttonSecondaryTextColorSelected;
+    background: @buttonSecondaryColorSelected;
+    border: @buttonSecondaryBorderSelected;
+  }
+}
+
+
+/*-------------------
+    Tertiary Button
+--------------------*/
+.ui.button.tertiary:not(.selected-member) {
+  color: @buttonTertiaryTextColor;
+  background: @buttonTertiaryColor;
+  border: @buttonTertiaryBorder;
+
+  &.bg-white {
+    border: 1px solid #514c49;
+  }
+
+  &:hover {
+    color: @buttonTertiaryTextColorHover;
+    background: @buttonTertiaryColorHover;
+    border: @buttonTertiaryBorderHover;
+
+    &.bg-main-menu {
+      background: #eeeded;
+      border: 1px solid #eeeded;
+    }
+
+    &.bg-white {
+      background: #eeeded;
+      border: 1px solid #514c49;
+    }
+  }
+
+  &:focus {
+    color: @buttonTertiaryTextColorFocus;
+    background: @buttonTertiaryColorFocus;
+    border: @buttonTertiaryBorderFocus;
+
+    &.bg-white {
+      color: @buttonTertiaryTextColor;
+      background: @buttonTertiaryColor;
+      border: 1px solid #514c49;
+    }
+  }
+
+  &:focus-visible {
+    color: @buttonTertiaryTextColorFocusVisible;
+    background: @buttonTertiaryColorFocusVisible;
+    border: 1px solid #1e74a2;
+    outline: 1px solid #1e74a2 !important;
+
+    &.bg-white {
+      color: @buttonTertiaryTextColorFocusVisible;
+      background: @buttonTertiaryColorFocusVisible;
+      border: 1px solid #1e74a2;
+      outline: 1px solid #1e74a2 !important;
+    }
+  }
+
+  &:active {
+    color: @buttonTertiaryTextColorActive;
+    background: @buttonTertiaryColorActive;
+    border: @buttonTertiaryBorderActive;
+
+    &.bg-main-menu {
+      background: #dcdbdb;
+      border: 1px solid #dcdbdb;
+    }
+
+    &.bg-white {
+      background: #dcdbdb;
+      border: 1px solid #514c49;
+    }
+  }
+
+  &.selected {
+    color: @buttonTertiaryTextColorSelected;
+    background: @buttonTertiaryColorSelected;
+    border: @buttonTertiaryBorderSelected;
+
+    &.bg-white {
+      background: #858280;
+      border: 1px solid #858280;
+      color: @white !important;
+    }
+  }
+}

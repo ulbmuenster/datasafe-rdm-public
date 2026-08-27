@@ -1,0 +1,58 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2017-2018 CERN.
+  Copyright (C) 2023-2026 University of Münster.
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+{% extends config.THEME_BASE_TEMPLATE %}
+
+{%- set html_css_classes=['cover-page'] %}
+{%- set body_css_classes=['ui grid doubling middle center aligned cover-page'] %}
+
+{%- block body %}
+  <!-- datasafe-RDM: Add header and footer to the login page -->
+  <div id="main-content" class="sixteen wide column centered">
+    {%- block login_header %}
+      {% include config.THEME_HEADER_TEMPLATE %}
+    {%- endblock login_header %}
+
+    {#    {%- block site_banner %}{%- endblock site_banner %}#}
+
+    {%- block flashmessages %}
+      {%- from "invenio_theme/macros/messages.html" import flashed_messages with context -%}
+      {{ flashed_messages(center_text=true) }}
+    {%- endblock flashmessages %}
+
+    <main class="ui grid">
+      <div id="page-cover-column"
+           class="sixteen wide mobile fourteen wide tablet fourteen wide computer ten wide widescreen centered column">
+
+        {% block page_header %}{% endblock page_header %}
+
+        {%- block page_body %}
+          {#Here, the "big form" with email and password is rendered#}
+        {%- endblock page_body %}
+
+      </div>
+    </main>
+    {% block page_footer %}
+      <footer id="login-footer">
+        <nav>
+          <div class="item"><a href="/about" target="_blank">{{ _("About") }}</a></div>
+          <div class="item"><a href="/terms" target="_blank">{{ _("Terms of Service") }}</a></div>
+          <div class="item"><a href="/privacy" target="_blank">{{ _("Privacy Policy") }}</a></div>
+          <!-- TODO: link to your own legal notice / contact page -->
+          <div class="item"><a href="mailto:support@example.org"
+                               target="_blank">{{ _("Contact") }}</a></div>
+          <div class="item"><a href="/credits" target="_blank">{{ _("Image Credits") }}</a></div>
+        </nav>
+      </footer>
+    {% endblock page_footer %}
+  </div>
+  <!-- datasafe-RDM: END Add header and footer to the login page -->
+  {%- block javascript %}
+    {{ webpack['theme.js'] }}
+  {%- endblock javascript %}
+{%- endblock body %}

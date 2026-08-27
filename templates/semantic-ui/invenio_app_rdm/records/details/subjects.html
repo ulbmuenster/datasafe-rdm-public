@@ -1,0 +1,27 @@
+{#
+  Copyright (C) 2020 CERN.
+  Copyright (C) 2020-2022 Northwestern University.
+  Copyright (C) 2021 New York University.
+
+  Invenio RDM Records is free software; you can redistribute it and/or modify
+  it under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{%- set subjects = record.metadata.subjects -%}
+
+{% if subjects %}
+  {% set keywords = subjects|rejectattr("scheme")|list %}
+  {% if keywords %}
+    <h3 class="hidden">{{ _('Keywords') }}</h3>
+    <ul style="display: flex; flex-wrap: wrap;" class="ui horizontal list no-bullets subjects" style="width: 200px">
+      {%- for subject in keywords %}
+        <li class="ui label pill subject">
+          {%- set q = 'metadata.subjects.subject:"' + subject.subject + '"' %}
+          <span>{{ subject.subject }}</span>
+        </li>
+      {%- endfor %}
+    </ul>
+  {% endif %}
+
+
+{% endif %}

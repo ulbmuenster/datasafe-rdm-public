@@ -1,0 +1,12 @@
+- url: /faq
+  title: Frequently Asked Questions
+  description: Frequently Asked Questions
+  template: faq.html
+- url: /credits
+  title: Image Credits
+  description: Image Credits
+  template: credits.html
+- url: /terms
+  title: Terms of Service
+  description: Terms of Service
+  template: terms.html

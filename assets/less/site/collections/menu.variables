@@ -1,0 +1,26 @@
+/*******************************
+            Menu
+*******************************/
+
+
+/*--------------
+     States
+---------------*/
+
+/* Hovered Item */
+@hoverItemBackground: #dcdbdb;
+@hoverItemTextColor: @selectedTextColor;
+
+/* Active Item */
+@activeItemBackground: #cbc9c8;
+@activeItemTextColor: @selectedTextColor;
+
+
+/*--------------
+     Types
+---------------*/
+
+/* Pagination */
+@paginationMinWidth: 3em;
+@paginationActiveBackground: #cbc9c8;
+@paginationActiveTextColor: @selectedTextColor;

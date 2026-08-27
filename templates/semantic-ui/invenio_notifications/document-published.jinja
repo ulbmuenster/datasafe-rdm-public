@@ -1,0 +1,439 @@
+{#
+  Copyright (C) 2023-2026 University of Münster.
+
+  Invenio-Pdf-Generator is free software; you can redistribute it and/or
+  modify it under the terms of the MIT License; see LICENSE file for more
+  details.
+#}
+
+{% set submission_request = notification.context.request %}
+{% set community = submission_request.receiver %}
+{% set access_visibility = community.access.visibility %}
+{% set request_id = submission_request.id %}
+{% set record = submission_request.topic %}
+{% set further_involved_users = submission_request.further_involved_users %}
+{% set metadata = record.metadata %}
+{% set publication_date = metadata.publication_date %}
+{% set title = metadata.title %}
+{% set vars = {"subtitle": "-", "size": 0} %}
+{% for additional_title in metadata.additional_titles %}
+  {% set test = vars.update({"subtitle": additional_title.title }) if additional_title.type.id == "subtitle" %}
+{% endfor %}
+{% set creator = submission_request.created_by %}
+{% set embargo_until = record.access.embargo.until %}
+{% set embargo_active = record.access.embargo.active %}
+{% set doi = record.pids.doi %}
+{% set files = record.files.entries %}
+{% for key, value in files.items() %}
+  {% set s = vars.size + value.size %}
+  {% set test = vars.update({"size": s }) %}
+{% endfor %}
+
+{% set logo_name = "datasafe-logo" if access_visibility == "restricted" else "datastore-logo" %}
+{% set cert_subject = "Archiving" if access_visibility == "restricted" else "Publication" %}
+{% set link_to_data = "Link to dataset" if access_visibility == "restricted" else "Link to publication data" %}
+{% set data = "dataset" if access_visibility == "restricted" else "publication" %}
+{% set subject = "Archivierung Ihrer Forschungsdaten; Archiving of your research data" if access_visibility == "restricted" else "Publikation Ihrer Forschungsdaten; Publication of your research data" %}
+
+{% set account_settings_link = "{ui}/account/settings/notifications".format(
+    ui=config.SITE_UI_URL
+    ) %}
+
+{%- block subject -%}
+  {{ subject }}
+{%- endblock subject -%}
+
+{%- block plain_body -%}
+  English version below
+
+  Guten Tag,
+
+  es wurden von Ihnen oder einer Person, die Sie berechtigt hat, Forschungsdaten in datasafe eingestellt, dem
+  Forschungsdatenarchiv der Universität Münster.
+  Nur Sie und die unten aufgeführten Personen dürfen nach Authentifizierung mit ihrer Universitäts-ID
+  auf diese Daten zugreifen.
+
+  Bitte denken Sie daran: Diese Forschungsdaten werden im Rahmen von datasafe für zehn Jahre archiviert und nach Ablauf
+  des Archivierungszeitraums endgültig gelöscht. Sie werden rechtzeitig über die anstehende Löschung informiert.
+
+  *Titel: {{ title }}
+
+  *Untertitel: {{ vars.subtitle }}
+
+  *Größe: {{ vars.size|unit_calculator }}
+
+  *Link: {{ record.links.self_html }}
+
+  *Archivierungszeitraum: {{ record.updated|datetime_format("%d.%m.%Y") }} -
+  {{ record.custom_fields["datasafe:planned_purge_date"]|datetime_format("%d.%m.%Y") }}
+
+
+  Freundliche Grüße
+  Ihr Service Center for Data Management
+
+  --
+
+  Universität Münster
+  Service Center for Data Management
+
+  support@example.org
+
+  ************************************************************
+
+  English version
+
+  To whom it may concern,
+
+  You or a person who has authorized you have entered research data in datasafe, a service of the University of Münster
+  for archiving research data. Only you and the
+  persons listed below are authorized to download this data after authentication with their university ID.
+
+  Please note: This research data is archived for ten years as part of datasafe and will be permanently deleted after
+  the archiving period has expired. You will be notified of the pending deletion in due time.
+
+
+  *Title: {{ title }}
+
+  *Subtitle: {{ vars.subtitle }}
+
+  *Size: {{ vars.size|unit_calculator }}
+
+  *Link: {{ record.links.self_html }}
+
+  *Period of archival storage: {{ record.updated|datetime_format }} -
+  {{ record.custom_fields["datasafe:planned_purge_date"]|datetime_format }}
+
+
+  Yours faithfully
+
+  Service Center for Data Management
+
+  --
+
+  University of Münster
+  Service Center for Data Management
+
+  support@example.org
+{%- endblock plain_body %}
+
+
+{%- block html_body -%}
+  <head>
+    <!--[if gte mso 9]>
+    <style type="text/css">
+      h1, h2, h3, h4, h5, h6, p, span, a, div, td {
+        font-family: MetaWebPro, Arial, sans-serif !important;
+      }
+    </style>
+    <![endif]-->
+  </head>
+  <div style="background-color: #ffffff; width: 100%; padding: 0;">
+    <div
+      style="font-family: MetaWebPro, Arial, sans-serif; width: 800px; margin: 0 auto; padding-top: 22px; color: #514c49;
+    font-size: 16px; background-color: #eeeded; line-height: 1.5;">
+      <table width="800" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeded"
+             style="font-family: Arial, sans-serif; color:#514c49;">
+        <tr>
+          <td align="center">
+            <!-- Logo -->
+            <table width="600" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td align="center" style="padding: 20px 0;">
+                  <img
+                    src="{{ invenio_url_for('static', filename='images/notifications/datasafe_logo.png', _external=True) }}"
+                    alt="datasafe logo" width="150"
+                    style="display:block; ">
+                </td>
+              </tr>
+            </table>
+
+            <!-- Main Container -->
+            <table>
+              <tbody>
+              <tr>
+                <td>
+
+
+                  <table style="margin: 0;padding: 0;border-spacing: 0;overflow: hidden;" cellspacing="0"
+                         cellpadding="0"
+                         border="0" width="100%">
+                    <tbody style="margin: 0;padding: 0;">
+                    <tr style="margin: 0;padding: 0;">
+                      <!--[if mso]>
+                      <td style="margin:0;padding:0;font-size:0;width:16px;height:16px;">
+                        <v:shape style="width:16px;height:16px;position:relative;top:0.5px;left:0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" fillcolor="#ffffff" stroke="f" fill="true"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 0,2 c 0,1,1,0,2,0 l 2,2 x" />
+                        </v:shape>
+                        <v:shape style="width:16px;height:16px;position:relative;top:-0.5px;left:0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" strokecolor="#ffffff" strokeweight="1px" stroke="true" fill="f"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 0,2 c 0,1,1,0,2,0" />
+                        </v:shape>
+                      </td>
+                      <![endif]-->
+                      <!--[if !mso]><!-->
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;width: 16px;height: 16px;border-top-left-radius: 16px;background-color: #ffffff;border-top: solid 1px #ffffff;border-left: solid 1px #ffffff;">
+                      </td>
+                      <!--<![endif]-->
+
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;background-color: #ffffff;border-top: solid 1px #ffffff;">
+                      </td>
+
+                      <!--[if mso]>
+                      <td style="margin:0;padding:0;font-size:0;width:16px;height:16px;">
+                        <v:shape style="width:16px;height:16px;position:relative;top:0.5px;left:-0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" fillcolor="#ffffff" stroke="f" fill="true"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 0,0 c 1,0,2,1,2,2 l 0,2 x" />
+                        </v:shape>
+
+                        <v:shape style="width:16px;height:16px;position:relative;top:-0.5px;left:-0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" strokecolor="#ffffff" strokeweight="1px" stroke="true" fill="f"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 0,0 c 1,0,2,1,2,2" />
+                        </v:shape>
+                      </td>
+                      <![endif]-->
+                      <!--[if !mso]><!-->
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;width: 16px;height: 16px;border-top-right-radius: 16px;background-color: #ffffff;border-top: solid 1px #ffffff;border-right: solid 1px #ffffff;">
+                      </td>
+                      <!--<![endif]-->
+                    </tr>
+
+                    <tr style="margin: 0;padding: 0">
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;padding-top: 8px;padding-bottom: 8px;background-color: #ffffff;border-left: solid 1px #ffffff;"></td>
+
+                      <td
+                        style="font-family: Helvetica, sans-serif;font-size: 16px;margin: 0;padding: 8px 8px 8px 8px;font-weight: normal;line-height: 24px;background-color: #ffffff">
+                        <!-- CONTENT -->
+                        <table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
+                               style="border-collapse:collapse; border:0;border-top-left-radius: 16px; border-top-right-radius: 16px;
+               border-bottom-left-radius: 16px; border-bottom-right-radius: 16px;">
+                          <tr style="">
+                            <td style="padding: 8px 20px;">
+
+                              <!-- Date -->
+                              <p style="text-align:right; font-size:14px; color:#74706d; margin:0 0 20px 0;">
+                                Münster, {{ publication_date|datetime_format('%d.%m.%Y') }}</p>
+
+                              <!-- German Heading -->
+                              <h1
+                                style="font-size:22px; color:#1e74a2; font-weight:normal; text-align:center; margin:0 0 20px 0;">
+                                Ihre
+                                Forschungsdaten wurden archiviert!</h1>
+
+                              <!-- German Content -->
+                              <p style="font-size:16px; line-height:1.5; color:#74706d;">
+                                Guten Tag,<br><br>
+                                es wurden von Ihnen oder einer Person, die Sie berechtigt hat, Forschungsdaten in
+                                <em>datasafe</em>
+                                eingestellt, dem Forschungsdatenarchiv der Universität Münster. Nur Sie und die unten
+                                aufgeführten
+                                Personen dürfen nach Authentifizierung mit ihrer Universitäts-ID auf diese Daten
+                                zugreifen.<br><br>
+                                <strong>Bitte denken Sie daran: Diese Forschungsdaten werden im Rahmen von datasafe für
+                                  zehn
+                                  Jahre
+                                  archiviert und nach Ablauf des Archivierungszeitraums endgültig gelöscht. Sie werden
+                                  rechtzeitig
+                                  über
+                                  die anstehende Löschung informiert.</strong><br><br>
+                                Freundliche Grüße<br>
+                                Ihr Service Center for Data Management
+                              </p>
+
+                              <!-- English Heading -->
+                              <h1
+                                style="font-size:22px; color:#1e74a2; font-weight:normal; text-align:center; margin:40px 0 20px 0;">
+                                Your research data has been archived!</h1>
+
+                              <!-- English Content -->
+                              <p style="font-size:16px; line-height:1.5; color:#74706d;">
+                                To whom it may concern,<br><br>
+                                You or a person who has authorized you have entered research data in <em>datasafe</em>,
+                                a
+                                service of
+                                the
+                                University of Münster for archiving research data. Only you and the persons listed below
+                                are
+                                authorized
+                                to download this data after authentication with their university ID.<br><br>
+                                <strong>Please note: This research data is archived for ten years as part of datasafe
+                                  and will
+                                  be
+                                  permanently deleted after the archiving period has expired. You will be notified of
+                                  the
+                                  pending
+                                  deletion in due time.</strong><br><br>
+                                Yours faithfully<br>
+                                Service Center for Data Management
+                              </p>
+
+                              <!-- Data Table -->
+                              <table width="100%" cellpadding="5" cellspacing="0" border="0"
+                                     style="border-collapse:collapse; margin-top:20px;">
+                                <tr>
+                                  <td style="font-weight:bold; width:35%;">Titel/Title</td>
+                                  <td>{{ title }}</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-weight:bold;">Untertitel/Subtitle</td>
+                                  <td>{{ vars.subtitle }}</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-weight:bold;">Größe/Size</td>
+                                  <td>{{ vars.size|unit_calculator }}</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-weight:bold;">Archivierungszeitraum/ Storage Period</td>
+                                  <td>{{ record.updated|datetime_format('%d.%m.%Y') }}
+                                    - {{ record.custom_fields['datasafe:planned_purge_date']|datetime_format('%d.%m.%Y') }}</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-weight:bold;">Link</td>
+                                  <td><a href="{{ record.links.self_html }}"
+                                         style="color:#514c49;">{{ record.links.self_html }}</a>
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!-- Creator -->
+                              <p style="margin-top:20px;"><strong>Verantwortlich für den Datensatz/Dataset
+                                Owner</strong><br>
+                                {{ creator.profile.full_name }}<br>
+                                {% if creator.profile.affiliations %}
+                                  <span style="color:#74706d;">{{ creator.profile.affiliations }}</span>{% endif %}
+                              </p>
+
+                              <!-- Further Involved Users -->
+                              {% if further_involved_users|length > 0 %}
+                                <p><strong>Weitere beteiligte Personen/Further involved persons</strong><br>
+                                  {% for user in further_involved_users %}
+                                    {{ user.full_name }}<br>
+                                    {% if user.affiliations %}
+                                      <span style="color:#74706d;">{{ user.affiliations }}</span>
+                                    {% endif %}
+                                    <br>
+                                  {% endfor %}
+                                </p>
+                              {% endif %}
+
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;padding-top: 8px;padding-bottom: 8px;background-color: #ffffff;border-right: solid 1px #ffffff;"></td>
+                    </tr>
+
+                    <tr style="margin: 0;padding: 0">
+                      <!--[if mso]>
+                      <td style="margin:0;padding:0;font-size:0;width:16px;height:16px;">
+                        <v:shape style="width:16px;height:16px;position:relative;top:-0.5px;left:0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" fillcolor="#ffffff" stroke="f" fill="true"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 2,2 c 1,2,0,1,0,0 l 2,0 x" />
+                        </v:shape>
+
+                        <v:shape style="width:16px;height:16px;position:relative;top:-0.5px;left:0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" strokecolor="#ffffff" strokeweight="1px" stroke="true" fill="f"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 2,2 c 1,2,0,1,0,0" />
+                        </v:shape>
+                      </td>
+                      <![endif]-->
+                      <!--[if !mso]><!-->
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;width: 16px;height: 16px;border-bottom-left-radius: 16px;background-color: #ffffff;border-bottom: solid 1px #ffffff;border-left: solid 1px #ffffff;">
+                      </td>
+                      <!--<![endif]-->
+
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;background-color: #ffffff;border-bottom: solid 1px #ffffff;">
+                      </td>
+
+                      <!--[if mso]>
+                      <td style="margin:0;padding:0;font-size:0;width:16px;height:16px;">
+                        <v:shape style="width:16px;height:16px;position:relative;top:-0.5px;left:-0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" fillcolor="#ffffff" stroke="f" fill="true"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 2,0 c 2,1,1,2,0,2 l 0,0 x" />
+                        </v:shape>
+
+                        <v:shape style="width:16px;height:16px;position:relative;top:-0.5px;left:-0.5px;"
+                                 coordorigin="0 0"
+                                 coordsize="2 2" strokecolor="#ffffff" strokeweight="1px" stroke="true" fill="f"
+                                 xmlns:v="urn:schemas-microsoft-com:vml"
+                                 xmlns:w="urn:schemas-microsoft-com:office:word">
+                          <v:path v="m 2,0 c 2,1,1,2,0,2" />
+                        </v:shape>
+                      </td>
+                      <![endif]-->
+                      <!--[if !mso]><!-->
+                      <td
+                        style="font-size: 0;margin: 0;padding: 0;width: 16px;height: 16px;border-bottom-right-radius: 16px;background-color: #ffffff;border-bottom: solid 1px #ffffff;border-right: solid 1px #ffffff;">
+                      </td>
+                      <!--<![endif]-->
+                    </tr>
+                    </tbody>
+                  </table>
+                </td>
+
+
+              </tr>
+              </tbody>
+            </table>
+
+            <!-- Spacer Row (sicher für alle Clients, auch Outlook) -->
+            <table>
+              <tr>
+                <td height="30" style="font-size:0; color: #eeeded; background: #eeeded; line-height:0;"></td>
+              </tr>
+            </table>
+
+            <!-- Footer -->
+            <table width="800" cellpadding="0" cellspacing="0" border="0" bgcolor="#3e3e3c">
+              <tr>
+                <!-- TODO: add your own institution's logo(s) here -->
+
+                <!-- Kontakt -->
+                <td align="left" valign="bottom"
+                    style="padding: 24px 75px 24px 0; font-size:13px; line-height:1.5; color:#b9b7b6;">
+                  <h5 style="color:#eeeded; margin-top:0; margin-bottom:18px; letter-spacing:1px;">Kontakt</h5>
+                  <p>
+                    Service Center for Data Management<br>
+                    <a href="mailto:support@example.org" style="color:#b9b7b6; text-decoration:underline;">
+                      support@example.org
+                    </a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+{%- endblock html_body %}

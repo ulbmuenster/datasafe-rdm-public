@@ -1,0 +1,375 @@
+/*******************************
+         Dashboard
+*******************************/
+
+@import "../elements/icon.variables";
+@import "site.variables";
+
+/*---------------------------------------------------------------------*/
+/*                      general dashboard styling                      */
+/*---------------------------------------------------------------------*/
+#dashboard {
+  background: @offWhite;
+  display: flex;
+  min-height: 100%;
+  /*-------------------------------------------------------------------*/
+  /*                     dashboard filter styling                      */
+  /*-------------------------------------------------------------------*/
+
+  #dashboard-filter {
+    flex: 0 0 263px;
+    max-width: 263px;
+    padding: 0 1.5em 0 1.5em;
+    border-right: 1px solid @midWhite;
+
+    .filter-heading {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      height: 71px;
+
+      i {
+        margin: 0 -3px 0 0.5em;
+      }
+
+      .toggle-filter-button {
+        margin-right: 0;
+      }
+
+    }
+
+    div.ui.card:nth-of-type(2) {
+      margin-top: 0;
+    }
+
+    div.ui.card:last-of-type {
+      margin-bottom: 1.5em;
+    }
+
+    .ui.accordion .title .icon {
+      float: right;
+      margin-right: 0;
+    }
+
+    .entry {
+      margin: 1em 0;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-size: 0.75rem;
+        line-height: 19px;
+        color: #a8a6a4;
+      }
+
+      label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .entry:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .ui.title {
+      margin: -12px -16px -12px -16px;
+      padding: 12px 16px 12px 16px;
+      border: 2px solid @white;
+      border-radius: 16px;
+
+      &:focus-visible {
+        border: 2px solid #1e74a2;
+      }
+    }
+
+    .ui.title.active {
+      margin: -12px -16px -8px -16px;
+      padding: 12px 16px 8px 16px;
+      border-radius: 16px 16px 0 0;
+      border: 2px solid @white;
+    }
+
+    .ui.title:focus-visible {
+      border: 2px solid #1e74a2;
+      outline: none;
+    }
+  }
+
+  /*-------------------------------------------------------------------*/
+  /*                     dashboard content styling                     */
+  /*-------------------------------------------------------------------*/
+
+  #dashboard-content {
+    flex: 1 1 100%;
+    // Prevent the flex items from overflowing its container
+    min-width: 0;
+  }
+
+  /*-------------------------------------------------------------------*/
+  /*                    dashboard searchbar styling                    */
+  /*-------------------------------------------------------------------*/
+
+  #dashboard-searchbar {
+    padding: 1em 1.5em 0 2.5em;
+    row-gap: 1em;
+    margin-bottom: 1em;
+
+    .inline.loader {
+      margin-left: 0.5rem;
+    }
+
+    div.row:first-of-type {
+      margin-bottom: 0;
+      padding-bottom: 0;
+
+      div.column:first-of-type {
+        padding-left: 0;
+      }
+
+      #search-column-computer {
+        margin-right: -2rem;
+        margin-left: 2rem;
+      }
+
+    }
+
+    .count-of-results {
+      color: @tertiaryTextColor;
+    }
+
+    div.ui.small.icon.input {
+      margin: 0;
+      min-height: 36px;
+    }
+
+    .sorting-label {
+      margin-left: 1em;
+    }
+
+    div.ui.selection.dropdown[role="listbox"] {
+      width: 240px;
+      margin: 0 0 0 0.5em;
+
+    }
+
+    #pill-row {
+      padding: 0 1rem 0 0;
+    }
+
+
+  }
+
+
+  /*-------------------------------------------------------------------*/
+  /*                     dashboard listview styling                    */
+  /*-------------------------------------------------------------------*/
+
+  #dashboard-listview {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5em 2em 1.5em;
+
+
+    /*-----------------------------*/
+    /*     RecordCards styling     */
+    /*-----------------------------*/
+    //Make all RecordCards the same height
+    div.ui.raised.card {
+      height: 178px;
+      overflow: hidden;
+      margin: 0 0 1em 0;
+      padding-right: .5em;
+    }
+
+    .card-icon {
+      margin: 0;
+    }
+
+    .ui.card:last-of-type {
+      margin-bottom: 1.5em;
+    }
+
+    .ui.button:not(.item) {
+      align-self: center;
+      margin-bottom: 1em;
+      flex: 0 0 auto;
+    }
+
+    // restrict CardHeader to one line and clip with ellipsis
+    div.card-header {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    div.card-meta {
+      color: @tertiaryTextColor;
+    }
+
+    div.card-description {
+      color: #a8a6a4;
+      font-size: unit((13 / @emSize), rem);
+      overflow: hidden;
+      //Restrict description to two lines and clip with ellipsis
+      text-overflow: ellipsis;
+
+      // Fallback values (if webkit is not supported)
+      line-height: 1.5;
+      height: unit((13 / @emSize * 2 * 1.5), rem); // two times font-size times line-height
+      display: block;
+      // Webkit values: if not applicable fallback values are used (though theres no ellipse)
+      display: -webkit-box;
+      -webkit-line-clamp: 2; // if you change this, make sure to change the fallback line-height and height
+      -webkit-box-orient: vertical;
+    }
+
+    div.card-extra {
+      color: #a8a6a4;
+      margin-top: 2.375em;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .record-card-actions {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      height: 36px;
+    }
+
+    .ui.message {
+      border-radius: 16px !important;
+    }
+
+    /*----------------------------*/
+    /*     Pagination styling     */
+    /*----------------------------*/
+
+    #pagination-row {
+      color: @secondaryTextColor;
+      margin-top: 1.5em;
+
+      span {
+        margin-right: .75em;
+        text-wrap: nowrap;
+      }
+
+      div.column:last-of-type {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 36px;
+      }
+
+      #dashboard-pagination-dropdown {
+        min-height: unset;
+        height: 36px;
+        margin: 0;
+        border-radius: 0.5em;
+        border: none;
+        box-shadow: none;
+        color: @textColor;
+
+        div.menu, div.item {
+          border: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+// Implementing filter as a drawer
+@media (max-width: calc(@computerBreakpoint - 1px)) {
+  #dashboard-filter {
+    position: fixed;
+    top: 0;
+    left: -263px; /* Hidden by default */
+    width: 263px;
+    height: 100%;
+    background-color: @offWhite;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+
+  #dashboard-searchbar {
+    .row:first-of-type {
+      margin-left: -1rem;
+
+      .column {
+        padding-right: 0;
+      }
+    }
+
+    #search-results-column {
+      padding-bottom: 12px;
+      padding-left: 1rem !important;
+    }
+  }
+
+  #dashboard-filter.active {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: @tabletBreakpoint) and (max-width: calc(@computerBreakpoint - 1px)) {
+  #dashboard.ui.container {
+    width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media only screen and (min-width: @mobileBreakpoint) and (max-width: calc(@tabletBreakpoint - 1px)) {
+  #dashboard-searchbar {
+    .column {
+      text-align: left;
+    }
+
+    #search-column {
+      padding-bottom: 12px;
+    }
+
+    #sort-column {
+      margin-left: 16px;
+      padding-left: 0;
+
+      > div {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+
+#backdrop {
+  display: none;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; /* Below drawer */
+}
+
+#backdrop.active {
+  display: block;
+  animation: fade-in 0.3s;
+  opacity: 1;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

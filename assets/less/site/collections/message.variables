@@ -1,0 +1,16 @@
+/*******************************
+            Message
+*******************************/
+
+@import "../globals/site.variables";
+
+/*-------------------
+       Elements
+--------------------*/
+
+@verticalPadding: 0.5em;
+@horizontalPadding: 0.75em;
+@padding: @verticalPadding @horizontalPadding;
+
+@borderRadius: 8px;
+@borderWidth: 1px;

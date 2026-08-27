@@ -1,0 +1,15 @@
+/*******************************
+         Label Variables
+*******************************/
+
+@import "../globals/site.variables";
+
+
+@borderRadius: 10px;
+
+/*-------------------
+      Spacing
+--------------------*/
+
+@verticalPadding: 0.125rem; /* medium is not @emSize custom value required */
+@horizontalPadding: 0.5rem;

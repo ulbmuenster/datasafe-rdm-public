@@ -1,0 +1,108 @@
+- id: ara
+  props:
+    alpha_2: ar
+  tags:
+  - individual
+  - living
+  title:
+    en: Arabic
+    de: Arabisch
+- id: deu
+  props:
+    alpha_2: de
+  tags:
+  - individual
+  - living
+  title:
+    en: German
+    de: Deutsch
+- id: eng
+  props:
+    alpha_2: en
+  tags:
+  - individual
+  - living
+  title:
+    en: English
+    de: Englisch
+- id: fra
+  props:
+    alpha_2: fr
+  tags:
+  - individual
+  - living
+  title:
+    en: French
+    de: Französisch
+- id: ita
+  props:
+    alpha_2: it
+  tags:
+  - individual
+  - living
+  title:
+    en: Italian
+    de: Italienisch
+- id: jpn
+  props:
+    alpha_2: ja
+  tags:
+  - individual
+  - living
+  title:
+    en: Japanese
+    de: Japanisch
+- id: kor
+  props:
+    alpha_2: ko
+  tags:
+  - individual
+  - living
+  title:
+    en: Korean
+    de: Koreanisch
+- id: nld
+  props:
+    alpha_2: nl
+  tags:
+  - individual
+  - living
+  title:
+    en: Dutch
+    de: Niederländisch
+- id: por
+  props:
+    alpha_2: pt
+  tags:
+  - individual
+  - living
+  title:
+    en: Portuguese
+    de: Portugiesisch
+- id: rus
+  props:
+    alpha_2: ru
+  tags:
+  - individual
+  - living
+  title:
+    en: Russian
+    de: Russisch
+- id: spa
+  props:
+    alpha_2: es
+  tags:
+  - individual
+  - living
+  title:
+    en: Spanish
+    de: Spanisch
+- id: zho
+  props:
+    alpha_2: zh
+  tags:
+  - individual
+  - living
+  title:
+    en: Chinese
+    de: Chinesisch

@@ -1,0 +1,26 @@
+/*******************************
+ Overrides for hiding elements
+*******************************/
+
+@import "./site.variables";
+
+/* ---------------------------------------------------------------- */
+/*   These elements should only be TEMPORARYLY hidden by CSS !!!!   */
+/*   Make a PR to add Overridable wrappers to those elements !!!!   */
+/* ---------------------------------------------------------------- */
+
+//Mixin for hiding elements
+.hiddenByCss() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: none !important;
+  visibility: hidden !important;
+  user-select: none !important;
+}
+

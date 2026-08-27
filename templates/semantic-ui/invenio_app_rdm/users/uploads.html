@@ -1,0 +1,22 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{% extends "invenio_communities/base.html" %}
+{%- set title = _("My Data") -%}
+
+{%- block javascript %}
+  {{ super() }}
+  {{ webpack['UserDashboard.js'] }}
+{%- endblock javascript %}
+
+{%- block page_body %}
+  <section id="dashboard" class="ui container"
+           data-user-full-name="{{ current_user.user_profile['full_name']  | string }}"
+           data-user-id="{{ current_user.id }}"
+           data-current-locale="{{ current_i18n.language }}">
+  </section>
+{%- endblock page_body %}

@@ -1,0 +1,37 @@
+/*******************************
+         Form Variables
+*******************************/
+@import "../globals/site.variables";
+
+/*-------------------
+       Elements
+--------------------*/
+
+/* Form Label */
+@labelFontSize: @relativeMedium;
+@labelFontWeight: @normal;
+@labelDistance: @8px;
+
+/* Input */
+@inputFont: @pageFont;
+@inputWidth: 100%;
+@inputFontSize: 1em;
+@inputPadding: (@inputVerticalPadding + ((1em - @inputLineHeight) / 2)) @inputHorizontalPadding;
+@inputBorder: 2px solid @white; // Was "1px solid @borderColor" before
+@inputBorderRadius: 8px; // was @absoluteBorderRadius before;
+@inputColor: @textColor;
+@inputTransition: background-color @defaultDuration @defaultEasing,
+border @defaultDuration @defaultEasing,
+border-color @defaultDuration @defaultEasing;
+@inputBoxShadow: 0em 0em 0em 0em transparent inset;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Required */
+@requiredContent: '*';
+@requiredColor: @textColor; // Was '@negativeColor' before
+@requiredVerticalOffset: -0.2em;
+@requiredDistance: 0.2em;
+@requiredMargin: @requiredVerticalOffset 0em 0em @requiredDistance;

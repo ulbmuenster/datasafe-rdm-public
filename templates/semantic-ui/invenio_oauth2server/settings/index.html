@@ -1,0 +1,52 @@
+{# -*- coding: utf-8 -*-
+
+    This file is part of Invenio.
+    Copyright (C) 2015-2024 CERN.
+
+    Invenio is free software; you can redistribute it and/or modify it
+    under the terms of the MIT License; see LICENSE file for more details.
+  #}
+{%- extends config.OAUTH2SERVER_SETTINGS_TEMPLATE %}
+
+{# FIXME Import from future formatter. #}
+{%- from "invenio_oauth2server/settings/_macros.html" import render_field with context %}
+{%- import "invenio_oauth2server/settings/helpers.html" as helpers with context %}
+
+{% block settings_content %}
+
+  <!-- datasafe-RDM: Removed "Developer applications" menu item -->
+
+  {{ helpers.panel_start(
+        _('Personal Access Tokens'),
+        btn=_('Create token'),
+        btn_icon='',
+        btn_href=url_for('.token_new'),
+        with_body=False,
+        btn_class='primary',
+        btn_class2='',
+    ) }}
+  {% if tokens %}
+    <p class="ui segment info_text">
+      {{ _('Personal access tokens to access the %(site_name)s API:', site_name=config.THEME_SITENAME) }}
+    </p>
+
+    <ul id="token-list" class="ui segments no-style-list">
+      {%- for t in tokens %}
+        <li class="ui segment">
+          <a href="{{ url_for('.token_view', token_id=t.id) }}">{{ t.client.name }}</a>{% if t.scopes %} &mdash;
+          <small class="text-muted">{% for s in t.get_visible_scopes() %}{{ s }}{% if not loop.last %},
+          {% endif %}{% endfor %}</small>{% endif %}<br /><small class="text-muted">{{ t.client.description }}</small>
+        </li>
+      {%- endfor %}
+    </ul>
+
+  {% else %}
+    <p class="ui segment info_text">
+      {{ _("You have not yet created any personal access tokens. Click the 'Create token' button to create a personal access token to use with the API.") }}
+    </p>
+  {% endif %}
+  {{ helpers.panel_end(with_body=False) }}
+
+  <!-- datasafe-RDM: Removed "Authorized applications" menu item -->
+
+{% endblock %}

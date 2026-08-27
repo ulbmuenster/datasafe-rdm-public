@@ -1,0 +1,23 @@
+{
+  "Publish to community": "Archive in project",
+  "Publish record to community": "Archive record to project",
+  "Change community": "Change project",
+  "Publish without community": "Archive without project",
+  "Select a community": "Select a project",
+  "My communities": "My projects",
+  "Once your upload is complete, you can publish it.": "Once your dataset is complete, you can archive it.",
+  "Once your upload is complete, you can publish or submit it for review to the community curators.": "Once your dataset is complete, you can archive or submit it for review to the project curators.",
+  "Your upload is published.": "Your dataset is archived.",
+  "Published": "Archived",
+  "Community curators will review your upload. Once accepted, it will be published.": "Project curators will review your dataset. Once accepted, it will be archived.",
+  "File addition, removal or modification are not allowed after you have published your upload.": "File addition, removal or modification are not allowed after you have archived your dataset.",
+  "Publish": "Archive",
+  "Once the record is published you will no longer be able to change the files in the upload! However, you will still be able to update the record's metadata later.": "Once the record is archived you will no longer be able to change the files in the dataset! However, you will still be able to update the dataset's metadata later.",
+  "Are you sure you want to publish this record?": "Are you sure you want to archive this record?",
+  "If your upload is accepted by the community curators, it will be <bold>immediately published</bold>. Before that, you will still be able to modify metadata and files of this upload.": "If your dataset is accepted by the project curators, it will be <bold>immediately archived</bold>. Before that, you will still be able to modify metadata and files of this dataset.",
+  "Your upload will be <bold>immediately published</bold> in '{{communityTitle}}'. You will no longer be able to change the files in the upload! However, you will still be able to update the record's metadata later.": "Your dataset will be <bold>immediately archived</bold> to '{{communityTitle}}'. You will no longer be able to change the files in the dataset! However, you will still be able to update the record's metadata later.",
+  "Before publishing to the community, please read and check the following:": "Before archiving in the project, please read and check the following:",
+  "The draft was not published. Record saved with validation errors:": "The draft was not archived. Record saved with validation errors:",
+  "Oops, something went wrong! The draft was not published. Please try again. If the problem persists, contact user support.": "Oops, something went wrong! The draft was not archived. Please try again. If the problem persists, contact user support.",
+  "e.g. ORCID, ISNI or GND.": "e.g. ORCID, ISNI or GND"
+}

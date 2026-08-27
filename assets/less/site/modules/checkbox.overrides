@@ -1,0 +1,41 @@
+/*******************************
+        Checkbox Overrides
+*******************************/
+@import "../globals/site.variables";
+
+// Checkbox focus style
+.ui.checkbox input:focus-visible ~ .box::before, .ui.checkbox input:focus-visible ~ label::before {
+  border: 2px solid @primaryColor;
+  //border: none;
+}
+
+//.ui.checkbox input:focus ~ .box::before, .ui.checkbox input:focus ~ label::before {
+//  //border: 2px solid red;
+//  border: none;
+//}
+//
+//.ui.checkbox.checked input:focus ~ .box::before, .ui.checkbox.checked input:focus ~ label::before {
+//  //border: 2px solid yellow;
+//  border: none;
+//}
+//
+//.ui.checkbox.checked input:focus-visible ~ .box::before, .ui.checkbox.checked input:focus-visible ~ label::before {
+//  border: 2px solid blue;
+//}
+
+
+//Hover states
+.ui.checkbox input:focus-visible ~ .box:hover::before,
+.ui.checkbox input:focus-visible ~ label:hover::before {
+  background: #eeeded;
+}
+
+.ui.checkbox input ~ .box:hover::before,
+.ui.checkbox input ~ label:hover::before {
+  background: #eeeded;
+}
+
+.ui.checkbox.checked input ~ .box:hover::before,
+.ui.checkbox.checked input ~ label:hover::before {
+  background: #1e74a2;
+}

@@ -1,0 +1,19 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{% extends "invenio_communities/base.html" %}
+{%- set title = _("Archive Dataset") -%}
+
+{%- block javascript %}
+  {{ super() }}
+  {{ webpack['ArchiveRecord.js'] }}
+{%- endblock javascript %}
+
+{%- block page_body %}
+  <section id="archive-record" class="ui container" data-user-email="{{ current_user.email | string }}">
+  </section>
+{%- endblock page_body %}

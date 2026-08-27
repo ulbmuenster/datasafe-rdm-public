@@ -1,0 +1,32 @@
+.idea/*
+.vscode/*
+
+docker/mailpit/*
+
+*.egg-info
+
+.invenio.private
+
+.envrc
+.coverage
+
+celerybeat-schedule*
+.docker-services.yml.swp
+__pycache__/*
+*.pyc
+
+# S3 default bucket location
+data/default/*
+!data/default/.gitkeep
+data/.minio.sys
+
+# Dependencies for i18next scripts only used locally to generate translations
+site/datasafe_rdm/assets/semantic-ui/translations/datasafe_rdm/node_modules
+site/datasafe_rdm/assets/semantic-ui/translations/datasafe_rdm/package-lock.json
+
+# Site build folder
+site/build/*
+
+# e2e test folder
+.venv-e2etest
+site/datasafe_rdm/assets/semantic-ui/translations/datasafe_rdm/pnpm-lock.yaml

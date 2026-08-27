@@ -1,0 +1,1056 @@
+# German translations for PROJECT.
+# Copyright (C) 2023-2026 University of Münster.
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: support@example.org\n"
+"POT-Creation-Date: 2025-08-19 10:47+0200\n"
+"PO-Revision-Date: 2024-02-01 15:18+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/invenio.cfg:108
+msgid "German"
+msgstr "Deutsch"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:9
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:31
+#, fuzzy
+msgid "About datasafe"
+msgstr "Über datasafe"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:19
+#, fuzzy
+msgid "Fast and secure archiving of your <br> research data for 10 years."
+msgstr "Schnelle und sichere Archivierung Ihrer <br> Forschungsdaten für 10 Jahre."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:32
+msgid ""
+"Welcome to datasafe, the University of Münster's research data archive. "
+"With the help of\n"
+"              datasafe, you can archive your research data non-publicly "
+"for ten years on university servers free of\n"
+"              charge. After this period, the data is usually deleted "
+"automatically."
+msgstr ""
+"Willkommen bei datasafe, dem Forschungsdatenarchiv der Universität "
+"Münster. Mithilfe von datasafe können Sie Ihre Forschungsdaten nicht-"
+"öffentlich für zehn Jahre auf Servern der Universität kostenfrei "
+"archivieren. Nach Ablauf dieser Frist werden die Daten in der Regel "
+"automatisch gelöscht."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:36
+msgid ""
+"datasafe supports you in meeting the requirements of the university and "
+"third-party funding\n"
+"              bodies such as the DFG, which demand the long-term storage "
+"of research data as the basis for published\n"
+"              results. The datasafe service is provided by the University"
+" and State Library of Münster (ULB) and the\n"
+"              Centre for Information Technology (CIT) of the University "
+"of Münster."
+msgstr ""
+"datasafe unterstützt Sie dabei, Vorgaben der Universität und von "
+"Drittmittelgebern wie der DFG zu erfüllen, die eine langfristige "
+"Aufbewahrung von Forschungsdaten als Basis für veröffentlichte "
+"Erkenntnisse fordern. Der Service datasafe wird bereitgestellt von der "
+"Universitäts- und Landesbibliothek Münster (ULB) sowie dem Center for "
+"Information Technology (CIT) der Universität Münster."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:41
+msgid ""
+"Our repository is based on the InvenioRDM framework developed at the "
+"European Organisation for\n"
+"              Nuclear Research (CERN), which is also the basis for "
+msgstr ""
+"Unser Repositorium basiert auf dem Framework InvenioRDM, das am "
+"Europäischen Kernforschungszentrum CERN entwickelt wurde und auch die "
+"Grundlage für "
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:44
+#, fuzzy
+msgid ""
+". By participating in collaborative efforts to\n"
+"              improve this framework, we contribute our expertise while "
+"benefiting from the developments of the\n"
+"              international community. In addition, we make local changes"
+" and enhancements to the system to ensure that\n"
+"              our repository is optimally adapted to the needs of the "
+"users at the University of Münster."
+msgstr ""
+" bildet. Durch die Teilnahme an gemeinschaftlichen Bemühungen zur "
+"Verbesserung dieses Frameworks bringen wir unsere Expertise ein und "
+"profitieren gleichzeitig von den Entwicklungen der internationalen "
+"Gemeinschaft. Darüber hinaus nehmen wir lokale Änderungen und "
+"Erweiterungen am System vor, um sicherzustellen, dass unser Repositorium "
+"optimal auf die Bedürfnisse der Nutzenden an der Universität Münster "
+"ausgerichtet ist."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:55
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:37
+#, fuzzy
+msgid "Simple"
+msgstr "Einfach"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:56
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:38
+#, fuzzy
+msgid "Archiving made easy - define access rights and describe data."
+msgstr ""
+"Archivierung leicht gemacht – Dateien hochladen, Zugriffsrechte festlegen"
+" und Daten beschreiben."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:62
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:41
+msgid "Secure"
+msgstr "Sicher"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:64
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:42
+msgid ""
+"Access for authorised persons only - you control who can view your data "
+"and metadata."
+msgstr ""
+"Zugriff nur für autorisierte Personen – Sie kontrollieren, wer Ihre Daten"
+" und Metadaten einsehen darf."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:70
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:46
+#, fuzzy
+msgid "Local"
+msgstr "Lokal"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:72
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:47
+msgid ""
+"Archiving on Münster University servers - guaranteed integrity and "
+"availability."
+msgstr ""
+"Archivierung auf Servern der Universität Münster – garantierte Integrität"
+" und Verfügbarkeit."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:76
+msgid ""
+"Our offer is aimed at all employees, doctoral students and research "
+"assistants at the University\n"
+"              of Münster who need a reliable solution for storing their "
+"research data. Our repository offers a secure\n"
+"              platform to store your research data for ten years. Do you "
+"still have questions or need support in using\n"
+"              our repository? Please take a look at our FAQ (<a "
+"href='/faq'>link</a>) or contact us at <a href='mailto:forschungsdaten"
+"@uni-muenster.de'>support@example.org</a>!"
+msgstr ""
+"Unser Angebot richtet sich an alle Mitarbeitenden, Promotionsstudierenden"
+" sowie wissenschaftlichen Hilfskräfte der Universität Münster, die eine "
+"zuverlässige Lösung zur Speicherung ihrer Forschungsdaten benötigen. "
+"Unser Repositorium bietet eine sichere Plattform, um Ihre Forschungsdaten"
+" für zehn Jahre zu bewahren. Haben Sie noch Fragen oder benötigen Sie "
+"Unterstützung bei der Nutzung unseres Repositoriums? Schauen Sie gern "
+"einmal in unsere FAQ (<a href='/faq'>Link</a>) oder kontaktieren Sie uns "
+"unter <a href='mailto:support@example.org'>forschungsdaten"
+"@uni-muenster.de</a>!"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:80
+msgid ""
+"We look forward to supporting your research with our services and "
+"contributing to the further\n"
+"              development of science."
+msgstr ""
+"Wir freuen uns, Ihre Forschung mit unserem Angebot zu unterstützen und "
+"gemeinsam zur Weiterentwicklung der Wissenschaft beizutragen."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:86
+msgid "A project of"
+msgstr "Ein Projekt von"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/about.html:87
+msgid "powered by"
+msgstr "powered by"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/access_rights.html:11
+msgid "Authorized users"
+msgstr "Autorisierte Benutzer*innen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/access_rights.html:13
+#, fuzzy
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/archiveRecord.html:9
+msgid "Archive Dataset"
+msgstr "Datensatz archivieren"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/dashboard.html:9
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/users/uploads.html:9
+msgid "My Data"
+msgstr "Meine Datensätze"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/datasafe_rdm_static_page_template.html:25
+msgid "Table of Contents"
+msgstr "Inhaltsverzeichnis"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/datasafe_rdm_static_page_template.html:38
+msgid ""
+"A compilation of questions that might help you. Can't find what you're "
+"looking for?\n"
+"                  Please contact us:"
+msgstr ""
+"Eine Zusammenstellung von Fragen, die Ihnen helfen könnten. Sie finden "
+"nicht, was Sie suchen? Bitte kontaktieren Sie uns:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/datasafe_rdm_static_page_template.html:55
+#, fuzzy
+msgid "datasafe.by University of Münster<br>"
+msgstr "datasafe.by Universität Münster<br>"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/datasafe_rdm_static_page_template.html:63
+msgid ""
+"This work is licensed unde the Creative Commons license type ‘CC0 1.0 "
+"Universal’: <a href='https://creativecommons.org/publicdomain/zero/1.0/' "
+"target='_blank'>https://creativecommons.org/publicdomain/zero/1.0/</a>.</br>The"
+" University of Münster logo and the datasafe logo are not subject to this"
+" license and are explicitly excluded."
+msgstr ""
+"Dieses Werk ist unter der Creative-Commons-Lizenz vom Typ ‚CC0 1.0 "
+"Universal‘ lizenziert: <a "
+"href='https://creativecommons.org/publicdomain/zero/1.0/deed.de' "
+"target='_blank'>https://creativecommons.org/publicdomain/zero/1.0/</a>. "
+"Das Logo der Universität Münster sowie das datasafe-Logo unterliegen "
+"nicht dieser Lizenz und sind hiervon ausgenommen."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:9
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:39
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_cover.html:45
+#, fuzzy
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:15
+msgid "Data protection policy in accordance with Art. 13 GDPR and consent form"
+msgstr "Datenschutzerklärung gem. Art. 13 DSGVO"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:25
+msgid ""
+"Project/reason:<br> Preservation of digital research data in context of "
+"the service\n"
+"            “datasafe.by Universität Münster“ (due to simplicity, "
+"hereinafter this service will just be called\n"
+"            “datasafe”)"
+msgstr ""
+"Projekt/Anlass:<br> Informationen zur Verarbeitung personenbezogener "
+"Daten bei der Archivierung digitaler Forschungsdaten im Rahmen der "
+"Dienstleistung „datasafe.by Universität Münster“ (aus Gründen der "
+"Vereinfachung im Folgenden kurz „datasafe“ genannt)"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:29
+msgid "Name and address of the responsible controller"
+msgstr "Name und Anschrift der verantwortlichen Stelle"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:30
+msgid ""
+"The responsible controller as defined in the EU General Data Protection "
+"Regulation (GDPR) and other national data protection laws of the EU "
+"member states as well as other data protection-related provisions is:"
+msgstr ""
+"Die verantwortliche Stelle im Sinne der EU-Datenschutzgrundverordnung "
+"(DSGVO) und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten "
+"sowie sonstiger datenschutzrechtlicher Bestimmungen ist die:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:33
+msgid "University of Münster,"
+msgstr "Universität Münster,"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:34
+msgid "represented by its Rector, Prof. Dr. Johannes Wessels"
+msgstr "vertreten durch den Rektor, Prof. Dr. Johannes Wessels"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:40
+msgid ""
+"If you have any questions about the project, please contact the "
+"responsible staff member:"
+msgstr ""
+"Bei inhaltlichen Rückfragen zum Projekt wenden Sie sich bitte direkt an "
+"den fachlichen Ansprechpartner:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:51
+msgid "Contact data of the Data Protection Officer"
+msgstr "Kontaktdaten der/des Datenschutzbeauftragten"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:52
+msgid "You can contact the Data Protection Officer at:"
+msgstr "Der/die Datenschutzbeauftragte des Verantwortlichten ist:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:55
+#, fuzzy
+msgid "Data Protection Office"
+msgstr "Stabsstelle Datenschutz"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:61
+msgid "Data processing in connection with the archiving of digital research data"
+msgstr "Datenverarbeitung im Rahmen der Archivierung digitaler Forschungsdaten"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:62
+msgid ""
+"The general regulations can be found in the <a href='https://www.uni-"
+"muenster.de/datenschutz/' target='blank'>Privacy Policy of the University"
+" of Münster</a>."
+msgstr ""
+"Die allgemeinen Regelungen entnehmen Sie bitte der <a href='https://www"
+".uni-muenster.de/datenschutz/' target='blank'>Datenschutzerklärung der "
+"Universität Münsterr</a>."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:65
+msgid ""
+"Scope of data processing<br>The following personal data from you and all "
+"further persons that have been appointed by you is processed in "
+"connection with the archiving of your digital research data:"
+msgstr ""
+"Umfang der Datenverarbeitung<br>Im Rahmen der Archivierung digitaler "
+"Forschungsdaten verarbeiten wir von Ihnen und allen weiteren von Ihnen "
+"benannten Personen die folgenden Daten:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:69
+msgid "First name"
+msgstr "Vorname"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:69
+msgid "Family name"
+msgstr "Nachname"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:70
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_userprofiles/settings/profile.html:50
+msgid "Affiliation"
+msgstr "Organisationszugehörigkeit"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:71
+msgid ""
+"Publicly available personal IDs (if available), e.g. GND-ID, VIAF-ID, "
+"ISNI, ORCID iD"
+msgstr ""
+"Öffentlich verfügbare persönliche IDs (falls vorhanden), z.B. GND-ID, "
+"VIAF-ID, ISNI, ORCID iD"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:72
+msgid "Email address, central user ID (if available)"
+msgstr "E-Mail-Adresse, zentrale Nutzerkennung (falls vorhanden)"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:73
+msgid "User role in the context of datasafe"
+msgstr "Nutzerrolle im Rahmen von datasafe"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:74
+msgid "Link to personal dataset in CRIS (if available)"
+msgstr "Verknüpfung mit persönlichem Datensatz in CRIS (falls vorhanden)"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:78
+msgid ""
+" Purpose of data processing<br>The personal data listed above is "
+"processed for the purpose of archiving your digital research data in "
+"frame of the service “datasafe“. In this context, the personal data "
+"listed above is used to:"
+msgstr ""
+" Zwecke der Datenverarbeitung<br>Die Verarbeitung der oben genannten "
+"personenbezogenen Daten dient dazu, die Archivierung digitaler "
+"Forschungsdaten im Rahmen des Dienstes „datasafe“ durchzuführen. Die oben"
+" genannten personenbezogenen Daten werden dabei verwendet, um"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:81
+msgid ""
+"ensure that all elementary laws are obeyed, that describe how to "
+"correctly and completely mention all authors of a dataset. (see "
+"“Guidelines for Safeguarding Good Research Practice“, DFG, August 2019),"
+msgstr ""
+" zu gewährleisten, dass die allgemeinen Grundsätze zur korrekten und "
+"vollständigen Nennung aller Autoren des Datensatzes eingehalten werden "
+"(vgl. „Leitlinien zur Sicherstellung guter wissenschaftlicher Praxis“, "
+"DFG, August 2019),"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:82
+msgid ""
+"inform all involved persons about the storage or the upcoming deletion of"
+" a dataset,"
+msgstr ""
+"alle Beteiligten über die Speicherung oder bevorstehende Löschung des "
+"Datensatzes zu informieren,"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:83
+msgid "ensure control of the access rights regarding the individual datasets,"
+msgstr "die Steuerung der Zugriffsrechte auf den Datensatz sicherzustellen,"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:84
+msgid "make sure that all archived research data can reliably be found."
+msgstr ""
+"die Wiederauffindbarkeit der archivierten Forschungsdaten zu "
+"gewährleisten."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:87
+#, fuzzy
+msgid ""
+"Legal basis for processing personal data<br>Your consent serves as the "
+"legal basis for processing your personal data listed above by the "
+"University of Münster, as stipulated by Art. 6 Abs. 1 Satz 1 lit. e), "
+"Abs. 3 GDPR in connection with § 3 Abs. 1 HG NRW in connection with § 3 "
+"Abs. 1 DSG NRW."
+msgstr ""
+"Rechtsgrundlage für die Verarbeitung personenbezogener "
+"Daten<br>Rechtsgrundlage für die Verarbeitung der oben genannten "
+"personenbezogenen Daten durch die Universität Münster ist Art. 6 Abs. 1 "
+"Satz 1 lit. e), Abs. 3 DSGVO in Verbindung mit § 3 Abs. 1 HG NRW in "
+"Verbindung mit § 3 Abs. 1 DSG NRW."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:89
+#, fuzzy
+msgid ""
+"Further recipients of your personal data<br>Your personal data listed "
+"above is forwarded to the following recipients within the University of "
+"Münster:"
+msgstr ""
+"Empfänger*innen Ihrer personenbezogenen Daten<br>Die oben genannten "
+"personenbezogenen Daten werden an folgende Empfänger innerhalb der "
+"Universität Münster weitergegeben:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:92
+msgid "University and State Library of Münster"
+msgstr "Universitäts- und Landesbibliothek Münster"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:103
+#, fuzzy
+msgid ""
+"Duration of storage of personal data<br>The personal data listed above "
+"will be stored for as long as necessary to provide the datasafe service, "
+"i.e., usually indefinitely."
+msgstr ""
+"Dauer der Speicherung personenbezogener Daten<br>Ihre oben genannten "
+"personenbezogenen Daten werden so lange gespeichert, wie sie für die "
+"Archivierung Ihrer Forschungsdaten benötigt werden, d.h. in der Regel auf"
+" unbestimmte Zeit."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:105
+msgid "Your rights as a data subject"
+msgstr "Ihre Rechte als betroffene Person"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:106
+msgid ""
+"You have, in case the requirements of the corresponding rules are met, "
+"the right to information about your personal data processed by the "
+"University of Münster (Art. 15 GDPR), the right to rectification (Art. 16"
+" GDPR), erasure (Art. 17 GDPR), restriction (Art. 18 GDPR) and object of "
+"processing (Art. 21 GDPR)."
+msgstr ""
+"Sie haben, sofern die Voraussetzungen hierfür vorliegen, ein Recht auf "
+"Auskunft über Ihre von der Universität Münster verarbeiteten "
+"personenbezogenen Daten (Art. 15 DSGVO), ein Recht auf Berichtigung Ihrer"
+" personenbezogenen Daten (Art. 16 DSGVO), ein Recht auf Löschung (Art. 17"
+" DSGVO), ein Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO) und"
+" ein Recht auf Widerspruch gegen die Verarbeitung Ihrer personenbezogenen"
+" Daten (Art. 21 DSGVO)."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/site/datasafe_rdm/templates/semantic-ui/datasafe_rdm/privacy.html:107
+msgid ""
+"You also have the right to lodge a complaint with the supervisory "
+"authority. The responsible supervisory\n"
+"          authority is the"
+msgstr ""
+"Außerdem haben Sie das Recht, Beschwerde bei der Aufsichtsbehörde "
+"einzulegen. Die folgende Aufsichtsbehörde ist zuständig:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:28
+msgid "Fast and secure archiving of your research data for 10 years."
+msgstr "Schnelle und sichere Archivierung Ihrer Forschungsdaten für 10 Jahre."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:60
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:62
+msgid ""
+"As a member of the University of Münster, you can simply log in using "
+"your university ID."
+msgstr ""
+"Als Angehörige*r der Universität Münster können Sie sich einfach über "
+"Ihre Uni-Kennung einloggen."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:73
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:18
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:22
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:25
+msgid "Log in"
+msgstr "Einloggen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/login_user.html:81
+#, fuzzy
+msgid "More information"
+msgstr "Mehr über datasafe erfahren"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:11
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:76
+#, fuzzy
+msgid "Sessions"
+msgstr "Sitzungen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:16
+#, fuzzy
+msgid "Remove"
+msgstr "Zurückziehen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:20
+#, fuzzy
+msgid "Currently the following devices have logged into your account:"
+msgstr "Aktuell sind folgende Geräte in Ihren Account eingeloggt:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:36
+#, fuzzy
+msgid "Signed in on"
+msgstr "Eingeloggt am"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:38
+#, fuzzy
+msgid "current session"
+msgstr "aktuelle Sitzung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:45
+#, fuzzy
+msgid "Location"
+msgstr "Ort"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_accounts/settings/security.html:55
+#, fuzzy
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:23
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_cover.html:50
+msgid "Contact"
+msgstr "Kontakt"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:35
+#, fuzzy
+msgid "datasafe"
+msgstr "datasafe"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:36
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_cover.html:43
+msgid "About"
+msgstr "Über datasafe"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:37
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:100
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:38
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_cover.html:44
+#, fuzzy
+msgid "Terms of Service"
+msgstr "Nutzungsbedingungen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:40
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_cover.html:47
+#, fuzzy
+msgid "Legal Notice"
+msgstr "Impressum"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/footer.html:41
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_cover.html:52
+#, fuzzy
+msgid "Image Credits"
+msgstr "Bildnachweis"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:20
+msgid "Impersonated session"
+msgstr "Imitierte Sitzung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:22
+#, fuzzy
+msgid "You must log out after you're finished with your inquiry!"
+msgstr "Sie müssen sich ausloggen, nachdem Sie Ihre Anfrage abgeschlossen haben!"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:41
+msgid "home"
+msgstr "Startseite"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:53
+#, fuzzy
+msgid "InvenioRDM"
+msgstr "InvenioRDM"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:88
+#, fuzzy
+msgid "My datasafe"
+msgstr "Mein datasafe"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:95
+msgid "Archive new dataset"
+msgstr "Neuen Datensatz archivieren"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header.html:119
+msgid "Language selection"
+msgstr "Sprachauswahl"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:56
+msgid "My account"
+msgstr "Mein Account"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:78
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/index.html:20
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:18
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:16
+#, fuzzy
+msgid "Personal Access Tokens"
+msgstr "Persönliche Zugangstoken"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:102
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:105
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:114
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/header_login.html:117
+#, fuzzy
+msgid "Log out"
+msgstr "Ausloggen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/deposit.html:26
+msgid "New version"
+msgstr "Neue Version"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/deposit.html:28
+msgid "New upload"
+msgstr "Daten archivieren"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/deposit.html:30
+msgid "Edit upload"
+msgstr "Daten bearbeiten"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:52
+#, fuzzy
+msgid "Information banner"
+msgstr "Informationsbanner"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:84
+#, fuzzy
+msgid "Part of"
+msgstr "Ein Projekt von"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:95
+msgid "Community visibility"
+msgstr "Projektsichtbarkeit"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:96
+msgid "The community is restricted to users with access."
+msgstr "Ihr Projekt ist auf Benutzer*innen mit Zugang beschränkt."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:98
+msgid "Restricted"
+msgstr "Eingeschränkt sichtbar"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:115
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:25
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:142
+msgid "Preview"
+msgstr "Vorschau"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:119
+#, fuzzy
+msgid "You are previewing an archived dataset."
+msgstr "Sie sehen einen bereits archivierten Datensatz."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:121
+#, fuzzy
+msgid "You are previewing changes that have not yet been archived."
+msgstr "Sie sehen vorläufige Änderungen, die noch nicht archiviert wurden."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:123
+#, fuzzy
+msgid "You are previewing a new dataset that has not yet been archived."
+msgstr "Sie sehen einen vorläufigen Datensatz, der noch nicht archiviert  wurde."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:125
+#, fuzzy
+msgid "You are previewing a new dataset version that has not yet been archived."
+msgstr "Sie sehen einen neuen Datensatz, der noch nicht archiviert wurde."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:140
+#, fuzzy, python-format
+msgid ""
+"\n"
+"                    There is a %(link_start)snewer version%(link_end)s of"
+" the dataset\n"
+"                    available.\n"
+"                  "
+msgstr ""
+"\n"
+"                    Es ist eine %(link_start)sneue Version%(link_end)s  "
+"des Datensatzes\n"
+"                    verfügbar.\n"
+"                  "
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:183
+msgid "Back-navigation"
+msgstr "Zurück"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:185
+msgid "Back to edit"
+msgstr "Zurück zur Bearbeitung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:221
+#, fuzzy
+msgid "Archiving date and version number"
+msgstr "Datum des Archivierens und Versionsnummer"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:225
+#, fuzzy
+msgid "Archiving date"
+msgstr "Datensatz archivieren"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:226
+#, fuzzy
+msgid "Archived"
+msgstr "Datensatz archiviert"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:229
+#, python-brace-format
+msgid "Version {version_number}"
+msgstr "Version {version_number}"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:261
+msgid "Edit metadata"
+msgstr "Metadaten bearbeiten"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:274
+#, fuzzy
+msgid "Dataset title and creators"
+msgstr "Datensatztitel und Ersteller*innen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:282
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/creatibutors.html:16
+#, fuzzy
+msgid "Creators"
+msgstr "Ersteller*innen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:296
+#, fuzzy
+msgid "Record description"
+msgstr "Beschreibung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:297
+msgid "Description"
+msgstr "Beschreibung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:310
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:315
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:332
+msgid "Files"
+msgstr "Dateien"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:348
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:213
+msgid "Reason"
+msgstr "Grund"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:354
+msgid "Request access"
+msgstr "Zugangsrechte anfragen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:356
+msgid ""
+"If you would like to request access to these files, please fill out the "
+"form below."
+msgstr ""
+"Falls Sie Zugang zu diesen Daten beantragen wollen, füllen Sie bitte das "
+"unten stehende Formular aus."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:364
+msgid ""
+"You need to satisfy these conditions in order for this request to be "
+"accepted:"
+msgstr ""
+"Sie müssen folgende Bedingungen erfüllen, damit diese Anfrage akzeptiert "
+"wird"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:389
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:197
+msgid "System files"
+msgstr "Systemdateien"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:402
+#, fuzzy
+msgid "Additional dataset details"
+msgstr "Zusätzliche Informationen zum Datensatz"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/detail.html:416
+#, fuzzy
+msgid "Dataset details"
+msgstr "Informationen zum Datensatz"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/subjects.html:15
+msgid "Keywords"
+msgstr "Schlagwörter"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/side_bar/keywords_subjects.html:13
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/side_bar/keywords_subjects.html:15
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/side_bar/versions.html:12
+#, fuzzy
+msgid "Versions"
+msgstr "Versionen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/side_bar/versions.html:31
+#, fuzzy
+msgid "Create new version"
+msgstr "Neue Version erstellen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/details/side_bar/versions.html:33
+msgid "If you want to add, modify, or delete files, create a new version."
+msgstr ""
+"Wenn Sie Dateien hinzufügen, ändern oder löschen möchten, erstellen Sie "
+"eine neue Version."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/creatibutors.html:19
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/creatibutors.html:20
+#, fuzzy
+msgid "profile"
+msgstr "Profil"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/creatibutors.html:75
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/creatibutors.html:79
+msgid "Show affiliations"
+msgstr "Affiliationen anzeigen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/creatibutors.html:76
+msgid "Hide affiliations"
+msgstr "Affiliationen ausblenden"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/creatibutors.html:84
+msgid "Affiliations for"
+msgstr "Affiliationen für"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:84
+msgid "Name"
+msgstr "Name"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:85
+msgid "Size"
+msgstr "Größe"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:94
+msgid "Download all"
+msgstr "Alles herunterladen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:131
+msgid ""
+"This is the file fingerprint (checksum), which can be used to verify the "
+"file integrity."
+msgstr ""
+"Dies ist der Fingerabdruck der Datei (Prüfsumme), der zur Überprüfung der"
+" Dateiintegrität dient."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_app_rdm/records/macros/files.html:147
+msgid "Download"
+msgstr "Herunterladen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_i18n/macros/language_selector.html:17
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_i18n/macros/language_selector.html:31
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_i18n/macros/language_selector.html:53
+msgid "Language:"
+msgstr "Sprache:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/index.html:21
+#, fuzzy
+msgid "Create token"
+msgstr "Neues Token"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/index.html:30
+#, fuzzy, python-format
+msgid "Personal access tokens to access the %(site_name)s API:"
+msgstr ""
+"Hier sind die persönlichen Token aufgeführt, die für den Zugriff auf die "
+"%(site_name)s API verwendet werden können:"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/index.html:45
+#, fuzzy
+msgid ""
+"You have not yet created any personal access tokens. Click the 'Create "
+"token' button to create a personal access token to use with the API."
+msgstr ""
+"Sie haben noch kein persönliches Zugangstoken erstellt. Klicken Sie auf "
+"die Schaltfläche 'Neues Token', um ein persönliches Zugangstoken zu "
+"erstellen."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:18
+#, fuzzy
+msgid "Create personal access token"
+msgstr "Neues persönliches Zugangstoken"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:27
+#, fuzzy
+msgid "By using the API, I accept the"
+msgstr "Durch die Nutzung der API akzeptiere ich die "
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:27
+#, fuzzy
+msgid " terms of service "
+msgstr " Nutzungsbedingungen "
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:27
+msgid " and "
+msgstr " und "
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:28
+#, fuzzy
+msgid " privacy policy"
+msgstr " Datenschutzerklärung "
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:28
+#, fuzzy
+msgid ""
+". I acknowledge that all research data submitted via the API will be "
+"archived for a period of ten years."
+msgstr ""
+"und bestätige, dass alle auf diese Weise hochgeladenen "
+"Forschungsdatensätze zehn Jahre lang archiviert werden."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:35
+msgid ""
+"I confirm that the research data I upload via the API does not contain "
+"any personal or pseudonymized data, or - if such data is contained - that"
+" it has been fully encrypted in accordance with current security "
+"standards. This does not apply to patient data, which must not be "
+"archived in datasafe."
+msgstr ""
+"Ich bestätige, dass Forschungsdaten, die ich über die API hochlade, keine"
+" personenbezogenen oder pseudonymisierten Daten enthalten, oder - falls "
+"solche Daten enthalten sind - dass sie vollständig und gemäß aktueller "
+"Sicherheitsstandards verschlüsselt wurden. Davon ausgenommen sind "
+"Patientendaten; diese dürfen in datasafe nicht archiviert werden."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:40
+#, fuzzy
+msgid "Create"
+msgstr "Erstellen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:43
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_new.html:59
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:82
+#, fuzzy
+msgid "Name of the personal access token"
+msgstr "Name des persönlichen Zugangstokens"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:16
+#, fuzzy, python-format
+msgid "%(name)s"
+msgstr "%(name)s"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:20
+#, fuzzy
+msgid "Access token generated"
+msgstr "Zugangstoken"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:24
+msgid "Copy"
+msgstr "Kopieren"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:28
+msgid ""
+"This token is only displayed once. Please copy it and do not share it "
+"with others. It allows full access to your account."
+msgstr ""
+"Dieses Token wird nur einmal angezeigt. Bitte kopieren Sie es und teilen "
+"Sie es nicht mit anderen. Es erlaubt vollen Zugriff auf Ihren Account."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:38
+msgid ""
+"If you've lost or forgotten this token please create a new one. Be aware "
+"that any scripts or applications using this token will need to be "
+"updated."
+msgstr ""
+"Wenn Sie dieses Token verloren oder vergessen haben, erstellen Sie bitte "
+"ein Neues. Beachten Sie, dass alle Skripte oder Anwendungen, die dieses "
+"Token verwenden, aktualisiert werden müssen."
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:50
+msgid "Save"
+msgstr "Speichern"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:53
+msgid "Delete"
+msgstr "Löschen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:63
+msgid "Token index"
+msgstr "Token-Übersicht"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauth2server/settings/token_view.html:74
+msgid "Token copied to clipboard!"
+msgstr "Token in die Zwischenablage kopiert!"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauthclient/_macros.html:59
+msgid "Sign in with Single-Sign-On (SSO)"
+msgstr "Einloggen mit Single-Sign-On (SSO)"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_oauthclient/login_user.html:28
+msgid "Or"
+msgstr "Oder"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_settings.html:16
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_theme/page_settings.html:27
+#, fuzzy
+msgid "Account settings"
+msgstr "Accounteinstellungen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_userprofiles/settings/profile.html:14
+msgid "Profile"
+msgstr "Profil"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_userprofiles/settings/profile.html:29
+#, fuzzy
+msgid "User information"
+msgstr "Nutzerinformationen"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_userprofiles/settings/profile.html:64
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_userprofiles/settings/profile.html:68
+msgid "Language of archiving receipt"
+msgstr "Sprache der Archivierungsquittung"
+
+#: /home/markus/InvenioRDM/safe/datasafe-rdm/templates/semantic-ui/invenio_userprofiles/settings/profile.html:97
+msgid "Update"
+msgstr "Speichern"
+
+msgid "Table of contents"
+msgstr "Inhaltsverzeichnis"
+
+msgid "Publication date"
+msgstr "Datum der Archivierung"
+
+msgid "Published"
+msgstr "Archiviert"
+
+msgid "Allow upload (but not publishing)."
+msgstr "Erlaube das Hochladen (aber nicht das Archivieren)."
+
+msgid "Allow publishing of uploads."
+msgstr "Erlaube das Archivieren von Uploads."
+
+msgid "%(icon)s Profile"
+msgstr "%(icon)s Profil"
+
+msgid "%(icon)s Applications"
+msgstr "%(icon)s Persönliche Zugangstoken"
+
+msgid "%(icon)s Security"
+msgstr "%(icon)s Sitzungen"
+
+msgid "Preferences locale"
+msgstr " "
+

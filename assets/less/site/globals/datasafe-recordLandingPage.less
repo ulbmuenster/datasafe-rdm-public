@@ -1,0 +1,461 @@
+/*****************************************
+        Record detail page Overrides
+*****************************************/
+@import "site.variables";
+
+/*****************************************
+        ...
+*****************************************/
+
+#record-landing-page {
+  background-color: @offWhite;
+  padding: 2.5rem 1.5rem;
+  height: 100%;
+
+  a {
+    color: @textColor;
+    text-decoration: none;
+  }
+
+  div.ui.divider {
+    border-top: 1px solid #cbc9c8;;
+  }
+
+  .ui.relaxed.grid.mt-5 {
+    margin: 0;
+  }
+
+  // Style the main card
+  #record-landing-page-main-content {
+    padding: 1rem 3rem 4rem 3rem;
+    background-color: @white;
+    margin-bottom: 1.5rem;
+
+    & > section:not(#record-info) {
+      margin-top: 3.5em;
+    }
+
+    #record-info {
+      font-size: unit((13 / @emSize), rem);
+    }
+
+    #datasaferdm-editbutton {
+      & > i.pencil.alternate.icon {
+        margin-right: 10px !important;
+        margin-left: 4px !important;
+      }
+    }
+
+    #record-title-section {
+      display: flex;
+      gap: 1rem;
+
+      img#title-logo {
+        width: 64px;
+        height: 64px;
+      }
+
+      #title-and-creators {
+        width: 100%;
+        //overflow: hidden;
+        word-break: break-word;
+
+        #record-title {
+          margin-bottom: 0.5rem;
+          font-size: unit((25/@emSize), rem);
+        }
+
+        #creators {
+          color: @tertiaryTextColor;
+          font-size: unit((13/@emSize), rem);
+          line-height: 1.5;
+        }
+
+        .creatibutor-link:hover span {
+          text-decoration: none;
+        }
+      }
+
+      #creatibutors > div > div > div:nth-child(2).active {
+        .affiliations-button {
+          background: #858280;
+          border: 1px solid #858280;
+          color: @white !important;
+        }
+
+      }
+    }
+
+    .affiliations-button {
+      margin-bottom: 3px;
+
+    }
+
+    #creators-affiliations {
+      margin-top: 0;
+
+      ul {
+        padding-top: 0;
+        padding-left: 0;
+      }
+    }
+
+    #description {
+      font-size: unit((16/@emSize), rem) !important;
+      line-height: 1.5;
+      color: @tertiaryTextColor;
+
+      code, kbd, pre, samp {
+        font-size: unit((14/@emSize), rem);
+        line-height: 1.5;
+      }
+    }
+
+    #description-heading, h2 {
+      color: @textColor;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    #files-heading {
+      font-weight: normal;
+      line-height: 1.5;
+    }
+
+    /*****************************************
+            Styling of file preview pane
+    *****************************************/
+
+    #preview_file_box {
+      .preview-container {
+        border: none;
+        border-bottom: 1px solid #b9b7b6;
+      }
+
+      tr:last-of-type {
+        .preview-container {
+          border: none;
+        }
+      }
+    }
+
+    .preview-iframe {
+      height: 400px;
+      background: #f5f5f5;
+      //padding: 8px 12px;
+
+      &.block {
+        display: block;
+      }
+
+      &.table-row {
+        display: table-row;
+      }
+    }
+
+    #preview_file_box tr:last-of-type {
+
+      .preview-iframe {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+
+
+    #previewer-table {
+      display: none;
+    }
+
+    #previewer-td {
+      padding: 0 !important;
+    }
+
+    .accordion.panel {
+      border-radius: 8px;
+
+      h3 {
+        background-color: @offWhite;
+        font-size: 16px;
+
+        #preview-file-title {
+          font-size: 13px;
+        }
+      }
+
+      > .panel-heading.active {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      > .panel-heading:not(.active) {
+        color: @textColor;
+        border-radius: 8px;
+      }
+
+      #files-preview-accordion-panel {
+        background: #f5f5f5;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+    }
+
+    #files-preview-accordion-trigger {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .sum-of-file-sizes {
+      margin-left: 0.75rem;
+    }
+
+    #files-list-accordion-panel {
+      border: 1px solid @borderColor;
+      border-radius: 8px;
+    }
+
+    table tbody small {
+      display: none;
+      height: 0;
+      width: 0;
+      overflow: hidden;
+    }
+
+    th, td {
+      font-weight: normal;
+      font-size: unit((13/@emSize), rem);
+    }
+
+    tr.preview-row {
+      display: none;
+      opacity: 0;
+      background-color: @offWhite;
+    }
+
+    tr.preview-row.show {
+      display: table-row;
+      opacity: 1;
+      transition: opacity 0.3s ease-in;
+    }
+
+    i#interact-row-icon {
+      box-shadow: 0 0 0 1px #514c49 inset;
+      color: @textColor;
+      font-size: .75rem;
+      transition: transform 0.2s ease;
+    }
+
+    small:not(.sum-of-file-sizes) {
+      margin-left: 2.3rem;
+    }
+
+    td.right.aligned a:last-of-type {
+      margin-right: 0;
+    }
+
+    //Styling "additional details"
+    section#additional-details {
+
+      * {
+        font-size: unit((13/@emSize), rem);
+      }
+
+      #record-details-heading {
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: unit((13/@emSize), rem);
+      }
+
+      .details-list > .ui.tiny.header > span {
+        font-weight: 400;
+      }
+
+      div.ui.divider:first-of-type, div.ui.divider:last-of-type {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+        visibility: hidden;
+      }
+
+      .ui.tiny.header {
+        color: @tertiaryTextColor;
+
+      }
+
+      dd, dd div {
+        color: #a8a6a4 !important;
+      }
+    }
+  }
+
+  /*****************************************************
+      Styling the sidebar and the sidebar containers
+  *****************************************************/
+
+  #record-landing-page-sidebar {
+    padding-top: 0;
+    padding-right: 0;
+
+    .sidebar-container {
+      width: 100%;
+      max-width: 9999px;
+      padding: 0.75rem 1rem 0.75rem 1rem;
+      border-radius: 16px;
+      background-color: @white;
+      box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.05);
+      margin-bottom: 1.5rem;
+      font-size: unit((13 / @emSize), rem);
+
+      h2 {
+        font-size: 1rem;
+        line-height: 1.45;
+        border: none;
+        padding: 0 0 0.75rem 0;
+      }
+
+      .text-muted, .text-muted-darken {
+        color: #514c49 !important;
+      }
+
+      .ui.segment.rdm-sidebar {
+        border: none;
+        font-size: unit((13 / @emSize), rem);
+
+        small {
+          font-size: unit((13 / @emSize), rem);
+        }
+      }
+
+      .attached {
+        margin-right: 0;
+        margin-left: 0;
+      }
+
+      div.card-divider {
+        height: 0;
+        width: calc(100% + 2rem);
+        margin-left: -1rem;
+        border-top: 1px solid #cbc9c8;
+      }
+
+      #datasafe-new-version-button {
+        align-self: flex-start;
+      }
+
+      // Style the extend storage period card
+      h2#extend-storage-period-header {
+        background: #fff8e0;
+        margin-right: -1rem;
+        margin-left: -1rem;
+        margin-top: -12px !important;
+        padding-left: 1rem;
+        padding-top: .75rem;
+        border-radius: 14px 14px 0 0;
+
+      }
+
+      h2#extend-storage-period-header.extended {
+        background-color: #f3fff1;
+      }
+
+      div#storage-extension-content {
+        padding-top: .75rem;
+        color: #514c49;
+
+        p:first-of-type + p {
+          margin-top: 1rem;
+        }
+      }
+
+      // Style the versions card
+      #record-versions {
+
+        .item {
+          padding: 0.75rem 1rem;
+          margin: 0 -1rem;
+          border: none;
+        }
+
+        .right.floated.content {
+          float: left;
+        }
+
+        .item:hover:not(.active) {
+          background-color: @offWhite;
+        }
+
+        // Focus the list item when the link inside gets focus
+        .item:focus-within {
+          border: 2px solid #1e74a2;
+          padding: 10px 14px;
+        }
+
+        .item a:focus-visible {
+          outline: none !important;
+          border: none;
+        }
+
+        // Hide the view all versions link before reomving from dom
+        #recordVersions div.ui.grid.mt-0 {
+          height: 0;
+          width: 0;
+          margin: 0;
+          padding: 0;
+          display: none;
+          visibility: hidden;
+        }
+      }
+
+      //  Style the access rights card
+      #authorized-users-div {
+        padding: 0;
+
+        #user-list {
+          padding: 0;
+          margin: 0;
+
+          li {
+            margin: 0.75rem 0 1.5rem 0;
+            list-style-type: none;
+
+            span {
+              margin-left: 0.5rem;
+            }
+          }
+
+          li:last-of-type {
+            margin-bottom: .75rem;
+          }
+        }
+
+        #datasaferdm-sharebutton {
+          margin-top: 13px !important;
+        }
+      }
+
+      //Style the keywords and subjects card
+      #keywords-and-subjects {
+        padding: 0;
+
+        li {
+          margin: .75rem .5rem 0 0;
+        }
+      }
+    }
+  }
+}
+
+// This keeps the margins and paddings in check. Needed because of our changes
+@media screen and (max-width: 1279px) {
+  #record-landing-page-sidebar {
+    padding: 0;
+  }
+
+  .sidebar-container {
+    margin-bottom: 1rem !important;
+  }
+}

@@ -1,0 +1,33 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2015-2024 CERN.
+  Copyright (C) 2021 New York University.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{%- extends "invenio_theme/page.html" -%}
+
+{%- block body_inner %}
+
+  {%- block page_header %}
+    {% include config.THEME_HEADER_TEMPLATE %}
+  {%- endblock page_header %}
+
+  <main id="main">
+    <div class="invenio-page-body">
+      {%- block page_body %}
+        {% include "invenio_theme/body.html" %}
+      {%- endblock page_body %}
+    </div>
+  </main>
+  {% if  request.path != "/archive/new" %}
+    {%- block page_footer %}
+      {% include config.THEME_FOOTER_TEMPLATE %}
+      <!-- datasafe-RDM: Remove second footer -->
+    {%- endblock page_footer %}
+  {% endif %}
+
+{%- endblock body_inner %}

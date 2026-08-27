@@ -1,0 +1,95 @@
+/*******************************
+         Footer Overrides
+*******************************/
+
+@import "./site.variables";
+
+/* ---------------------- */
+/* general footer styling */
+/* ---------------------- */
+#footer {
+  margin-top: auto;
+  width: 100vw;
+  background: @footerBackgroundColor;
+  color: @offWhite;
+
+  #footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: @computerBreakpoint;
+    margin: 0 auto;
+    padding: 3rem 133px;
+    line-height: 1.5;
+
+    #footer-logo {
+      align-self: end;
+
+      img {
+        height: 55px;
+
+      }
+
+
+    }
+
+    h4 {
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+
+    #footer-contact address {
+      color: @footerDarkColor;
+      font-style: normal;
+      font-size: 1rem;
+
+      a {
+        color: @footerDarkColor;
+        text-decoration: none;
+        border-bottom: 1px solid @footerDarkColor;
+
+      }
+    }
+
+    #footer-about {
+      a {
+        color: @offWhite;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #cbc9c8
+      }
+
+      a:hover {
+        color: @midWhite
+      }
+
+      a:focus-visible {
+        outline: 2px solid #1e74a2 !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: @mobileBreakpoint) and (max-width: @tabletBreakpoint) {
+  #footer-content {
+    display: block !important;
+    padding: 1.5rem 3rem !important;
+  }
+
+  #footer-logo, #footer-about, #footer-contact {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 880px) and (min-width: @tabletBreakpoint) {
+  #footer-content {
+    display: block !important;
+
+    #footer-logo, #footer-about, #footer-contact {
+      margin: 0 auto 3rem auto;
+    }
+  }
+}
+

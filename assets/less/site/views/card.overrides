@@ -1,0 +1,42 @@
+/*******************************
+         Card Overrides
+*******************************/
+
+@import "../globals/site.variables";
+@import "card.variables";
+
+/* -------------------- */
+/* general card styling */
+/* -------------------- */
+.ui.card {
+  border-radius: @cardBorderRadius;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  margin: 1rem 0;
+  box-shadow: @cardRaisedShadow;
+
+  .header {
+    color: @textColor;
+    line-height: 150%;
+  }
+
+  .meta {
+    font-size: 13px;
+    color: @tertiaryTextColor;
+    line-height: 100%;
+    margin-top: 0.25rem;
+  }
+
+  .description {
+    font-size: 13px;
+    color: #a8a6a4;
+
+  }
+
+  .meta + .description {
+    margin-top: 0.75rem;
+  }
+}
+
+.ui.raised.card {
+  box-shadow: @cardRaisedShadow;
+}

@@ -1,0 +1,117 @@
+/*******************************
+        Accordion Overrides
+*******************************/
+
+@import "../globals/site.variables";
+@import "../elements/button.variables";
+@import "../views/card.variables";
+
+// Setting text color of accordion title to have good contrast
+.ui.inverted.accordion .title:not(.ui) {
+  color: @textColor;
+}
+
+.ui.accordion .title:not(.ui).panel-heading {
+  color: @textColor !important;
+}
+
+.ui.accordion {
+  .title {
+    i.circular.icon {
+      box-shadow: 0 0 0 1px #000000 inset;
+      font-size: 0.75em;
+    }
+  }
+}
+
+.ui.accordion.affiliations {
+  padding-bottom: 1em;
+}
+
+// invenio-accordion-fields in the deposit form
+.ui.accordion.invenio-accordion-field {
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1.5em;
+  border-radius: 18px;
+  background-color: @white;
+  box-shadow: @cardRaisedShadow;
+
+  .title {
+    padding: .75rem .5rem .75rem 1rem;
+    font-size: 1em;
+    line-height: 1.45;
+
+    &:focus-visible {
+      border: 2px solid #1e74a2 !important;
+      padding: calc(.75rem - 2px) calc(.5rem - 2px) calc(.75rem - 2px) calc(1rem - 2px);
+      outline: none;
+    }
+  }
+
+  .title.active {
+    margin-top: -1em;
+    margin-right: -1em;
+    margin-left: -1em;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+
+  .title:not(.active) {
+    margin: -1em;
+    border-radius: 18px;
+  }
+}
+
+.ui.accordion.invenio-accordion-field.error.secondary.inverted {
+  .title {
+    background-color: @negativeBackgroundColor !important;
+    color: @negativeColor !important;
+
+    &.active {
+      border-bottom: 1px solid @negativeBorderColor;
+    }
+
+    i.circular.icon {
+      box-shadow: 0 0 0 1px @negativeColor inset;
+      color: @negativeColor;
+
+    }
+  }
+
+  .title:hover {
+    i.circular.icon {
+      box-shadow: 0 0 0 1px @textColor inset;
+      color: @textColor;
+
+    }
+  }
+}
+
+// Rotate the non active icons
+.ui.accordion .title:not(.active) .icon:not(.button),
+.ui.accordion .accordion .title:not(.active) .icon:not(.button) {
+  transform: rotate(90deg);
+
+}
+
+// Rotate the active active icons
+.ui.accordion .active.title .icon:not(.button),
+.ui.accordion .accordion .active.title .icon:not(.button) {
+  transform: rotate(270deg);
+}
+
+// Make icons change smooth
+.accordion .title i {
+  transition: transform 0.2s ease;
+}
+
+// General states
+.ui.accordion {
+
+  .title:hover {
+    i.circular.icon {
+      box-shadow: 0 0 0 1px @tertiaryTextColor inset;
+      color: @tertiaryTextColor;
+    }
+  }
+}

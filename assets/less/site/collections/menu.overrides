@@ -1,0 +1,62 @@
+/***********************************
+            Menu Overrides
+***********************************/
+@import "../globals/site.variables";
+@import "../collections/menu.variables";
+
+/*------------------
+      Pagination
+------------------*/
+
+/* Pagination */
+.ui.pagination.menu {
+  border-radius: .5em;
+  box-shadow: none;
+  min-height: unset;
+  height: 36px;
+  border: none;
+
+  .item {
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    min-width: 30px;
+    border: 2px solid @white !important;
+    transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease, border-color 0.1s ease;
+  }
+
+  .item:first-of-type {
+    min-width: 36px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .item:last-of-type {
+    min-width: 36px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .item:hover:not(.disabled) {
+    border: 2px solid @hoverItemBackground !important;
+  }
+
+  .item:active:not(.disabled) {
+    border: 2px solid #cbc9c8 !important;
+    background-color: #cbc9c8;
+  }
+
+  .item.active {
+    border: 2px solid @activeItemBackground !important;
+    padding-top: 6px;
+  }
+
+
+  .item:focus-visible {
+    outline: none !important;
+    border: 2px solid #1e74a2 !important;
+  }
+
+  // This does not show the vertical dividers anymore
+  .item::before {
+    width: 0;
+  }
+}

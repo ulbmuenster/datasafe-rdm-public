@@ -1,0 +1,132 @@
+{#
+  Copyright (C) 2023-2026 University of Münster.
+
+  Invenio-Pdf-Generator is free software; you can redistribute it and/or
+  modify it under the terms of the MIT License; see LICENSE file for more
+  details.
+#}
+
+{% set submission_request = notification.context.request %}
+{% set community = submission_request.receiver %}
+{% set access_visibility = community.access.visibility %}
+{% set record = submission_request.topic %}
+{% set further_involved_users = submission_request.further_involved_users %}
+{% set metadata = record.metadata %}
+{% set publication_date = metadata.publication_date %}
+{% set title = metadata.title %}
+{% set vars = {"subtitle": "-", "size": 0} %}
+{% for additional_title in metadata.additional_titles %}
+  {% set test = vars.update({"subtitle": additional_title.title }) if additional_title.type.id == "subtitle" %}
+{% endfor %}
+{% set creator = submission_request.created_by %}
+{% set embargo_until = record.access.embargo.until %}
+{% set embargo_active = record.access.embargo.active %}
+{% set doi = record.pids.doi %}
+{% set files = record.files.entries %}
+{% for key, value in files.items() %}
+  {% set s = vars.size + value.size %}
+  {% set test = vars.update({"size": s }) %}
+{% endfor %}
+
+{% set logo_name = "datasafe-logo" if access_visibility == "restricted" else "datastore-logo" %}
+{% set cert_subject = "Archiving" if access_visibility == "restricted" else "Publication" %}
+{% set data = "dataset" if access_visibility == "restricted" else "publication" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <style>
+      @page {
+          @bottom-right {
+              content: "Receipt for: '{{ title|truncate(25, True, '...') }}' - page " counter(page) " of " counter(pages);;
+          }
+      }
+  </style>
+</head>
+<body>
+<table id="tabelle_seitenkopf">
+  <tr>
+    <!-- TODO: add your own institution's logo here -->
+    <td id="zelle_rdm_logo"><img
+      src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0ic2NyZWVuc2hvdC02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE0Mi41IDM2Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBpc29sYXRpb246IGlzb2xhdGU7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgZmlsbDogIzUxNGM0OTsKICAgICAgfQoKICAgICAgLmNscy0zIHsKICAgICAgICBmaWxsOiAjMjY5YmNkOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8ZyBpZD0ic2hhcGUtNmQxMDY1MzMtYTAxMy04MGJhLTgwMDUtYzJjNWMzMTg3YzAxIj4KICAgIDxnIGlkPSJzaGFwZS02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDIiPgogICAgICA8ZyBpZD0iZmlsbHMtNmQxMDY1MzMtYTAxMy04MGJhLTgwMDUtYzJjNWMzMTg3YzAyIj4KICAgICAgICA8ZyBjbGFzcz0iY2xzLTEiPgogICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNTAuMjIsMjQuODZjLS4wNC0uMS0uMi0uNTYtLjIyLTEuMDItLjcyLjgyLTEuNDgsMS4xNi0yLjY0LDEuMTYtMi41OCwwLTQuMDYtMS44Ni00LjA2LTUuMDQsMC0yLjEyLjctMy42OCwyLjA2LTQuNjIuNjQtLjQ0LDEuMi0uNjIsMS45Mi0uNjIsMS4xMiwwLDIuMS40NiwyLjcsMS4yNiwwLS4xNi0uMDItLjktLjAyLTEuNTR2LTQuMThsMS41Ni4yNnYxMS4xMmMwLDEuNzIuMDgsMi42NC4zLDMuMjJoLTEuNlpNNDkuOTQsMTcuMDRjLS41LS43LTEuMjQtMS4wNC0yLjQyLTEuMDQtLjc4LDAtMS40NC4zNi0xLjg2LDEuMDQtLjQ4Ljc2LS42NCwxLjQ4LS42NCwyLjg4LDAsMS4xNi4wOCwyLjAyLjQsMi42LjQ2LjgyLDEuMDgsMS4xNiwyLDEuMTYuODIsMCwxLjI4LS4xOCwxLjkyLS42NC4zMi0uMjIuNTQtLjU4LjYtLjcydi01LjI4WiIvPgogICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNjUuOCwyNS4yNGMtLjY4LS4yMi0xLjE4LS43Ni0xLjM2LTEuNDYtLjk2Ljk2LTEuNzQsMS4zNC0yLjg4LDEuMzQtMi40NiwwLTMuMi0xLjUtMy4yLTIuODQsMC0yLjI2LDEuOTQtMy41OCw1LjI4LTMuNTguMjIsMCwuMzgsMCwuNy4wMnYtLjdjMC0uODgtLjA0LTEuMjQtLjMyLTEuNTYtLjMyLS4zNi0uNzItLjU0LTEuMzQtLjU0LTEuMTIsMC0yLjU0LjYtMy4xOCwxLjE4bC0uNzgtMS4xMmMxLjMyLS44OCwyLjc0LTEuMzQsNC4xOC0xLjM0czIuMzQuNTQsMi43NiwxLjU2Yy4yMi41NC4yNCwxLjMuMjIsMi4ybC0uMDgsMy4yOGMtLjA0LDEuNjIuMDYsMi4wNC44LDIuNDRsLS44LDEuMTJaTTYzLjUyLDE5Ljc2Yy0yLjUyLDAtMy40Mi44Ni0zLjQyLDIuMzgsMCwxLjE4LjU4LDEuODIsMS43MiwxLjgyLDEuMDIsMCwxLjk2LS42MiwyLjQyLTEuNTZsLjA2LTIuNmMtLjItLjAyLS41Ni0uMDQtLjc4LS4wNFoiLz4KICAgICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTc3LjA5LDE2LjA4aC0yLjA4djYuNDJjMCwxLjEuMywxLjQ4LDEuMjgsMS40OC40NCwwLC43LS4wNi45OC0uMmwuMjIsMWMtLjUuMjYtMS4wNi40LTEuNzYuNC0uNTIsMC0uOTItLjEtMS4zLS4yOC0uNy0uMzQtLjk2LS45OC0uOTYtMS45OHYtNi44NGgtMS4zdi0xLjE4aDEuM2MwLS44Ni4xMi0yLjIuMTYtMi41MmwxLjY0LS4zNmMtLjA0LjMyLS4yLDEuNy0uMiwyLjg4aDIuNWwtLjQ4LDEuMThaIi8+CiAgICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik05MC4yNCwyNS4yNGMtLjY4LS4yMi0xLjE4LS43Ni0xLjM2LTEuNDYtLjk2Ljk2LTEuNzQsMS4zNC0yLjg4LDEuMzQtMi40NiwwLTMuMi0xLjUtMy4yLTIuODQsMC0yLjI2LDEuOTQtMy41OCw1LjI4LTMuNTguMjIsMCwuMzgsMCwuNy4wMnYtLjdjMC0uODgtLjA0LTEuMjQtLjMyLTEuNTYtLjMyLS4zNi0uNzItLjU0LTEuMzQtLjU0LTEuMTIsMC0yLjU0LjYtMy4xOCwxLjE4bC0uNzgtMS4xMmMxLjMyLS44OCwyLjc0LTEuMzQsNC4xOC0xLjM0czIuMzQuNTQsMi43NiwxLjU2Yy4yMi41NC4yNCwxLjMuMjIsMi4ybC0uMDgsMy4yOGMtLjA0LDEuNjIuMDYsMi4wNC44LDIuNDRsLS44LDEuMTJaTTg3Ljk2LDE5Ljc2Yy0yLjUyLDAtMy40Mi44Ni0zLjQyLDIuMzgsMCwxLjE4LjU4LDEuODIsMS43MiwxLjgyLDEuMDIsMCwxLjk2LS42MiwyLjQyLTEuNTZsLjA2LTIuNmMtLjItLjAyLS41Ni0uMDQtLjc4LS4wNFoiLz4KICAgICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEwMC41OCwyNS4xNmMtMS4yNiwwLTIuNjQtLjM4LTMuNjYtMWwuNi0xLjE2YzEuMDIuNjIsMi4wNi45NCwzLjE2Ljk0LDEuMjIsMCwyLjAyLS42NiwyLjAyLTEuNzIsMC0uOS0uNS0xLjQtMS42NC0xLjY0bC0xLjI0LS4yNmMtMS42NC0uMzQtMi41Mi0xLjM2LTIuNTItMi43NCwwLTEuOCwxLjQ2LTMuMDYsMy41NC0zLjA2LDEuMDQsMCwyLjIuMzIsMy4wNC44bC0uNTgsMS4xNmMtLjg4LS40Mi0xLjYyLS43Mi0yLjUtLjcyLTEuMTQsMC0xLjg4LjY2LTEuODgsMS42NCwwLC43Ni4zOCwxLjIyLDEuNDQsMS40NGwxLjMyLjI4YzEuOC4zOCwyLjY2LDEuMywyLjY2LDIuNzgsMCwxLjk0LTEuNTIsMy4yNi0zLjc2LDMuMjZaIi8+CiAgICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xMTcuNjEsMjUuMjRjLS42OC0uMjItMS4xOC0uNzYtMS4zNi0xLjQ2LS45Ni45Ni0xLjc0LDEuMzQtMi44OCwxLjM0LTIuNDYsMC0zLjItMS41LTMuMi0yLjg0LDAtMi4yNiwxLjk0LTMuNTgsNS4yOC0zLjU4LjIyLDAsLjM4LDAsLjcuMDJ2LS43YzAtLjg4LS4wNC0xLjI0LS4zMi0xLjU2LS4zMi0uMzYtLjcyLS41NC0xLjM0LS41NC0xLjEyLDAtMi41NC42LTMuMTgsMS4xOGwtLjc4LTEuMTJjMS4zMi0uODgsMi43NC0xLjM0LDQuMTgtMS4zNHMyLjM0LjU0LDIuNzYsMS41NmMuMjIuNTQuMjQsMS4zLjIyLDIuMmwtLjA4LDMuMjhjLS4wNCwxLjYyLjA2LDIuMDQuOCwyLjQ0bC0uOCwxLjEyWk0xMTUuMzMsMTkuNzZjLTIuNTIsMC0zLjQyLjg2LTMuNDIsMi4zOCwwLDEuMTguNTgsMS44MiwxLjcyLDEuODIsMS4wMiwwLDEuOTYtLjYyLDIuNDItMS41NmwuMDYtMi42Yy0uMi0uMDItLjU2LS4wNC0uNzgtLjA0WiIvPgogICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTI5Ljc2LDEyLjA2Yy0uMzgtLjIyLS45NC0uNDYtMS40OC0uNDYtLjg4LDAtMS4zNi42Mi0xLjM2LDEuNzZ2MS41NGgyLjc2bC0uNDgsMS4xOGgtMi4yOHY4Ljc4aC0xLjY0di04Ljc4aC0uOTZ2LTEuMThoLjk2di0xLjU2YzAtMS40OC42OC0yLjEyLDEuMS0yLjQ0LjQ4LS4zNiwxLjAyLS41MiwxLjc2LS41Mi44NiwwLDEuNjIuMiwyLjIuNThsLS41OCwxLjFaIi8+CiAgICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzYuMjgsMjAuMTR2LjI0YzAsLjk0LjEyLDEuNjYuNDYsMi4xOC41Ni44NiwxLjQ4LDEuMjIsMi40OCwxLjIyczEuNzQtLjMsMi40NC0uOTRsLjYsMWMtLjg4LjgtMi4wOCwxLjI0LTMuMzYsMS4yNC0yLjc2LDAtNC40Mi0yLTQuNDItNS4zLDAtMS42OC4zNi0yLjc2LDEuMi0zLjc2LjgtLjk0LDEuNzgtMS4zOCwyLjk4LTEuMzgsMS4wOCwwLDIuMDIuMzgsMi43LDEuMDguODYuODgsMS4xNCwxLjgyLDEuMTQsNC4ydi4yMmgtNi4yMlpNMTQwLjM4LDE2Ljc0Yy0uMzQtLjU0LTEuMDQtLjg4LTEuOC0uODgtMS40MiwwLTIuMjIsMS4wNC0yLjMsMy4xaDQuNTZjLS4wMi0xLjA4LS4xNi0xLjc0LS40Ni0yLjIyWiIvPgogICAgICAgIDwvZz4KICAgICAgPC9nPgogICAgPC9nPgogICAgPGcgaWQ9InNoYXBlLTZkMTA2NTMzLWEwMTMtODBiYS04MDA1LWMyYzVjMzE4N2MwMyI+CiAgICAgIDxnIGlkPSJmaWxscy02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDMiPgogICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE4LDJjOC44MiwwLDE2LDcuMTgsMTYsMTZzLTcuMTgsMTYtMTYsMTZTMiwyNi44MiwyLDE4LDkuMTgsMiwxOCwyTTE4LDBDOC4wNiwwLDAsOC4wNiwwLDE4czguMDYsMTgsMTgsMTgsMTgtOC4wNiwxOC0xOFMyNy45NCwwLDE4LDBoMFoiLz4KICAgICAgPC9nPgogICAgPC9nPgogICAgPGcgaWQ9InNoYXBlLTZkMTA2NTMzLWEwMTMtODBiYS04MDA1LWMyYzVjMzE4N2MwNCI+CiAgICAgIDxnIGlkPSJzaGFwZS02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDYiPgogICAgICAgIDxnIGlkPSJmaWxscy02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDYiPgogICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMjMsMTZjLjU1LDAsMSwuNDUsMSwxdjYuNWMwLC41NS0uNDUsMS0xLDFoLTEwYy0uNTUsMC0xLS40NS0xLTF2LTYuNWMwLS41NS40NS0xLDEtMWgxME0yMywxNGgtMTBjLTEuNjYsMC0zLDEuMzQtMywzdjYuNWMwLDEuNjYsMS4zNCwzLDMsM2gxMGMxLjY2LDAsMy0xLjM0LDMtM3YtNi41YzAtMS42Ni0xLjM0LTMtMy0zaDBaIi8+CiAgICAgICAgPC9nPgogICAgICA8L2c+CiAgICAgIDxnIGlkPSJzaGFwZS02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDciPgogICAgICAgIDxnIGlkPSJmaWxscy02ZDEwNjUzMy1hMDEzLTgwYmEtODAwNS1jMmM1YzMxODdjMDciPgogICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMTgsMTBjMS4zOCwwLDIuNSwxLjEyLDIuNSwyLjV2MS41aC01di0xLjVjMC0xLjM4LDEuMTItMi41LDIuNS0yLjVNMTgsOGMtMi40OCwwLTQuNSwyLjAyLTQuNSw0LjV2My41aDl2LTMuNWMwLTIuNDgtMi4wMi00LjUtNC41LTQuNWgwWiIvPgogICAgICAgIDwvZz4KICAgICAgPC9nPgogICAgICA8ZyBpZD0ic2hhcGUtNmQxMDY1MzMtYTAxMy04MGJhLTgwMDUtYzJjNWMzMTg3YzA4Ij4KICAgICAgICA8ZyBpZD0iZmlsbHMtNmQxMDY1MzMtYTAxMy04MGJhLTgwMDUtYzJjNWMzMTg3YzA4Ij4KICAgICAgICAgIDxjaXJjbGUgY2xhc3M9ImNscy0zIiBjeD0iMTgiIGN5PSIyMC41IiByPSIxLjUiLz4KICAgICAgICA8L2c+CiAgICAgIDwvZz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPg=="
+      id="img_rdm_logo" alt="" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="absender">
+      
+      <!-- TODO: your own contact address -->
+      <a href="mailto:support@example.org">support@example.org</a>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="datum"><strong>Date</strong><br />{{ publication_date|datetime_format }}</td>
+  </tr>
+</table>
+
+<p class="betreff">{{ cert_subject }} of your research data: Confirmation of receipt</p>
+<br>
+<p>To whom it may concern,</p>
+<p class="haupttext">
+  You uploaded data to <em>datasafe</em>, a service of the University of Münster for archiving research data.
+  Only you and the persons listed below are authorized to download this data after authentication with their
+  university ID.</p>
+<p id="warntext">Please note: The research data is stored for ten years before being erased.</p>
+<p class="grussformel">Yours faithfully<br />Service Center for Data Management</p>
+<hr class="light" />
+<div id="div_metadaten">
+  <table id="tabelle_allgemeine_metadaten">
+    <tr>
+      <td class="feldnamen">Title</td>
+      <td>{{ title }}</td>
+    </tr>
+    <tr>
+      <td class="feldnamen">Subtitle</td>
+      <td>{{ vars.subtitle }}</td>
+    </tr>
+    <tr>
+      <td class="feldnamen">Size</td>
+      <td>{{ vars.size|unit_calculator }}</td>
+    </tr>
+    <tr>
+      <td class="feldnamen">Storage period</td>
+      <td>{{ record.updated|datetime_format }}
+        &#x2002;&#x2013;&#x2002; {{ record.custom_fields["datasafe:planned_purge_date"]|datetime_format }}</td>
+    </tr>
+    <tr>
+      <td class="feldnamen">Link</td>
+      <td><a href="{{ record.links.self_html }}">{{ record.links.self_html }}</a>
+      </td>
+    </tr>
+  </table>
+
+  {% if further_involved_users|length > 0 %}
+  {% endif %}
+  <p class="titel_autoren_metadaten">Dataset Owner</p>
+  <p class="name_autor">{{ creator.profile.full_name }}</p>
+  {% if creator.profile.affiliations %}
+    <p class="adresse_autor">{{ creator.profile.affiliations }}</p>
+  {% else %}
+    <p class="adresse_autor"></p>
+  {% endif %}
+  {% if further_involved_users|length > 0 %}
+    <div id="further_involved_users">
+      <p class="titel_autoren_metadaten">Further involved persons</p>
+      {% for user in further_involved_users %}
+        <p class="name_autor">{{ user.full_name }}</p>
+        {% if user.affiliations %}
+          <p class="adresse_autor">{{ user.affiliations }}</p>
+        {% else %}
+          <p id="adresse_autor"></p>
+        {% endif %}
+        {% if (loop.index + 1) % 16 == 0 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+  {% endif %}
+</div>
+</body>
+</html>
+

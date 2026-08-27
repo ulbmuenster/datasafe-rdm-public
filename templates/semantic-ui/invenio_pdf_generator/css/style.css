@@ -1,0 +1,194 @@
+/*
+Theme Name: datasafe-RDM html-to-pdf base style
+
+TODO: the original stylesheet loaded a University of Münster corporate font
+("MetaWebPro") from a University of Münster URL via @font-face. That font is
+not publicly licensed for redistribution, so the @font-face rules and the
+private CDN URLs have been removed here; the stylesheet now falls back to
+sans-serif. Add your own @font-face rules (with your own font files) if
+desired.
+*/
+
+@page {
+    size: A4;
+    margin: 15mm 20mm;
+    @bottom-right {
+        font-size: 10px;
+        font-family: "MetaWebPro", sans-serif;
+        color: #757575;
+    }
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "MetaWebPro", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #514c49;
+    height: 100%
+}
+
+a {
+    color: #514c49;
+    text-decoration-line: underline;
+}
+
+hr.light {
+    display: block;
+    height: 0;
+    border: 1px solid #000000;
+    margin: 24px 0;
+    padding: 0;
+}
+
+#zelle_unims_logo {
+    width: 70%;
+    height: 20mm;
+    text-align: left;
+    vertical-align: top;
+}
+
+#zelle_rdm_logo {
+    width: 30%;
+    height: 20mm;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+#img_unims_logo {
+    width: 257px;
+    height: 71px;
+}
+
+#img_rdm_logo {
+    width: 186px;
+    height: 45px;
+}
+
+#linie_kopfzeile {
+    height: 10mm;
+    vertical-align: middle;
+}
+
+#tabelle_seitenkopf {
+    width: 100%;
+    margin: 0 0 -2mm 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
+.index {
+    font: menu;
+    font-size: 60%;
+    vertical-align: 4px;
+}
+
+.betreff {
+    text-align: left;
+    font-weight: bold;
+}
+
+.absender {
+    padding-top: 30px;
+    width: 30%;
+    height: 17mm;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 10px;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.datum {
+    height: 11mm;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 10px;
+}
+
+.haupttext {
+    width: 100%;
+    text-align: justify;
+}
+
+.grussformel {
+    margin-bottom: 6mm;
+}
+
+.feldnamen {
+    width: 30%;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.leerzeile {
+    height: 3mm;
+}
+
+.name_autor {
+    width: 95%;
+    height: 4mm;
+    margin-left: 1mm;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.adresse_autor {
+    width: 95%;
+    height: 3.5mm;
+    font-size: 13px;
+    color: #979492;
+    margin: -4mm 0 4mm 1mm;
+}
+
+.img_icon {
+    height: 3.2mm;
+    margin: 0 0.6mm -0.5mm 0;
+}
+
+#warntext {
+    width: 100%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#tabelle_allgemeine_metadaten {
+    width: 95%;
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+
+#further_involved_users {
+    break-inside: avoid;
+}
+
+.titel_autoren_metadaten {
+    width: 100%;
+    height: 5mm;
+    margin: 6mm 0 -2mm 1mm;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#div_fusszeile {
+    border-top: 1px solid black;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15mm;
+    line-height: 115%;
+    font-size: 7pt;
+    background-color: white;
+}
+

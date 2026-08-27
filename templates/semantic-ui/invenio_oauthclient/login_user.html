@@ -1,0 +1,36 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2015-2020 CERN.
+  Copyright (C)      2021 TU Wien.
+  Copyright (C)      2021 Graz University of Technology.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+{%- extends config.OAUTHCLIENT_LOGIN_USER_TEMPLATE_PARENT %}
+
+{%- from "invenio_oauthclient/_macros.html" import oauth_button %}
+
+
+{%- block form_outer %}
+  {% if config.OAUTHCLIENT_REMOTE_APPS %}
+    <div class="ui form">
+      {% for name, config in config.OAUTHCLIENT_REMOTE_APPS.items() if not config.hide %}
+        {{ oauth_button(name, next=request.args.get('next')) }}
+      {% endfor %}
+    </div>
+    <!-- datasafe-RDM: Comment out to hide local login form -->
+    {#    Divider between OAUTH login and Local Log in (Not present in PROD)#}
+    {%- if config.ACCOUNTS_LOCAL_LOGIN_ENABLED %}
+      {#    {%- if false %}#}
+      <div class="ui horizontal divider">
+        {{ _("Or") }}
+      </div>
+    {%- endif %}
+  {% endif %}
+  {#    Form for local login (Not available in PROD)#}
+  {{ super () }}
+{% endblock %}
+<!-- datasafe-RDM: Comment out to hide local login form -->
+

@@ -1,0 +1,160 @@
+/* ---------------------------------------------------------------------- */
+/* Dropdowns are styled here because dropdown.overrides not being loaded  */
+/* ---------------------------------------------------------------------- */
+@import "./site.variables";
+
+/*--------------------------------
+      General Dropdown styles
+--------------------------------*/
+.ui.dropdown:not(.button) > .divider.text,
+.ui.dropdown:not(.button) > .text {
+  line-height: 20px !important;
+  margin: 0 !important;
+}
+
+.ui.multiple.search.dropdown > input.search {
+  line-height: 20px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.ui.multiple.search.dropdown > input.search {
+  margin-left: -1px !important;
+}
+
+// Style the divider between the "input" and the dropdown
+div.ui.selection.dropdown .menu > .item:first-of-type,
+div.ui.selection.search.dropdown > .menu > .message:first-of-type {
+  border-top: 1px solid #cbc9c8 !important;
+}
+
+// Adjust max-height of scollable dropdowns
+.members-dropdown-container .ui.dropdown.overflow-scroll .menu,
+.access-dropdown-container .ui.dropdown.overflow-scroll .menu {
+  max-height: 15rem !important;
+}
+
+/*------------------
+      States
+------------------*/
+
+// Default
+div.ui.selection.dropdown:not(.button) {
+  border: 2px solid @white;
+  line-height: 20px;
+  padding: 6px 12px;
+  background-color: @white;
+
+  &.bg-white {
+    border: 1px solid #b9b7b6;
+    padding: 7px 13px;
+  }
+}
+
+// :hover
+div.ui.selection.dropdown:not(.button):hover {
+  border: 2px solid #dcdbdb;
+  background-color: #dcdbdb;
+
+  &.bg-white {
+    border: 1px solid #b9b7b6;
+    padding: 7px 13px;
+    background-color: @offWhite;
+  }
+}
+
+.react-select-dropdown__control:hover {
+    border: 1px solid #b9b7b6;
+    background-color: @offWhite;
+}
+
+.react-select-dropdown__control {
+    border: 1px solid #b9b7b6;
+}
+
+
+
+
+// .active (imitates focus style)
+div.ui.selection.dropdown:not(.button).active {
+  border: 2px solid #1e74a2;
+  padding: 6px 12px;
+  background-color: @white;
+
+  .menu {
+    border: 2px solid #1e74a2;
+  }
+
+  &.bg-white {
+    border: 2px solid #1e74a2 !important;
+    padding: 6px 12px !important;
+    background-color: @white;
+  }
+}
+
+// .active and :hover / .ative no :focus
+div.ui.selection.dropdown:not(.button).active:hover,
+div.ui.selection.dropdown:not(.button):not(.search).active:not(:focus) {
+  border: 2px solid @white;
+  background-color: @white;
+
+  & .menu {
+    border: none;
+
+    > .item {
+      padding-right: 18px !important;
+      padding-left: 18px !important;
+    }
+
+    > .message {
+      padding-right: 18px;
+      padding-left: 18px;
+    }
+  }
+
+  &.bg-white {
+    border: 1px solid #b9b7b6 !important;
+    padding: 7px 13px !important;
+
+    & i:not(.delete) {
+      margin-top: -7px;
+      margin-right: -7px;
+    }
+
+    & .menu {
+      border: 1px solid #b9b7b6;
+      margin: -1px -1px;
+      min-width: calc(100% + 2px) !important;
+      width: calc(100% + 2px) !important;
+
+      > .item {
+        padding: 13px 17px !important;
+      }
+
+      > .message {
+        margin-left: -2px;
+      }
+    }
+  }
+}
+
+// .active no :focus for seacrh dropdowns is not possible with css due to not able to use :has()
+
+// :focus
+div.ui.selection.dropdown:not(.button):focus {
+  border: 2px solid #1e74a2;
+  padding: 6px 12px;
+  background-color: @white;
+
+  &.bg-white {
+    border: 2px solid #1e74a2;
+    padding: 6px 12px;
+    background-color: @white;
+  }
+}
+
+// :focus for seacrh dropdowns
+div.ui.search.selection.dropdown:not(.active) > input.search:focus {
+  border: 2px solid #1e74a2 !important;
+  background-color: @white !important;
+}

@@ -1,0 +1,179 @@
+/*****************************
+        Uppy component
+*****************************/
+
+.ui.grid.file-uploader {
+  margin-bottom: 0;
+
+  .ui.progress.success .bar {
+    background-color: #74bee5 !important;
+
+    & > .progress {
+      color: @textColor;
+    }
+  }
+
+  div.row:first-of-type {
+    padding-bottom: 12px !important;
+
+    .storage-col .item {
+      padding: 0;
+
+      .ui.label {
+        background: @white;
+        color: @textColor;
+        border: 1px solid #74706d;
+        border-radius: 16px;
+        font-size: 13px !important;
+        line-height: 1 !important;
+        padding: 7px 12px;
+      }
+    }
+  }
+
+  #uppy-uploader-dashboard {
+
+    .uppy-Dashboard-Item-previewInnerWrap {
+      border-radius: 8px;
+    }
+
+    // Default state
+    .uppy-Root {
+      font-family: 'MetaWebPro', Verdana, sans-serif !important;
+    }
+
+    .uppy-Dashboard-inner {
+      border-radius: 8px;
+      background: @offWhite;
+      font-weight: normal;
+    }
+
+    .uppy-c-btn:not(.uppy-Dashboard-Item-progressIndicator):not(.uppy-StatusBar-actionBtn--retry) {
+      color: @textColor;
+      border-bottom: 1px solid @textColor;
+      border-color: @textColor;
+    }
+
+    .uppy-DashboardContent-bar {
+      padding: 12px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      background: @white;
+    }
+
+    .uppy-DashboardContent-title {
+      font-size: 16px;
+    }
+
+
+    .uppy-Dashboard-AddFilesPanel {
+      border-radius: 8px;
+
+      .uppy-DashboardContent-back {
+        color: @textColor;
+      }
+    }
+
+    .uppy-Dashboard-AddFiles-title,
+    .uppy-Dashboard-note {
+      max-width: none;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .uppy-StatusBar:not([aria-hidden="true"]) {
+      background: @white;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+      &.is-waiting {
+        height: unset;
+      }
+
+    }
+
+    // Drag and Drop state (give uppy-Dashboard the class .uppy-Dashboard--isDraggingOver)
+    .uppy-Dashboard-dropFilesHereHint {
+      color: @textColor;
+    }
+
+    .uppy-Dashboard-dropFilesHereHint,
+    .uppy-Dashboard-AddFiles {
+      border: none;
+    }
+
+    // Prepare Upload state
+    .uppy-StatusBar-actions {
+      padding: 12px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+    }
+
+    .uppy-DashboardContent-back {
+      margin-left: 0;
+    }
+
+    .uppy-DashboardContent-addMoreCaption {
+      margin-right: 0;
+    }
+
+    //  Files window
+    .uppy-Dashboard-files {
+      div[role="presentation"] {
+        height: unset !important;
+      }
+    }
+
+    // Delete buttons on files
+    .uppy-Dashboard-Item-action--remove,
+    .uppy-Dashboard-Item.is-complete .uppy-Dashboard-Item-progress:not(:first-of-type) {
+      top: 8px;
+      right: 8px;
+    }
+  }
+
+
+  .uppy-Dashboard--singleFile.uppy-size--height-md .uppy-Dashboard-Item-action--remove,
+  .uppy-Dashboard--singleFile.uppy-size--height-md .uppy-Dashboard-Item-progress.uppy-Dashboard-Item-action {
+    position: absolute;
+    top: 24px !important;
+    right: 24px !important;
+  }
+
+  // File Uploaded and FileUploaded + Prepare Upload state
+  .ui.table.connected {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .uppy-Dashboard-inner {
+    border: 2px dashed @borderColor;
+
+    &.preparing {
+      border: 1px solid @borderColor;
+
+      .uppy-Dashboard-innerWrap {
+      }
+    }
+
+    &.connected {
+      padding: 12px;
+      border: 1px solid @borderColor;
+      border-top: none !important;
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+
+      .uppy-Dashboard-innerWrap {
+        border: 2px dashed @borderColor;
+      }
+    }
+
+    &.uploaded-and-preparing {
+      .uppy-Dashboard-innerWrap {
+        border: 1px solid @borderColor;
+      }
+    }
+  }
+
+}

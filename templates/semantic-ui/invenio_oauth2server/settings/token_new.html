@@ -1,0 +1,64 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2015-2020 CERN.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+
+{%- extends "invenio_oauth2server/settings/index.html" %}
+
+{%- import "invenio_oauth2server/settings/helpers.html" as helpers with context %}
+{%- from "invenio_oauth2server/settings/_macros.html" import render_field, render_scopes_field with context %}
+
+{% block settings_content %}
+  <!-- datasafe-RDM: Rename "API key" to "Personal Access Token" -->
+  {{ helpers.panel_start(_('Create personal access token'),breadcrumb_path=url_for('.index'),breadcrumb_title=_('Personal Access Tokens')  ) }}
+  <form class="ui form" role="form" method="POST">
+    {{ render_field(form.name, autofocus=True) }}
+    <!-- datasafe-RDM: Remove scope checkbox -->
+    {{ form.csrf_token }}
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" name="terms" id="terms" required>
+        <label for="terms">
+          {{ _('By using the API, I accept the') }} <a href="/terms">{{ _(' terms of service ') }}</a>{{ _(' and ') }}<a
+          href="/privacy">{{ _(' privacy policy') }}</a>{{ _('. I acknowledge that all research data submitted via the API will be archived for a period of ten years.') }}
+        </label>
+      </div>
+      <br />
+      <div class="ui checkbox">
+        <input type="checkbox" name="personaldata" id="personaldata" required>
+        <label for="personaldata">
+          {{ _('I confirm that the research data I upload via the API does not contain any personal or pseudonymized data, or - if such data is contained - that it has been fully encrypted in accordance with current security standards. This does not apply to patient data, which must not be archived in datasafe.') }}
+        </label>
+      </div>
+    </div>
+    <button type="submit" id="create-button" class="ui right floated primary button disabled">
+      {{ _('Create') }}
+    </button>
+    <a id="token-new-cancel-button" href="{{ url_for('.index') }}" class="ui right floated button mr-4">
+      {{ _('Cancel') }}
+    </a>
+  </form>
+  {{ helpers.panel_end() }}
+  <script>
+    function updateCreateButtonState() {
+      const termsChecked = document.getElementById("terms").checked;
+      const personalDataChecked = document.getElementById("personaldata").checked;
+      const tokenTitle = document.getElementById("name").value;
+      document.getElementById("create-button").classList.toggle("disabled", !(termsChecked && personalDataChecked && tokenTitle));
+    }
+
+    document.getElementById("terms").addEventListener("change", updateCreateButtonState);
+    document.getElementById("personaldata").addEventListener("change", updateCreateButtonState);
+    document.getElementById("name").addEventListener("input", updateCreateButtonState);
+    updateCreateButtonState();
+    document.getElementById("name").setAttribute("placeholder", {{ _('Name of the personal access token') | tojson | safe }});
+    document.getElementById("name").parentElement.classList.add("bg-white");
+    document.querySelector("small").remove();
+  </script>
+{% endblock %}
+

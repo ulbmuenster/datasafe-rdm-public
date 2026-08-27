@@ -1,0 +1,55 @@
+/*******************************
+         Table Variables
+*******************************/
+
+@import "../globals/site.variables";
+
+
+/*-------------------
+       Element
+--------------------*/
+
+@borderWidth: 1px;
+@border: @borderWidth solid @borderColor;
+@verticalMargin: 0px;
+@borderRadius: 8px;
+@color: @secondaryTextColor;
+
+/*--------------
+     Parts
+---------------*/
+
+/* Table Row */
+@rowBorder: none;
+@cellVerticalPadding: 8px;
+@cellHorizontalPadding: 12px;
+
+/* Table Cell */
+@cellBorder: 1px solid @internalBorderColor;
+
+/* Table Header */
+@headerBorder: 1px solid @internalBorderColor;
+@headerBackground: @offWhite;
+@headerAlign: inherit;
+@headerVerticalAlign: inherit;
+@headerColor: @textColor;
+@headerVerticalPadding: 12px;
+@headerHorizontalPadding: 12px;
+@headerFontStyle: none;
+@headerFontWeight: @normal;
+@headerTextTransform: none;
+@headerBoxShadow: none;
+
+/* Table Footer */
+@footerBoxShadow: none;
+@footerBorder: 1px solid @borderColor;
+@footerDivider: none;
+@footerBackground: @offWhite;
+@footerAlign: inherit;
+@footerVerticalAlign: middle;
+@footerColor: @textColor;
+@footerVerticalPadding: @cellVerticalPadding;
+@footerHorizontalPadding: @cellHorizontalPadding;
+@footerFontStyle: @normal;
+@footerFontWeight: @normal;
+@footerTextTransform: none;

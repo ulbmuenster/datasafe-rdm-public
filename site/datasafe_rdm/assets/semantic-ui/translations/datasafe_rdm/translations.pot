@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2025-08-21T14:15:12.680Z\n"
+"PO-Revision-Date: 2025-08-21T14:15:12.680Z\n"
+"Language: en\n"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Add funding"
+msgstr "Add funding"
+
+msgid "All"
+msgstr "All"
+
+msgid "Archive a dataset"
+msgstr "Archive a dataset"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Change"
+msgstr "Change"
+
+msgid "Choose from your CRIS Projects"
+msgstr "Choose from your CRIS Projects"
+
+msgid "Datasets"
+msgstr "Datasets"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Deleted drafts cannot be restored!"
+msgstr "Deleted drafts cannot be restored!"
+
+msgid "Do you really want to delete this draft?"
+msgstr "Do you really want to delete this draft?"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Drafts"
+msgstr "Drafts"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Funder is required."
+msgstr "Funder is required."
+
+msgid "Mine"
+msgstr "Mine"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "No CRIS project import"
+msgstr "No CRIS project import"
+
+msgid "Creators"
+msgstr "Creators"
+
+msgid "Period of data collection"
+msgstr "Period of data collection"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Reset filters"
+msgstr "Reset filters"
+
+msgid "Restricted"
+msgstr "Restricted"
+
+msgid "Results per page"
+msgstr "Results per page"
+
+msgid "Shared"
+msgstr "Shared"
+
+msgid "Shared with me"
+msgstr "Shared with me"
+
+msgid "Sort by"
+msgstr "Sort by"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Title - ascending"
+msgstr "Title - ascending"
+
+msgid "Title - descending"
+msgstr "Title - descending"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "View"
+msgstr "View"
+
+msgid "YYYY-MM-DD / YYYY-MM-DD"
+msgstr "YYYY-MM-DD / YYYY-MM-DD"
+
+msgid "dataset found."
+msgstr "dataset found."
+
+msgid "datasets found."
+msgstr "datasets found."
+
+msgid "other creators"
+msgstr "other creators"
+
+msgid "Funding"
+msgstr "Funding"
+
+msgid "Funding ID"
+msgstr "Funding ID"
+
+msgid "Draft of version"
+msgstr "Draft of version"
+
+msgid "Archive data"
+msgstr "Archive data"
+
+msgid "Files"
+msgstr "Files"
+
+msgid "Access Rights"
+msgstr "Access Rights"
+
+msgid "Metadata"
+msgstr "Metadata"
+
+msgid "Groups with access"
+msgstr "Groups with access"
+
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+msgid "Access"
+msgstr "Access"
+
+msgid "You"
+msgstr "You"
+
+msgid "Owner"
+msgstr "Owner"
+
+msgid "Add people"
+msgstr "Add people"
+
+msgid "users"
+msgstr "users"
+
+msgid "Add groups"
+msgstr "Add groups"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Search for groups"
+msgstr "Search for groups"
+
+msgid "groups"
+msgstr "groups"
+
+msgid "Access rights"
+msgstr "Access rights"
+
+msgid "You are about to add"
+msgstr "You are about to add"
+
+msgid "Access already granted"
+msgstr "Access already granted"
+
+msgid ""
+"Format: YYYY or YYYY-MM or YYYY-MM-DD | For a date range: DATE/DATE (e.g., "
+"2024-01-01/2024-09-30)"
+msgstr ""
+"Format: YYYY or YYYY-MM or YYYY-MM-DD | For a date range: DATE/DATE (e.g., "
+"2024-01-01/2024-09-30)"
+
+msgid "Import metadata from one of your CRIS projects"
+msgstr "Import metadata from one of your CRIS projects"
+
+msgid "Also transfer access rights"
+msgstr "Also transfer access rights"
+
+msgid "Select a funder "
+msgstr "Select a funder "
+
+msgid "Change access rights"
+msgstr "Change access rights"
+
+msgid " You can extend it once by 5 years."
+msgstr " You can extend it once by 5 years."
+
+msgid "Extend archiving period"
+msgstr "Extend archiving period"
+
+msgid "Archiving period has been extended"
+msgstr "Archiving period has been extended"
+
+msgid ""
+"In {{ remainingYears }} years and {{ remainingMonths }} month(s) the "
+"archiving period of this dataset expires."
+msgstr ""
+"In {{ remainingYears }} years and {{ remainingMonths }} month(s) the "
+"archiving period of this dataset expires."
+
+msgid ""
+"In {{ remainingMonths }} months the archiving period of this dataset "
+"expires."
+msgstr ""
+"In {{ remainingMonths }} months the archiving period of this dataset "
+"expires."
+
+msgid "In {{ daysUntilPurge }} day(s) the archiving period of this dataset expires."
+msgstr "In {{ daysUntilPurge }} day(s) the archiving period of this dataset expires."
+
+msgid " The owner or manager of the dataset can extend it once by 5 years."
+msgstr " The owner or manager of the dataset can extend it once by 5 years."
+
+msgid "This draft has no creators yet"
+msgstr "This draft has no creators yet"
+
+msgid "This draft has no title yet"
+msgstr "This draft has no title yet"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Add members of the University of Münster as authorized users."
+msgstr "Add members of the University of Münster as authorized users."
+
+msgid "Rights"
+msgstr "Rights"
+
+msgid "Can manage"
+msgstr "Can manage"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "People"
+msgstr "People"
+
+msgid "Groups"
+msgstr "Groups"
+
+msgid "Links"
+msgstr "Links"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "remove {{name}}"
+msgstr "remove {{name}}"
+
+msgid "Add person"
+msgstr "Add person"
+
+msgid "Add {{ selectedCount }} person"
+msgstr "Add {{ selectedCount }} person"
+
+msgid "Add {{ selectedCount }} persons"
+msgstr "Add {{ selectedCount }} persons"
+
+msgid "Can edit"
+msgstr "Can edit"
+
+msgid " I accept the "
+msgstr " I accept the "
+
+msgid " and "
+msgstr " and "
+
+msgid " privacy policy "
+msgstr " privacy policy "
+
+msgid " and confirm that the research dataset will be archived for ten years."
+msgstr " and confirm that the research dataset will be archived for ten years."
+
+msgid "Add myself as creator"
+msgstr "Add myself as creator"
+
+msgid " there is one other creator"
+msgstr " there is one other creator"
+
+msgid " there are"
+msgstr " there are"
+
+msgid "Title must be at least 3 characters long."
+msgstr "Title must be at least 3 characters long."
+
+msgid "Use \"{{inputValue}}\" as a new funder"
+msgstr "Use \"{{inputValue}}\" as a new funder"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Add Tag"
+msgstr "Add Tag"
+
+msgid "Can edit and grant access rights"
+msgstr "Can edit and grant access rights"
+
+msgid "Edit pending"
+msgstr "Edit pending"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "Viewer"
+msgstr "Viewer"
+
+msgid "Manager"
+msgstr "Manager"
+
+msgid "Year of archiving"
+msgstr "Year of archiving"
+
+msgid "Can view (datasets)"
+msgstr "Can view (datasets)"
+
+msgid "Can view archived datasets"
+msgstr "Can view archived datasets"
+
+msgid "Can view (datasets and drafts)"
+msgstr "Can view (datasets and drafts)"
+
+msgid "Can view archived datasets and drafts"
+msgstr "Can view archived datasets and drafts"
+
+msgid "Can edit archived datasets and drafts"
+msgstr "Can edit archived datasets and drafts"
+
+msgid ""
+"Note: upon addition, selected groups will have access to the dataset "
+"without any kind of notification."
+msgstr ""
+"Note: upon addition, selected groups will have access to the dataset "
+"without any kind of notification."
+
+msgid "Dataset"
+msgstr "Dataset"
+
+msgid "Archived dataset"
+msgstr "Archived dataset"
+
+msgid "Do you want to archive this dataset?"
+msgstr "Do you want to archive this dataset?"
+
+msgid "No user has access to this dataset yet."
+msgstr "No user has access to this dataset yet."
+
+msgid "No group has access to this dataset yet."
+msgstr "No group has access to this dataset yet."
+
+msgid "Archive"
+msgstr "Archive"
+
+msgid "Recommendation"
+msgstr "Recommendation"
+
+msgid "This check is recommended but not mandatory."
+msgstr "This check is recommended but not mandatory."
+
+msgid "Error"
+msgstr "Error"
+
+msgid "This check indicates a critical issue that must be addressed."
+msgstr "This check indicates a critical issue that must be addressed."
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "This check indicates an issue that should be addressed."
+msgstr "This check indicates an issue that should be addressed."
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Changing access rights applies to all versions of a dataset."
+msgstr "Changing access rights applies to all versions of a dataset."
+
+msgid "Add titles"
+msgstr "Add titles"
+
+msgid "Additional title"
+msgstr "Additional title"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Select language"
+msgstr "Select language"
+
+msgid "Remove field"
+msgstr "Remove field"
+
+msgid "An error occurred while creating the draft."
+msgstr "An error occurred while creating the draft."
+
+msgid "archived"
+msgstr "archived"
+
+msgid "saved"
+msgstr "saved"
+
+msgid "Select permissions"
+msgstr "Select permissions"
+
+msgid "Add description"
+msgstr "Add description"
+
+msgid "Additional Description"
+msgstr "Additional Description"
+
+msgid "Add tags with ENTER"
+msgstr "Add tags with ENTER"
+
+msgid "Archiving Period was extended"
+msgstr "Archiving Period was extended"
+
+msgid "The storage period has been successfully extended."
+msgstr "The storage period has been successfully extended."
+
+msgid "Error extending storage period"
+msgstr "Error extending storage period"
+
+msgid "There was an error extending the storage period."
+msgstr "There was an error extending the storage period."
+
+msgid "No datasets have been archived or shared with you yet."
+msgstr "No datasets have been archived or shared with you yet."
+
+msgid "Start archiving now."
+msgstr "Start archiving now."
+
+msgid "Latest datasets"
+msgstr "Latest datasets"
+
+msgid "Oldest datasets"
+msgstr "Oldest datasets"
+
+msgid "Done"
+msgstr "Done"
+
+msgid " People with access will get an email if you archive this dataset."
+msgstr " People with access will get an email if you archive this dataset."
+
+msgid "DOI is needed. You need to reserve a DOI before archiving."
+msgstr "DOI is needed. You need to reserve a DOI before archiving."
+
+msgid "Search for name or e-mail address"
+msgstr "Search for name or e-mail address"
+
+msgid "Search or create affiliation"
+msgstr "Search or create affiliation"
+
+msgid "Affiliations"
+msgstr "Affiliations"
+
+msgid "Search for affiliation"
+msgstr "Search for affiliation"
+
+msgid "Save and add another"
+msgstr "Save and add another"
+
+msgid "Family name is a required field."
+msgstr "Family name is a required field."
+
+msgid "Name is a required field."
+msgstr "Name is a required field."
+
+msgid "Role is a required field."
+msgstr "Role is a required field."
+
+msgid "Added"
+msgstr "Added"
+
+msgid "Person"
+msgstr "Person"
+
+msgid "Organization"
+msgstr "Organization"
+
+msgid "Search for name"
+msgstr "Search for name"
+
+msgid "Family name"
+msgstr "Family name"
+
+msgid "Given names"
+msgstr "Given names"
+
+msgid "Search for an organization by name, identifier, or affiliation..."
+msgstr "Search for an organization by name, identifier, or affiliation..."
+
+msgid "Search for organization by name, identifier, or affiliation..."
+msgstr "Search for organization by name, identifier, or affiliation..."
+
+msgid "Organization name"
+msgstr "Organization name"
+
+msgid "e.g. ROR, ISNI or GND."
+msgstr "e.g. ROR, ISNI or GND."
+
+msgid "Role"
+msgstr "Role"
+
+msgid "Select role"
+msgstr "Select role"
+
+msgid "Type the first letters of a funder to start searching."
+msgstr "Type the first letters of a funder to start searching."
+
+msgid " terms of service "
+msgstr " terms of service "
+
+msgid ""
+"Once the dataset has been archived, you can no longer change the associated "
+"files. However, you can update the metadata of the dataset at a later date."
+msgstr ""
+"Once the dataset is archived you will no longer be able to change the files "
+"in the dataset. However, you will still be able to update the dataset's "
+"metadata later."
+
+msgid ""
+" I confirm that the research data does not contain any personal or "
+"pseudonymized data, or - if such data is contained - that it has been fully "
+"encrypted in accordance with current security standards. This does not "
+"apply to patient data, which must not be archived in datasafe."
+msgstr ""
+" I confirm that the research data does not contain any personal or "
+"pseudonymized data, or - if such data is contained - that it has been fully "
+"encrypted in accordance with current security standards. This does not "
+"apply to patient data, which must not be archived in datasafe."
+
+msgid "The record has no files."
+msgstr "The dataset has no files."
+
+msgid "Select..."
+msgstr "Select..."
+
+msgid "If his error persists please contact support@example.org"
+msgstr "If his error persists please contact support@example.org"
+
+msgid "Archive dataset"
+msgstr "Archive dataset"
+
+msgid "No results"
+msgstr "No results"
+
+msgid "No datasets were found that match your search."
+msgstr "No datasets were found that match your search."
+
+msgid "Please try different combinations of search terms and filters."
+msgstr "Please try different combinations of search terms and filters."
+
+msgid "of"
+msgstr "of"
+
+msgid "datasets fetched"
+msgstr "datasets fetched"

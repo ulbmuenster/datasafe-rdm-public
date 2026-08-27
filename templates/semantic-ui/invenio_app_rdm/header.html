@@ -1,0 +1,190 @@
+{# -*- coding: utf-8 -*-
+  Copyright (C) 2019-2020 CERN.
+  Copyright (C) 2019-2020 Northwestern University.
+  Copyright (C) 2021 New York University.
+  Copyright (C) 2023-2026 University of Münster.
+
+  datasafe-RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+<!-- datasafe-RDM: Adjusted header to university layout; file is mostly different from invenio-app-rdm version -->
+
+{#--- datasafe-RDM sticky header ---#}
+<header class="theme header">
+  {%- block user_impersonation %}
+    {%- if '_impersonator_id' in session %}
+      <div class="ui negative flashed top attached manage m-0 big message">
+        <div class="ui container">
+          <div class="header">
+            <i class="ui spy big icon"></i><strong>{{ _('Impersonated session') }}</strong>
+          </div>
+          {{ _('You must log out after you\'re finished with your inquiry!') }}
+        </div>
+      </div>
+    {%- endif %}
+  {%- endblock user_impersonation %}
+
+  {#--- datasafe-RDM main header ---#}
+  <nav id="header-nav" class="ui borderless p-0" aria-label="header navigation">
+    <div id="header-nav-content" class="ui equal width grid">
+      <div class="equal width row">
+
+        <div class="center aligned column">
+          <div class="logo">
+            {%- block navbar_header %}
+              {%- block brand %}
+                {%- if config.THEME_LOGO %}
+                  <a class="logo-link" href="/">
+                    <img class="ui image rdm-logo" title="{{ _(config.THEME_SITENAME) }}"
+                         src="{{ url_for('static', filename=config.THEME_LOGO) }}"
+                         alt="{{ _(config.THEME_SITENAME) }} {{ _('home') }}" />
+                  </a>
+                {%- else %}
+                  <a class="logo" href="/">{{ _(config.THEME_SITENAME) }}</a>
+                {%- endif %}
+              {%- endblock brand %}
+            {%- endblock navbar_header %}
+          </div>
+        </div>
+        <div class="middle aligned column">
+          <div class="sitename">
+            {%- block title %}
+              {%- set title = _(config.THEME_SITENAME) or _('InvenioRDM') %}
+              <!-- datasafe-RDM: Title links to user dashboard -->
+              <a id="title-link" href="/me/home">
+                <img id="datasafe-logo"
+                     class="ui image"
+                     src="{{ url_for('static', filename='images/datasafe_logo.svg') }}"
+                     alt="datasafe logo" />
+                {#                <h1 id="title">{{ title }}</h1>#}
+              </a>
+            {%- endblock title %}
+          </div>
+        </div>
+        <div class="computer only tablet only column"></div>
+
+      </div>
+
+
+      {#Hide the authentification button #}
+      {#      {%- if config.ACCOUNTS and not current_user.is_authenticated %}#}
+      {#        <div class="login">#}
+      {#          {%- include config.THEME_HEADER_LOGIN_TEMPLATE %}#}
+      {#        </div>#}
+      {#      {%- endif %}#}
+    </div>
+  </nav>
+
+  {#--- datasafe-RDM sticky navbar (sub header navigation) ---#}
+  {%- if config.ACCOUNTS and current_user.is_authenticated %}
+    <nav id="sub-header-nav" class="p-0" aria-label="content navigation">
+      <div id="sub-header-nav-content" class="p-0 flex-grid">
+
+        {% block navbar_left %}
+          <div class="flex-column-left">
+            <a class="{% if request.path == '/me/home' %}active{% endif %}"
+               href="/me/home"
+               id="my-datasafe-link">{{ _("My datasafe") }}</a>
+          </div>
+        {% endblock navbar_left %}
+
+        {%- block navbar_right %}
+          <div class="flex-column-right">
+            <a class="ui primary button" id="archive-data-button" href="/archive/new"
+               draggable="false">{{ _("Archive new dataset") }}</a>
+            <a
+              id="faq-button"
+              class="ui icon button bg-main-menu"
+              href="/faq"
+              aria-label="{{ _('FAQ') }}"
+              draggable="false">
+              {#              <i class="large question circle outline icon " aria-hidden="true"></i>#}
+              <img id="help-icon"
+                   class="ui image"
+                   src="{{ url_for('static', filename='images/help-circle.svg') }}"
+                   alt="help icon" />
+            </a>
+            {%- if config.I18N_LANGUAGES %}
+              <form id="language-code-form" class="form form-inline lang-select"
+                    action="{{ url_for('invenio_i18n.set_lang') }}"
+                    method="POST">
+                <input type="hidden" name="lang_code" id="lang-code-input" value="">
+                <div class="ui dropdown" tabindex="-1">
+                  <button
+                    id="language-selector"
+                    class="ui icon button bg-main-menu"
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="{{ _('Language selection') }}">
+                    {#                    <i class="large world icon" aria-hidden="true"></i>#}
+                    <img id="globe-icon"
+                         class="ui image"
+                         src="{{ url_for('static', filename='images/globe.svg') }}"
+                         alt="globe icon" />
+                  </button>
+                  <div
+                    id="language-menu"
+                    class="ui menu"
+                    role="menu"
+                    aria-labelledby="language-selector">
+                    {% for l in current_i18n.get_locales() %}
+                      <button type="button" class="item" data-lang="{{ l.language }}" role="menuitem">
+                        {{ l.get_display_name() }}
+                      </button>
+                    {% endfor %}
+                  </div>
+                </div>
+              </form>
+
+              <script>
+                // Handle language selector form submission
+                document.addEventListener("DOMContentLoaded", function() {
+                  const languageMenu = document.getElementById("language-menu");
+                  const langCodeInput = document.getElementById("lang-code-input");
+                  const languageDropdownButton = document.getElementById("language-selector");
+
+                  if (languageMenu.children) {
+                    for (const button of languageMenu.children) {
+                      button.addEventListener("click", function() {
+                        // Update the hidden input value with the selected language
+                        langCodeInput.value = this.getAttribute("data-lang");
+                        // Submit the form
+                        this.closest("form").submit();
+                      });
+                    }
+                  }
+
+                  languageDropdownButton.addEventListener("keydown", function(event) {
+                    if (event.code === "Space" || event.code === "Enter") {
+                      event.preventDefault();
+                      const selectedLocale = languageMenu.querySelector(".item.active.selected").getAttribute("data-lang");
+                      langCodeInput.value = selectedLocale;
+                      this.form.submit();
+                    }
+                  });
+
+                });
+              </script>
+            {% endif %}
+
+            {%- include config.THEME_HEADER_LOGIN_TEMPLATE %}
+
+          </div>
+        {%- endblock navbar_right %}
+
+      </div>
+    </nav>
+  {% endif %}
+
+  {%- block site_banner %}
+    {% from 'invenio_banners/banner.html' import banner %}
+    {{ banner() }}
+  {%- endblock site_banner %}
+
+  {%- block flashmessages %}
+    {%- from "invenio_theme/macros/messages.html" import flashed_messages with context -%}
+    {{ flashed_messages() }}
+  {%- endblock %}
+
+</header>

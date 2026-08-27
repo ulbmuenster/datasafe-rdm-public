@@ -1,0 +1,144 @@
+/* ---------------------------------- */
+/*      Styling of the about page     */
+/* ---------------------------------- */
+
+#about {
+  max-width: 960px;
+  margin: auto auto 11rem;
+
+  .about-content {
+    margin: 2rem auto 11rem;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.05);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background: #FFFFFF;
+    border: none;
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+    border-radius: 16px;
+    padding: 0 !important;
+
+    #about-hero {
+      max-height: 482px;
+      margin: 0;
+      background-size: cover;
+      background-position: center;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+
+      .row {
+        padding: 0;
+
+      }
+
+      .row:first-of-type {
+
+      }
+
+      h1 {
+        font-size: 31px;
+        color: @white;
+        margin: 40px 0 0 3rem;
+      }
+
+      p {
+        color: @white;
+        line-height: 1.2;
+        margin: 40px 0 0 1.5rem;
+      }
+
+      #about-hero-screenshot {
+        max-width: 464px;
+        max-height: 290px;
+        margin: 50px auto 63px;
+      }
+    }
+
+    #about-content {
+      padding: 6rem 3rem;
+
+      article > p:first-of-type {
+        font-size: 20px;
+      }
+
+      article {
+        margin-bottom: 1rem;
+
+        p.part {
+          display: inline;
+        }
+      }
+
+      .ui.grid {
+        margin-bottom: 16px;
+      }
+
+      .bullet-point {
+        width: 264px;
+        height: 180px;
+        background-color: #269bcdFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 96px;
+          height: 96px;
+        }
+      }
+
+      .bullet-point-heading {
+        font-weight: bold;
+        font-size: 20px;
+        color: @secondaryTextColor;
+        line-height: 1.5;
+        text-align: left;
+      }
+
+      .bullet-point-text {
+        font-size: 20px;
+        color: @secondaryTextColor;
+        text-align: left;
+      }
+    }
+
+    #about-footer {
+      min-height: 286px;
+      background-color: #1e74a2FF;
+      color: @white;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+
+      #ulb-logo {
+        display: inline-block;
+        width: 137px;
+        margin-right: 3.5rem;
+      }
+
+      #uni-logo {
+        display: inline-block;
+        width: 215px
+      }
+
+      #invenio-rdm-logo {
+        height: 45px;
+      }
+
+      .ui.grid {
+        padding-top: 64px;
+
+        .row {
+          & > .column:first-of-type {
+            padding-left: 77px;
+          }
+        }
+
+        .row:nth-of-type(2) {
+          padding-top: 2rem;
+        }
+      }
+    }
+  }
+}

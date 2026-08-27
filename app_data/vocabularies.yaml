@@ -1,0 +1,15 @@
+names:
+  pid-type: names
+  data-file: vocabularies/names-orcid.yaml
+subjects:
+  pid-type: sub
+  data-file: vocabularies/subjects.yaml
+languages:
+  pid-type: lng
+  data-file: vocabularies/languages.yaml
+funders:
+  pid-type: fun
+  data-file: vocabularies/funders.yaml
+affiliations:
+  pid-type: aff
+  data-file: vocabularies/affiliations.yaml

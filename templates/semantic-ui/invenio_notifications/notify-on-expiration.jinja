@@ -1,0 +1,122 @@
+{#
+  Copyright (C) 2023-2026 University of Münster.
+
+  Invenio-purge-expired is free software; you can redistribute it and/or
+  modify it under the terms of the MIT License; see LICENSE file for more
+  details.
+#}
+
+{% set submission_request = notification.context.request %}
+{% set community = submission_request.receiver %}
+{% set access_visibility = community.access.visibility %}
+{% set request_id = submission_request.id %}
+{% set record = submission_request.topic %}
+{% set metadata = record.metadata %}
+{% set publication_date = metadata.publication_date %}
+{% set title = metadata.title %}
+{% set vars = {"subtitle": "-", "size": 0} %}
+{% for additional_title in metadata.additional_titles %}
+  {% set test = vars.update({"subtitle": additional_title.title }) if additional_title.type.id == "subtitle" %}
+{% endfor %}
+{% set creator = submission_request.created_by %}
+{% set doi = record.pids.doi %}
+{% set files = record.files.entries %}
+{% for key, value in files.items() %}
+  {% set s = vars.size + value.size %}
+  {% set test = vars.update({"size": s }) %}
+{% endfor %}
+
+{% set logo_name = "datasafe-logo" if access_visibility == "restricted" else "datastore-logo" %}
+{% set cert_subject = "Archiving" if access_visibility == "restricted" else "Publication" %}
+{% set link_to_data = "Link to dataset" if access_visibility == "restricted" else "Link to publication data" %}
+{% set data = "dataset" if access_visibility == "restricted" else "publication" %}
+{% set subject = "Mitteilung über die Löschung Ihrer archivierten Forschungsdaten; Notification of the deletion of your archived research data" %}
+
+{% set account_settings_link = "{ui}/account/settings/notifications".format(
+    ui=config.SITE_UI_URL
+    ) %}
+
+{%- block subject -%}
+  {{ subject }}
+{%- endblock subject -%}
+
+{%- block plain_body -%}
+  English version below
+
+  Guten Tag,
+
+  Sie haben am {{ record.updated|datetime_format("%d.%m.%Y") }} Forschungsdaten in datasafe eingestellt,
+  dem Forschungsdatenarchiv der Universität Münster.
+
+  Bitte beachten Sie: Diese Forschungsdaten werden im Rahmen von datasafe für 10 Jahre
+  archiviert. {{ submission_request.planned_period }}, am {{ record.updated|datetime_delta(10, 0, 0, "%d.%m.%Y") }},
+  endet der Archivierungszeitraum und die Daten werden endgültig und unwiederbringlich gelöscht.
+
+  Sie haben die Möglichkeit, den Archivierungszeitraum um 5 weitere Jahre zu verlängern. Bitte loggen Sie sich
+  in datasafe ein und verlängern Sie dort den Archivierungszeitraum: {{ record.links.self_html }}
+
+  Alle weiteren Personen, die von Ihnen als Zugriffsberechtigte für den Datensatz angegeben wurden,
+  erhalten diese Mitteilung in Kopie.
+
+  Freundliche Grüße
+  Ihr Service Center for Data Management
+
+  *Titel: {{ title }}
+  *Untertitel: {{ vars.subtitle }}
+  *Größe: {{ vars.size|unit_calculator }}
+  *Archivierungszeitraum: {{ record.updated|datetime_format("%d.%m.%Y") }} -
+    {{ record.custom_fields["datasafe:planned_purge_date"]|datetime_format("%d.%m.%Y") }}
+  *ID des Datensatzes: {{ record.id }}
+  *Link zum Datensatz: {{ record.links.self_html }}
+  *Verantwortlich für die Einstellung des Datensatzes:
+  {{ creator.profile.full_name }}
+  {{ creator.profile.affiliations }}
+
+  --
+
+  Universität Münster
+  Service Center for Data Management
+
+  support@example.org
+
+  ************************************************************
+
+  English version
+
+  To whom it may concern:
+
+  On {{ record.updated|datetime_format }} you uploaded research data to datasafe, the research data archive
+  of the University of Münster.
+
+  Please note: This research data will be archived in datasafe for 10 years. {{ submission_request.planned_period }}, on
+  {{ record.updated|datetime_delta(10) }}, the archiving period will end and the data will be permanently
+  and irretrievably deleted.
+
+  You have the option of extending the archiving period by a further 5 years. Please log in to datasafe and extend
+  the archiving period there: {{ record.links.self_html }}
+
+  All other persons who have been specified by you as authorised to access the dataset will receive a copy
+  of this notification.
+
+  Kind regards
+  Your Service Center for Data Management
+
+  *Title: {{ title }}
+  *Subtitle: {{ vars.subtitle }}
+  *Size: {{ vars.size|unit_calculator }}
+  *Archiving period: {{ record.updated|datetime_format }} -
+    {{ record.custom_fields["datasafe:planned_purge_date"]|datetime_format }}
+  *ID of the data set: {{ record.id }}
+  *Link to the data set: {{ record.links.self_html }}
+  *Responsible for setting the dataset:
+  {{ creator.profile.full_name }}
+  {{ creator.profile.affiliations }}
+
+  --
+
+  University of Münster
+  Service Center for Data Management
+
+  support@example.org
+{%- endblock plain_body %}
+

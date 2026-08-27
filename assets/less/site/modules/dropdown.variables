@@ -1,0 +1,38 @@
+/*******************************
+            Dropdown
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@borderRadius: 8px;
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Icon */
+@dropdownIconSize: @relative16px;
+//@dropdownIconMargin: 0em 0em 0em 1em;
+
+
+/* Menu */
+//@menuBackground: #ffffff;
+
+@menuBorderWidth: 2px;
+
+/* Text */
+@textLineHeight: 20px;
+
+/*-------------------
+       States
+--------------------*/
+
+/* Hovered */
+@hoveredItemBackground: #dcdbdb;
+//@hoveredItemColor: @selectedTextColor;
+
+/* Selected */
+@selectedBackground: @offWhite;
+//@selectedColor: @selectedTextColor;

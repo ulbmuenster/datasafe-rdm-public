@@ -1,0 +1,90 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2015-2020 CERN.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+
+{%- extends "invenio_oauth2server/settings/index.html" %}
+
+{%- import "invenio_oauth2server/settings/helpers.html" as helpers with context %}
+{%- from "invenio_oauth2server/settings/_macros.html" import render_field, render_scopes_field with context %}
+
+{% block settings_content %}
+  {{ helpers.panel_start(_('%(name)s', name=token.client.name),breadcrumb_path=url_for('.index'),breadcrumb_title=_('Personal Access Tokens'),with_body=False) }}
+  {% if show_token %}
+    <div id="token-new-view-segment" class="ui segment">
+      <div id="token-new-view-message" class="ui info message">
+        <h3 class="ui small header">{{ _('Access token generated') }}</h3>
+        <br>
+        <code id="access-token" class="word-break-all">{{ token.access_token }}</code>
+        <button id="copy-token-button" class="ui tertiary button bg-white" onclick="copyToClipboard()">
+          {{ _('Copy') }}
+        </button>
+        <br><br>
+        <p id="token-new-view-text">
+          {{ _("This token is only displayed once. Please copy it and do not share it with others. It allows full access to your account.") }}
+        </p>
+      </div>
+      {%- block token_footer_text %}{%- endblock %}
+    </div>
+  {% endif %}
+
+  <div class="ui segment">
+    {% if not show_token %}
+      <p class="ui info message">
+        {{ _("If you've lost or forgotten this token please create a new one. Be aware that any scripts or applications using this token will need to be updated.") }}
+      </p>
+    {% endif %}
+    {% if not show_token %}
+      <form class="ui form" method="POST" role="form" action="">
+        <div class="token-view-form">
+          {{ render_field(form.name, autofocus=True) }}
+          <!-- datasafe-RDM: Remove scope checkbox -->
+          {{ form.csrf_token }}
+
+          <div class="rel-mt-2">
+            <button type="submit" name="save" class="ui primary right floated button">
+              {{ _('Save') }}
+            </button>
+            <button id="token-view-delete-button" type="submit" name="delete" class="ui right floated button">
+              {{ _('Delete') }}
+            </button>
+          </div>
+        </div>
+      </form>
+    {% endif %}
+    <!-- datasafe-RDM: Add button to go to token index -->
+    <div class="rel-mt-2">
+      <a href={{ url_for("invenio_oauth2server_settings.index") }}>
+        <button name="index" class="ui primary button ">
+          {{ _('Token index') }}
+        </button>
+      </a>
+    </div>
+  </div>
+
+  {{ helpers.panel_end(with_body=False) }}
+  <script>
+    function copyToClipboard() {
+      const text = document.getElementById("access-token").textContent;
+      navigator.clipboard.writeText(text).then(function() {
+        alert('{{ _('Token copied to clipboard!') }}');
+      }, function(err) {
+        console.error("Could not copy text: ", err);
+      });
+    }
+
+    const nameInput = document.getElementById("name");
+    if (nameInput) {
+      nameInput.setAttribute("placeholder", {{ _('Name of the personal access token') | tojson | safe }});
+      nameInput.parentElement.classList.add("ui", "bg-white");
+    }
+    const smallElement = document.querySelector("small");
+    if (smallElement) {
+      smallElement.remove();
+    }
+  </script>
+{% endblock %}

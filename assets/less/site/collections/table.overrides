@@ -1,0 +1,51 @@
+/***********************************************
+         Table Overrides
+***********************************************/
+
+@import "../globals/site.variables";
+
+table.ui.table {
+  font-size: unit((13 / @emSize), rem);
+
+  div.header > b {
+    font-weight: normal;
+  }
+
+  div.header + div.meta {
+    color: @tertiaryTextColor;
+  }
+}
+
+.ui.table.files {
+  thead {
+    th:first-of-type {
+      border-top-left-radius: 8px !important;
+    }
+
+    th:last-of-type {
+      border-top-right-radius: 8px !important;
+    }
+  }
+}
+
+// this ensures that the rounded borders keep being displayed in mobile view (for the file previewer)
+@media all and (max-width: @largestTabletScreen) {
+  .ui.table:not(.unstackable) tbody > tr:first-of-type > td:first-of-type {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .ui.table:not(.unstackable) tbody > tr:nth-last-child(2) > td:last-of-type {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .ui.table:not(.unstackable) tbody tr.preview-row.show {
+    display: block !important;
+
+    td[colspan="3"] {
+      display: block;
+      background-color: @offWhite;
+    }
+  }
+}

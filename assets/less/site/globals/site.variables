@@ -1,0 +1,221 @@
+/***********************************************
+    Uni-MS RDM Site Variables
+***********************************************/
+
+/*-------------------
+    Breakpoints
+IMPORTANT: align changes with Media.js
+--------------------*/
+@mobileBreakpoint: 320px;
+@tabletBreakpoint: 768px;
+@computerBreakpoint: 1280px; // it was 1300px before
+@largeMonitorBreakpoint: 999999999999999999px; // it was 1680px before
+//@widescreenMonitorBreakpoint: 1920x;
+
+/*-------------------
+        Sizes
+--------------------*/
+
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+
+@miniSize: (13 / 16);
+@tinySize: (12 / 16);
+@smallSize: (13 / 16);
+@mediumSize: (16 / 16);
+@largeSize: (16 / 16);
+@bigSize: (18 / 16);
+@hugeSize: (20 / 16);
+@massiveSize: (24 / 16);
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground: @offWhite;
+@pageOverflowX: hidden;
+
+@lineHeight: 1.45em;
+/*-------------------
+      Text colors
+--------------------*/
+@textColor: @fullBlack;
+@secondaryTextColor: #514c49;
+@tertiaryTextColor: #74706d;
+@placeholderTextColor: #979492;
+
+/*-------------------
+       Fonts
+--------------------*/
+@fontName: 'MetaWebPro', Verdana, sans-serif;
+@fontSmoothing: antialiased;
+
+@headerFont: @fontName;
+@pageFont: @fontName;
+
+@importGoogleFonts: false;
+
+@bold: bold;
+@normal: normal;
+
+/*-------------------
+      Header Sizes
+--------------------*/
+@headerHeight: 80px;
+@subHeaderNavHeight: 56px;
+@headerTotalHeight: @headerHeight + @subHeaderNavHeight;
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+/* This is the single variable that controls them all */
+@emSize: 16px;
+
+/* The size of page text  */
+@fontSize: 1rem;
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight: @normal;
+@headerLineHeight: unit((18 / 16), em);
+
+@h1: unit((39 / @emSize), rem);
+@h2: unit((31 / @emSize), rem);
+@h3: unit((25 / @emSize), rem);
+@h4: unit((20 / @emSize), rem);
+@h5: unit((16 / @emSize), rem);
+@h6: unit((16 / @emSize), rem);
+
+/*-------------------
+    Border Radius
+--------------------*/
+
+@relativeBorderRadius: 0px;
+@absoluteBorderRadius: 0px;
+@defaultBorderRadius: 0px;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor: #9fd2ed;
+@lightPrimaryColor: #cae6f5;
+
+@secondaryColor: #009dd1;
+@lightSecondaryColor: lighten(@secondaryColor, 5);
+
+@lightestColor: #cae6f5;
+
+/*-------------------
+      Borders
+--------------------*/
+
+@borderColor: #b9b7b6;
+@internalBorderColor: #b9b7b6;
+;
+
+/*-------------------
+  For compatibility
+--------------------*/
+@brandColor: @primaryColor;
+@brand-primary: @primaryColor;
+
+@navbarBackgroundImage: none;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---   Neutrals  ---*/
+@fullBlack: #000000;
+@white: #ffffff;
+@offWhite: #eeeded;
+@midWhite: #dcdbdb;
+@darkWhite: #cac8c7;
+
+@grey: #b1b2b5;
+@green: #16ab31;
+
+/*---   Focus Color  ---*/
+@focusedFormBorderColor: #1e74a2;
+@focusedFormMutedBorderColor: @focusedFormBorderColor;
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+@warningColor: #a0100c;
+@highlightSearchColor: #feffba;
+@versionActiveColor: @midWhite;
+
+
+/*-------------------
+      Borders
+--------------------*/
+
+@circularRadius: 500rem;
+
+@strongBorderColor: #000000;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor: @tertiaryTextColor;
+@linkUnderline: underline;
+@linkHoverColor: #625e5b;
+@linkHoverUnderline: underline;
+
+/*-------------------
+       Footer
+--------------------*/
+
+@footerBackgroundColor: #3e3e3c;
+@footerLightColor: @offWhite;
+@footerDarkColor: #b9b7b6;
+
+
+/*--------------
+   Form Input
+---------------*/
+
+/* This adjusts the default form input across all elements */
+@inputBackground: @white;
+@inputVerticalPadding: @8px;
+@inputHorizontalPadding: @12px;
+@inputPadding: @inputVerticalPadding @inputHorizontalPadding;
+
+/* Input Text Color */
+@inputColor: @textColor;
+@inputPlaceholderColor: @placeholderTextColor;
+@inputPlaceholderFocusColor: #ffffff;
+
+/* Line Height Default For Inputs in Browser (Descenders are 17px at 14px base em) */
+@inputLineHeight: @20px;
+
+/*******************************
+           Power-User
+*******************************/
+
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+
+/* Info */
+//@infoColor: #31ccec;
+//@infoBackgroundColor: #f8ffff;
+@infoBorderColor: #40ccff;
+//@infoHeaderColor: #0E566C;
+//@infoTextColor: #276f86;
+
+/* Negative */
+@negativeColor: @red;
+@negativeBackgroundColor: #fff4f4;
+@negativeBorderColor: #ff5d5d;
+@negativeHeaderColor: #912D2B;
+@negativeTextColor: #ff5d5d;

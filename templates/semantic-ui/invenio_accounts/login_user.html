@@ -1,0 +1,107 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2015-2020 CERN.
+  Copyright (C)      2021 TU Wien.
+  Copyright (C)      2023-2026 University of Münster.
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+{%- extends config.ACCOUNTS_COVER_TEMPLATE %}
+{% from "invenio_accounts/_macros.html" import render_field, form_errors %}
+
+{% block page_body %}
+  <div id="login-card" class="ui padded segments big form fluid raised card">
+    <!-- datasafe-RDM: Adjust login card -->
+    <div class="ui two column grid">
+      <div class="row">
+        <div id="info-column" class="ui computer only column">
+          <img id="background" class="ui image" src="{{ url_for('static', filename='images/login_mask.jpeg') }}" alt="">
+          <img id="mask" class="ui image" src="{{ url_for('static', filename='images/login_mask_gradient.png') }}" alt="">
+          <div id="overlay">
+            <div id="info-header" class="ui middle aligned grid">
+              <div class="ui left aligned three column row">
+                <div class="ui five wide column">
+                  <span>datasafe</span>
+                </div>
+                <div class="ui eight wide column">
+                  <span id="hero-text">{{ _("Fast and secure archiving of your research data for 10 years.") }}</span>
+                </div>
+                <div class="ui three wide column"></div>
+              </div>
+            </div>
+            <!-- TODO: add a screenshot of your own instance here -->
+            <div id="info-footer">
+              <div>
+                <p> <b>{{ _("Simple") }}</b><br>
+                  {{ _("Archiving made easy - define access rights and describe data.") }} </p>
+              </div>
+              <div>
+                <p> <b>{{ _("Secure") }}</b><br>
+                  {{ _("Access for authorised persons only - you control who can view your data and metadata.") }}
+                </p>
+              </div>
+              <div>
+                <p><b> {{ _("Local") }}</b><br>
+                  {{ _("Archiving on Münster University servers - guaranteed integrity and availability.") }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="login-column" class="ui center aligned column">
+          {%- if not config.ACCOUNTS_LOCAL_LOGIN_ENABLED %}
+            <div id="space-holder" class="computer only"></div>
+          {% endif %}
+          <div class="ui login segment">
+            <div class="flex-element">
+              {%- block form_header %}
+                <h1 class="ui small login header">{{ _('Welcome!') }}</h1>
+              {%- endblock form_header %}
+              <p>{{ _("As a member of the University of Münster, you can simply log in using your university ID.") }}</p>
+              {%- block form_outer %}
+                {%- if config.ACCOUNTS_LOCAL_LOGIN_ENABLED %}
+                  {#              {%- if false %}#}
+                  {%- with form = login_user_form %}
+                    <form action="{{ url_for_security('login') }}" method="POST"
+                          name="login_user_form" class="ui big form">
+                      {{ form.hidden_tag() }}
+                      {{ render_field(form.email, icon="user icon", autofocus=True, errormsg='email' in form.errors) }}
+                      {{ render_field(form.password, icon="lock icon", errormsg='password' in form.errors) }}
+                      <button type="submit" class="ui fluid large submit primary button">
+                        {{ _('Log in') }}
+                      </button>
+                    </form>
+                  {%- endwith %}
+                {%- endif %}
+              {%- endblock form_outer %}
+              <div class="divider hidden"></div>
+              <a id="faq-link" href="/faq#who_is_allowed_to_archive_datasets_in_datasafe" target="_blank">
+                <p>{{ _("More information") }}</p>
+              </a>
+            </div>
+            {%- if config.I18N_LANGUAGES %}
+              {% from "invenio_i18n/macros/language_selector.html" import language_selector_dropdown %}
+              {{ language_selector_dropdown() }}
+            {%- endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    const fields = document.querySelectorAll("div.field");
+    const emailField = fields[1];
+    const passwordField = fields[2];
+    if (emailField.children[0].children[1].id === "email") {
+      emailField.classList.add("bg-white");
+    }
+    if (passwordField.children[0].children[1].id === "password") {
+      passwordField.classList.add("bg-white");
+    }
+
+
+  </script>
+
+{% endblock page_body %}
